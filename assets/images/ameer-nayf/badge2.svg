@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="badge2" transform="translate(-1241 -3085)">
+    <circle id="Ellipse_11755" data-name="Ellipse 11755" cx="50" cy="50" r="50" transform="translate(1241 3085)" fill="#5e81a4" opacity="0.1"/>
+    <g id="icon" transform="translate(1269.859 3100.932)">
+      <path id="Path_124487" data-name="Path 124487" d="M41.384,78.243,29.4,88.326,16.71,78.243" transform="translate(-7.813 -35.3)" fill="none" stroke="#c6aa76" stroke-width="2.5"/>
+      <path id="Path_124488" data-name="Path 124488" d="M42.392,83.214,24.914,97.923,6.4,83.214" transform="translate(-3.161 -37.542)" fill="none" stroke="#c6aa76" stroke-width="2.5"/>
+      <path id="Path_124485" data-name="Path 124485" d="M.5,91.976V79.046L17.107,70.03" transform="translate(-0.5 -31.594)" fill="none" stroke="#005f61" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Path_124486" data-name="Path 124486" d="M64.107,91.976V79.046L47.5,70.03" transform="translate(-21.705 -31.594)" fill="none" stroke="#005f61" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Path_124489" data-name="Path 124489" d="M41.336,21.12V38.772a10.153,10.153,0,1,1-20.307,0V21.12" transform="translate(-9.762 -9.528)" fill="none" stroke="#005f61" stroke-width="2.5"/>
+      <line id="Line_227" data-name="Line 227" x1="20.145" transform="translate(11.3 20.957)" fill="none" stroke="#005f61" stroke-width="2.5"/>
+      <line id="Line_228" data-name="Line 228" y2="9.687" transform="translate(38.534 8.462)" fill="none" stroke="#005f61" stroke-width="2.5"/>
+      <path id="Path_124492" data-name="Path 124492" d="M19.644,16.795,1.238,8.356,19.644.544,38.051,8.356Z" transform="translate(1.728 -0.544)" fill="none" stroke="#005f61" stroke-width="2.5"/>
+      <path id="Path_124491" data-name="Path 124491" d="M68.066,32.783h0c1.7,0,3.07,5.316,3.07,7.135H65C65,38.1,66.369,32.783,68.066,32.783Z" transform="translate(-29.598 -14.79)" fill="none" stroke="#005f61" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,193 @@
+    <div class="impAchievement impAchievementSlide">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2 class="font40">البحث العلمي في أرقام
+                        </h2>
+                    </div>
+                </div>
+                <!-- end heading research-and-studies -->
+                <div class="swiper researchNumbers impAchiWrap ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon1.svg" alt="">
+                                </div>
+                                <div class="font40 counter">194</div>
+                                <p class="p22B">الإصدارات العلمية</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon2.svg" alt="">
+                                </div>
+                                <div class="font40 counter">12</div>
+                                <p class="p22B">الشراكات والتعاون البحثي</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon3.svg" alt="">
+                                </div>
+                                <div class="font40 counter">39</div>
+                                <p class="p22B">المبادرات والمشاريع البحثية</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon4.svg" alt="">
+                                </div>
+                                <div class="font40 counter">11</div>
+                                <p class="p22B">نشاطاَ</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon5.svg" alt="">
+                                </div>
+                                <div class="font40 counter">180</div>
+                                <p class="p22B">مشاركاً في الأنشطة</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon6.svg" alt="">
+                                </div>
+                                <div class="font40 counter">5</div>
+                                <p class="p22B">مقترحات بحوث ابتكارية</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon7.svg" alt="">
+                                </div>
+                                <div class="font40 counter">4</div>
+                                <p class="p22B">لقاءً تعريفياً</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon8.svg" alt="">
+                                </div>
+                                <div class="font40 counter">19</div>
+                                <p class="p22B">زيارات ابتكار</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon9.svg" alt="">
+                                </div>
+                                <div class="font40 counter">1</div>
+                                <p class="p22B">حضور فعالية دولية</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon10.svg" alt="">
+                                </div>
+                                <div class="font40 counter">6</div>
+                                <p class="p22B">لقاء نقل المعارف والمهارات</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon11.svg" alt="">
+                                </div>
+                                <div class="font40 counter">7</div>
+                                <p class="p22B">إعداد نموذج الابتكار الأمني في المؤسسات الأمنية</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon12.svg" alt="">
+                                </div>
+                                <div class="font40 counter">2</div>
+                                <p class="p22B">الكتاب الأمني</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon12.svg" alt="">
+                                </div>
+                                <div class="font40 counter">1</div>
+                                <p class="p22B">الكتاب المترجم</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon12.svg" alt="">
+                                </div>
+                                <div class="font40 counter">17</div>
+                                <p class="p22B">أوراق السياسات</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon12.svg" alt="">
+                                </div>
+                                <div class="font40 counter">19</div>
+                                <p class="p22B">المجلة العربية للدراسات الأمنية</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon12.svg" alt="">
+                                </div>
+                                <div class="font40 counter">16</div>
+                                <p class="p22B">المجلة العربية لعلوم الأدلة الجنائية والطب الشرعي</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                        <div class="swiper-slide">
+                            <div class="ImpAchiBox">
+                                <div class="imgBoxAch">
+                                    <img src="../assets/images/research-and-studies/researchIcon12.svg" alt="">
+                                </div>
+                                <div class="font40 counter">11</div>
+                                <p class="p22B">مجلة بحوث أمن المعلومات والجرائم السيبرانية</p>
+                            </div>
+                        </div>
+                        <!-- end slide -->
+                    </div>
+                    <div class="swiperMainControl ">
+                        <div class="swiper-button-prev"></div>
+                        <!-- <div class="swiper-pagination"></div> -->
+                        <div class="spaceBtwn"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,981 @@
+// contrast
+.contrast{
+    // filter: contrast(1.5);
+  }
+
+.starting-p{
+    font-size: 2rem;
+    font-family: "Almarai-Bold";
+    color: #5E81A4;
+    margin-bottom: 28px;
+    margin-top: 45px;
+    line-height: 50px;
+}
+.title-with-arrow{
+    font-size: 3rem;
+    font-family: "Almarai-Bold";
+    color: $mainGold;
+    line-height: 49px;
+    position: relative;
+    padding-#{$start-direction}: 29px;
+    &::before{
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 19px;
+        #{$start-direction}:0;
+        top: 16px;
+        background-image: url(../images/Council/title-arrow.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.main-council-sec{
+    background-color: #ffffff;
+    .title-with-arrow{
+        margin-bottom: 20px;
+    }
+}
+.list-council-cards{
+    background-color: #fff;
+    .title-with-arrow{
+        margin-bottom: 45px;
+        margin-top: 24px;
+    }
+}
+.council-card{
+    background-color: #fff;
+    filter: drop-shadow(0 3px 25px rgba($color: #000000, $alpha: 0.08));
+    // box-shadow: 0 3px 25px rgba($color: #000000, $alpha: 0.08);
+    width: 100%;
+    min-height: 520px;
+    height: calc(100% - 40px);
+    margin-bottom: 40px;
+    .img-box{
+        width: 100%;
+        height: 372px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 500ms;
+        }
+    }
+    .content-box{
+        padding: 29px 16px 13px;
+        text-align: center;
+        h4{
+            font-size: 2.1rem;
+            font-family: "Almarai-Bold";
+            min-height: 35px;
+            color: $mainColor;
+            margin-bottom: 3px;
+        }
+        p{
+            font-size: 1.6rem;
+            font-family: "GretaTextArabicARLT-Regular";
+            line-height: 22px;
+            color: $blackColor;
+            margin-bottom: 5px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    &:hover{
+        .img-box{
+            img{
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    &.main-card{
+        width: 372px;
+        height: 598px;
+        margin: auto;
+        position: relative;
+        background-color: transparent;
+        // overflow: hidden;
+        margin-top: 70px;
+        margin-bottom: 40px;
+        &::before{
+                content: "";
+                position: absolute;
+                width: 340px;
+                height: calc(100% + 50px);
+                top: -50px;
+                #{$start-direction}: -35px;
+                background-image: url(../images/Council/main-mem-shape.svg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                z-index: -1;
+        }
+        .img-box{
+            height: 443px;
+            position: relative;
+            background-image: url(../images/Council/shape.svg);
+            // background-repeat: no-repeat;
+            // background-size: 100%;
+            overflow: hidden;
+            -webkit-mask-image: url(../images/Council/shape.svg);
+            mask-image: url(../images/Council/shape.svg);
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            -webkit-mask-size: cover;
+            mask-size: cover;
+            // &::after{
+            //     content: "";
+            //     position: absolute;
+            //     width: 100%;
+            //     height: 100%;
+            //     top: 0;
+            //     right: 0;
+            //     background-image: url(../images/Council/shape.svg);
+            //     background-repeat: no-repeat;
+            //     background-size: 100%;
+            //     overflow: hidden;
+            // }
+        }
+        .content-box{
+            padding-top: 25px;
+            background-color: #fff;
+            height: 155px;
+            h5{
+                font-size: 1.6rem;
+                color: $mainGold;
+                margin-bottom: 0;
+            }
+            h4{
+                margin-top: -3px;
+            }
+        }
+    }
+}
+
+
+
+.councilsArabBrif.aboutPartnerships{
+    padding: 85px 0;
+    .col-md-6{
+        padding-#{$end-direction}: 15px;
+    }
+    .content-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-#{$end-direction}: 80px;
+        height: 100%;
+
+        .font40{
+            padding-top: 0;
+            margin-bottom: 0;
+        }
+        .p20{
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.Conventions{
+    background-color: #F2F2F2;
+    padding: 60px 0;
+    .convention-card{
+        border-radius: 8px;
+        border: 1px solid #E3E7EC;
+        background-color: #fff;
+        padding: 27px 20px 25px;
+        height: 558px;
+        position: relative;
+        transition: 500ms;
+        .img-box{
+            margin: auto;
+            width: 309px;
+            height: 430px;
+            transition: 500ms;
+            margin-bottom: 26.5px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .content-box{
+
+            p{
+                font-size: 1.8rem;
+                line-height: 25px;
+                color: $BL002D2E;
+                transition: 500ms;
+
+            }
+        }
+        &:hover{
+            padding-top: 18px;
+            box-shadow: 0 15px 50px rgba($color: #000, $alpha: 0.10);
+            .img-box{
+                width: 321px;
+                height: 446px;
+                margin-bottom: 19.5px;
+
+                img{
+
+                }
+            }
+            .content-box{
+                p{
+                    color: $mainColor;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.st-partners{
+    padding-top: 75px;
+    .heading{
+        margin-bottom: 25px;
+    }
+    .stPartnersSlider{
+        .partBox{
+            background-color: #fff;
+            border-radius: 4px;
+            border: 1px solid #DDE6E6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 18px 17px 13px;
+            position: relative;
+            transition: 500ms;
+            .logoPart{
+                // margin-bottom: 27px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: 500ms;
+                }
+            }
+            .lineinc{
+                transition: 500ms;
+                width: 0px;
+                height: 2px;
+                background-color: #BECFCF;
+                margin-top: 20px;
+                margin-bottom: 5px;
+                align-self: flex-start;
+                border-radius: 15px;
+
+            }
+            .p14{
+                font-size: 1.4rem;
+                line-height: 20px;
+                color: $BL242424;
+                text-align: center;
+                margin-bottom: 0;
+                transition: 500ms;
+
+            }
+            &:hover{
+                box-shadow: 0 5px 25px rgba($color: #7E8692, $alpha: 0.15);
+                .logoPart{
+                    img{
+                        transform: scale(1.05);
+                    }
+                }
+                .lineinc{
+                    margin-top: 20px;
+                    margin-bottom: 5px;
+                    width: 55px;
+                }
+                .p14{
+                    color: $mainColor;
+                }
+            }
+        }
+        .swiperMainControl{
+            margin-top: 65px;
+        }
+    }
+}
+
+.mapSection{
+    background-color: #F2F2F2;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background-position: #{$end-direction} bottom;
+    .map-filter{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 17px;
+        margin-bottom: 20px;
+        .searchGroup{
+            display: inline-flex;
+            .filterClass{
+                padding: 9px 12px;
+                line-height: 21px;
+            }
+            .select {
+                .label{
+                    padding-#{$start-direction}: 4px;
+                }
+                select {
+                    width: fit-content;
+                    padding-left: 30px !important;
+                    border: 1px solid rgba($color: #005F61, $alpha: 0.40);
+                    height: 41px;
+                    background-position-y: 15px;
+                }
+            }
+        }
+    }
+    .map-here{
+        .close-me{
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: 0 3px 6px rgba($color: #000, $alpha: 0.16);
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            #{$start-direction}:0px;
+            top: 10px;
+            padding: 0;
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+        .MapXD{
+        //   border: 1px solid #707070;
+          box-shadow: 0 7px 20px rgba($color: #000, $alpha: 0.05);
+          border-radius: 8px;
+          overflow: hidden;
+          height: 665px;
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .rev{
+            flex-direction: row-reverse;
+            .col-lg-4{
+                padding-#{$end-direction}: 0;
+                padding-#{$start-direction}: 27px;
+                position: relative;
+            }
+        }
+        .main-card-hd{
+            font-family: "GretaTextArabicARLT-Regular";
+            font-size: 2.2rem;
+            color: $mainColor;
+            padding-top: 18px;
+            margin-bottom: 28px;
+            text-align: center;
+
+            span{
+                color: $mainGold;
+            }
+        }
+        .map-cards-list{
+            height: 590px;
+            overflow-y: scroll;
+            padding-#{$end-direction}: 12px;
+
+            /* width */
+            &::-webkit-scrollbar {
+                width: 8px;
+             
+            }
+            
+            /* Track */
+            &::-webkit-scrollbar-track {
+                background: #D1D1D1;
+                border-radius: 25px;
+            }
+            
+            /* Handle */
+            &::-webkit-scrollbar-thumb {
+                background: #005F61;
+                border-radius: 25px;
+            }
+            
+            /* Handle on hover */
+            &::-webkit-scrollbar-thumb:hover {
+                background: #555;
+            }
+
+          
+            .col-lg-6{
+                padding-#{$start-direction}: 7.5px;
+                padding-#{$end-direction}: 7.5px;
+            }
+            .map-card{
+                height: 181px;
+                background-color: #fff;
+                border: 1px solid #DDE6E6;
+                border-radius: 4px;
+                padding: 27px 14px 17px;
+                margin-bottom: 15px;
+                transition: 300ms;
+                position: relative;
+                .tag{
+                    font-family: "GretaTextArabicARLT-Regular";
+                    padding: 4px 15px;
+                    border-radius: 12px;
+                    color: #fff;
+                    font-size: 1.2rem;
+                    line-height: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    top: 10px;
+                    #{$start-direction}: 14px;
+                    z-index: 9;
+                    &.academy{
+                        background-color: #7F1F3F;
+                    }
+                    &.InstitutionsAndCenters{
+                        background-color: #003865;
+                    }
+                    &.university{
+                        background-color: #C6AA76;
+                    }
+                    &.organisation{
+                        background-color: #005F61;
+                    }
+                   
+                }
+                .img-box{
+                    width: 200px;
+                    height: 93px;
+                    margin: 0 auto;
+                    margin-bottom: 7px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        transition: 300ms;
+
+                    }
+                }
+                .content-box{
+                    h4{
+                        font-family: "GretaTextArabicARLT-Regular";
+                        font-size: 1.4rem;
+                        font-weight: $w-normal;
+                        color: $BL242424;
+                        line-height: 20px;
+                        max-height: calc(20px * 2);
+                        margin-bottom: 0;
+                        overflow: hidden;
+                        text-align: center;
+                        transition: 300ms;
+
+                    }
+                }
+                &:hover{
+                    box-shadow: 0 5px 25px rgba($color: #7E8692, $alpha: 0.15);
+                    .img-box{
+                        // margin-bottom: 1px;
+                        img{
+                            transform: scale(1.06);
+                        }
+                    }
+                    .content-box{
+                        h4{
+                            color: $mainColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/**************************
+                         **     newwwwwwwww mmousa 
+**************************/
+
+
+.cust-container{
+//   max-width: 1190px !important;
+  margin: 0 auto;
+  padding: 0 13%;
+}
+
+.ameerNayf-nabza{
+    background-color: #F6F6F6;
+    padding-top: 85px;
+    padding-bottom: 67px;
+    margin-bottom: 60px;
+    .content-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        margin-#{$start-direction}: 20px;
+        h5{
+            font-size: 2.5rem;
+            font-family: 'Almarai-Bold';
+            color: #947337;
+            margin-bottom: 24px;
+            margin-#{$start-direction}: 0;
+          }
+          p{
+            font-size: 2rem;
+            font-family: 'GretaTextArabicARLT-Regular';
+            color: #444444;
+            margin-bottom: 0;
+            text-align: justify;
+          }
+      }
+  }
+
+
+  .centered{
+      text-align: center;
+    }
+  .manasib{
+    /* margin-top: 30px;
+    margin-bottom: 70px; */
+    h3{
+        background-color: #5E81A4;
+        padding: 7px 10px 6px;
+        font-size: 3rem;
+        font-family: 'Almarai-Bold';
+        line-height: 1.6;
+        color: #fff;
+        margin-top: 30px;
+        margin-bottom: 70px;
+      }
+
+      .art-box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        &::before{
+            content: "";
+            width: 3px;
+            height: 82%;
+            background-color: #DDE6EF;
+            position: absolute;
+            #{$start-direction}: 50%;
+            top: 8%;
+          
+          }
+          .main-art-card{
+            width: 50%;
+            text-align: center;
+            margin-bottom: 60px;
+            position: relative;
+            &:last-child{
+                margin-bottom: 0;
+              }
+          }
+          .main-art-card > div{
+            width: 240px;
+            margin: 0 auto;
+          }
+          .year{
+            font-size: 2.2rem;
+            font-family: 'GretaTextArabicARLT-Bold';
+            color: #947337;
+            margin-bottom: 21px;
+          }
+          .text{
+            font-size: 1.7rem;
+            font-family: 'GretaTextArabicARLT-light';
+            color: #444444;
+          }
+          .with-before{
+            &::before{
+                content:"";
+                width: 300px;
+                height: 3px;
+                /* border-top: 3px dashed #DDE6EF; */
+                position: absolute;
+                #{$end-direction}: -150px;
+                top: 50%;
+                background-image: linear-gradient(to right, #dde6ef 40%, rgba(255, 255, 255, 0) 20%);
+                background-position: top;
+                background-size: 12px 3px;
+                background-repeat: repeat-x;
+              }
+              &::after{
+                content:"";
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                position: absolute;
+                background-color: #947337;
+                #{$end-direction}: -6px;
+                top: 47%;
+              }
+
+          }
+
+      }
+
+  }
+
+  .manasib-2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    h3{
+        background-color: #B4A79C;
+        padding: 7px 10px 6px;
+        font-size: 3rem;
+        font-family: 'Almarai-Bold';
+        line-height: 1.6;
+        color: #fff;
+        margin-top: 0px;
+        margin-bottom: 30px;
+      }
+      ul{
+        padding: 40px 110px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      li{
+        width: 42%;
+        font-size: 1.8rem;
+        font-family: 'GretaTextArabicARLT-light';
+        margin: 0 4%;
+        margin-bottom: 20px;
+        color: #444444;
+        &::marker{
+            color: #B77F88;
+            font-size: 1.8rem;
+          }
+        
+      }
+
+  }
+
+
+  /* badges */
+
+.badges{
+    padding-top: 60px;
+    padding-bottom: 120px;
+    background-color: #F6F6F6;
+    .main-content-box{
+        margin-bottom: 85px;
+        h3{
+            color: #5E81A4;
+            font-size: 3rem;
+            font-family: 'Almarai-Bold';
+            margin-bottom: 20px;
+            text-align: center;
+          }
+          p{
+            font-size: 1.8rem;
+            font-family: 'GretaTextArabicARLT-light';
+            color: #444444;
+                line-height: 30px;
+            text-align: center;
+          }
+      }
+      .barBGWhite{
+        background-color: #fff;
+        box-shadow: 0 5px 25px rgba(81, 87, 97, 0.05);
+        position: relative;
+        padding: 55px 180px;
+      }
+      .myBadgesSwiper{
+        .item{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .img-boxx{
+                background-color: rgba(94, 129, 164, 0.1);
+                width: 152px;
+                height: 152px;
+                flex: 0 0 152px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 25px;
+                border-radius: 50%;
+              }
+              .content-boxx{
+                margin-#{$start-direction}: 45px;
+                /* height: 100%; */
+                p{
+                    font-size: 2rem;
+                    font-family: 'GretaTextArabicARLT-Regular';
+                    color: #002D2E;
+                    text-align: justify;
+                  }
+                  
+              }
+          }
+      }
+      .swiperArr{
+        .swiper-button-next{
+            #{$start-direction}: auto;
+            #{$end-direction}: 120px;
+            &::after{
+                content: "";
+                background-image: url(../images/ameer-nayf/arr-left.svg);
+                width: 17px;
+                height: 32px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+          }
+          .swiper-button-prev {
+            #{$end-direction}: auto;
+            #{$start-direction}: 120px;
+            &::after{
+                content: "";
+                background-image: url(../images/ameer-nayf/arr-right.svg);
+                width: 17px;
+                height: 32px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+          }
+      }
+  }
+
+
+  /* supporting-university-progress */
+
+.supporting-university-progress{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    .content-box{
+        padding-#{$start-direction}: 60px;
+        padding-#{$end-direction}: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        h3{
+            position: relative;
+            color: #5E81A4;
+            font-size: 3rem;
+            font-family: 'Almarai-Bold';
+            margin-bottom: 33px;
+            padding-#{$start-direction}  : 75px;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 93px;
+                height: 4px;
+                #{$start-direction}: -60px;
+                top: 50%;
+                background-color: #DDE6EF;
+              }
+          }
+          p{
+            font-size: 1.8rem;
+            font-family: 'GretaTextArabicARLT-light';
+            color: #444444;
+            text-align: justify;
+          }
+      }
+  }
+  
+
+
+
+
+  
+/* his-word  */
+
+.his-word {
+    background-color: #F6F6F6;
+    padding: 78px 0;
+    margin-bottom: 100px;
+    position: relative;
+    .title {  
+        position: absolute;
+        #{$start-direction}: 50%;
+        top: 21%;
+        z-index: 1;
+        h3{
+            position: relative;
+            color: #5E81A4;
+            font-size: 3rem;
+            font-family: 'Almarai-Bold';
+            margin-bottom: 33px;
+            padding-#{$start-direction}  : 75px;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 93px;
+                height: 4px;
+                #{$start-direction}: -60px;
+                top: 50%;
+                background-color: #DDE6EF;
+              }
+          }
+      
+      }
+      .hisWordSwiper{
+        .item{
+            display: flex;
+            flex-direction: row;
+            .img-box{
+                flex: 0 0 640px;
+                width: 640px;
+                height: 680px;
+                margin-#{$end-direction}:135px ;
+              
+              }
+              .content-box{
+                margin-top: 220px;
+                background-color: #F6F6F6;
+                transform: translateX(-100px);
+                transition: 300ms;
+                h4{
+                    color: #947337;
+                    font-size: 2rem;
+                    font-family: 'Almarai-Bold';
+                    text-align: center;
+                    margin-bottom: 20px;
+                    margin-top: 0;
+                  }
+                  p{
+                    color: #444444;
+                    font-size: 1.8rem;
+                    font-family: 'GretaTextArabicARLT-light';
+                    position: relative;
+                    padding-top: 65px;
+                    padding-bottom: 28px;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        background-image: url(../images/ameer-nayf/quote_top.svg);
+                        top: 0;
+                        #{$start-direction}: 0;
+                        width: 40px;
+                        height: 29px;
+                      }
+                      &::after{
+                        content: "";
+                        position: absolute;
+                        background-image: url(../images/ameer-nayf/quote_bottom.svg);
+                        bottom: -30px;
+                        #{$end-direction}: 5px;
+                        width: 40px;
+                        height: 28px;
+                      }
+                  }
+                  h6{
+                    font-size: 1.7rem;
+                    color: #947337;
+                    font-family: 'GretaTextArabicARLT-Regular';
+                    text-align: #{$end-direction};
+                    padding-#{$end-direction}: 60px;
+                    margin-top: 0;
+                  
+                  }
+              }
+          }
+          .swiper-slide-active .item .content-box{
+            /* opacity: 1; */
+            transform: translateX(0px);
+          }
+      }
+      .swiperMainControl{
+        position: absolute;
+        left: 20%;
+        top: 90%;
+      }
+      .swiper-pagination-bullet{
+        background: rgba($color: #5E81A4, $alpha: 0.38);
+      }
+       .swiper-pagination-bullet.swiper-pagination-bullet-active{
+        background: #5E81A4;
+      }
+    //   .swiper-button-next::after{
+    //     background-image: url(../images/ameer-nayf/slider-left.svg);
+    //   }
+    .swiper-button-prev::after{
+        background-image: url(../images/ameer-nayf/slider-right.svg) !important;
+      }
+      .swiper-button-next::after{
+        background-image: url(../images/ameer-nayf/slider-right.svg) !important;
+      }
+  }
+
+
+  
+
+
+
+
+
+
+@media(max-width:1399.98px){
+    .council-card{
+        min-height: auto;
+        .img-box{
+           height: 270px;
+       }
+       .content-box {
+        h4{
+            font-size: 1.8rem;
+        }
+         p {
+            font-size: 1.4rem;
+            line-height: 16px;
+         }
+       }
+    }
+}
+
+@media(max-width:1199.98px){}
+@media(max-width:991.98px){
+    .starting-p {
+        font-size: 2.5rem;
+        line-height: 35px;
+    }
+    .title-with-arrow {
+        font-size: 2rem;
+        line-height: 35px;
+        &::before{
+            width: 10px;
+            top: 13px;
+        }
+    }
+    .council-card.main-card{
+        width: 310px;
+        height: 505px;
+        &::before {
+            width: 320px;
+            #{$start-direction}: -40px;
+        }
+        .img-box {
+            height: 350px;
+        }
+    }
+}
+@media(max-width:767.98px){}
+@media(max-width:574.98px){
+    .council-card.main-card::before {
+        width: 275px;
+        #{$start-direction}: -20px;
+        top: -35px;
+    }
+}

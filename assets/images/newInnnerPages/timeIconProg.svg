@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="timeIconProg" transform="translate(9.225 15.225)">
+    <rect id="base" width="20.775" height="20.775" rx="10" fill="none"/>
+    <g id="timer-1" transform="translate(2.612 1.501)">
+      <circle id="Ellipse_11732" data-name="Ellipse 11732" cx="22" cy="22" r="22" transform="translate(-11.837 -16.726)" fill="#dfe9ef"/>
+      <g id="Group_60400" data-name="Group 60400" transform="translate(2.387 -3.613)">
+        <path id="Path_124280" data-name="Path 124280" d="M18.8,12.276A7.776,7.776,0,1,1,11.026,4.5,7.779,7.779,0,0,1,18.8,12.276Z" transform="translate(-3.25 -2.278)" fill="none" stroke="#c6aa76" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_124281" data-name="Path 124281" d="M12,8v4.443" transform="translate(-4.224 -2.668)" fill="none" stroke="#c6aa76" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_124282" data-name="Path 124282" d="M9,2h5.332" transform="translate(-3.89 -2)" fill="none" stroke="#c6aa76" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

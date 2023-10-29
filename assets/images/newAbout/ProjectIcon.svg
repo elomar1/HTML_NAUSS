@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88">
+  <g id="ProjectIcon" transform="translate(-1406.381 -2180.381)">
+    <circle id="Ellipse_11867" data-name="Ellipse 11867" cx="44" cy="44" r="44" transform="translate(1406.381 2180.381)" fill="#f5f7fa"/>
+    <g id="clipboard-import" transform="translate(1427.683 2198.494)">
+      <path id="Path_56774" data-name="Path 56774" d="M12.765,11.53h9.53c4.765,0,4.765-2.382,4.765-4.765C27.06,2,24.677,2,22.295,2h-9.53C10.382,2,8,2,8,6.765S10.382,11.53,12.765,11.53Z" transform="translate(3.912 -2)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_56775" data-name="Path 56775" d="M24.29,46.857H17.295C5.382,46.857,3,42.092,3,32.562V18.267C3,7.4,6.979,4.449,14.912,4.02" transform="translate(-3 0.793)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_56776" data-name="Path 56776" d="M16,4.02c7.934.429,11.912,3.359,11.912,14.247v8.268" transform="translate(14.972 0.793)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_56779" data-name="Path 56779" d="M8,12.2H23.31" transform="translate(4.693 10.469)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" opacity="0.4"/>
+      <path id="Path_56780" data-name="Path 56780" d="M8,16.2h9.58" transform="translate(4.693 15.218)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" opacity="0.4"/>
+      <g id="setting-2" transform="translate(24.461 29.463)">
+        <path id="Path_56784" data-name="Path 56784" d="M11.489,13.979A2.489,2.489,0,1,0,9,11.489,2.489,2.489,0,0,0,11.489,13.979Z" transform="translate(0.972 0.947)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" opacity="0.34"/>
+        <path id="Path_56785" data-name="Path 56785" d="M2,13.356V11.515A1.994,1.994,0,0,1,3.988,9.527c1.894,0,2.668-1.339,1.716-2.982a1.987,1.987,0,0,1,.732-2.71L8.246,2.8a1.746,1.746,0,0,1,2.385.628l.115.2c.942,1.643,2.49,1.643,3.442,0l.115-.2A1.746,1.746,0,0,1,16.688,2.8L18.5,3.836a1.987,1.987,0,0,1,.732,2.71c-.952,1.643-.178,2.982,1.716,2.982a1.994,1.994,0,0,1,1.988,1.988v1.841a1.994,1.994,0,0,1-1.988,1.988c-1.894,0-2.668,1.339-1.716,2.982a1.984,1.984,0,0,1-.732,2.71l-1.81,1.036a1.746,1.746,0,0,1-2.385-.628l-.115-.2c-.942-1.643-2.49-1.643-3.442,0l-.115.2a1.746,1.746,0,0,1-2.385.628l-1.81-1.036a1.987,1.987,0,0,1-.732-2.71c.952-1.643.178-2.982-1.716-2.982A1.994,1.994,0,0,1,2,13.356Z" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

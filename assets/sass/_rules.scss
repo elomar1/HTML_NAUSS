@@ -1,0 +1,198 @@
+body {
+    font-family: $font-en;
+    // color: $color-default;
+    direction: $direction;
+    text-align: $start-direction;
+  }
+  html[dir="rtl"] body {
+    font-family: $font-ar;
+  }
+
+  html[dir="ltr"] body {
+  
+    .inputSearch input,
+    select {
+      background-position: calc(100% - 10px) 50% !important;
+    }
+    .historyOfCouncils .posAbo,
+    .historyOfCouncils .historyBox .boxImg img {
+      transform: translateX(50%);
+    }
+    .pagination input.NextPagi, .pagination input.prePagi,
+    .subsBox .inputSub .inInput,.Speaker,
+    .title-with-arrow::before,
+    .readMore3 img,
+    .textInv > img,
+    .contentSpeech > img,
+    .organizationalStructure .OSRow2 .OSLeft .OSH2:first-of-type::after,
+     .organizationalStructure .OSRow2 .OSRight .OSH2:first-of-type::after,
+     .organizationalStructure .OSRow2 .OSLeft .OSH2:last-of-type::after,
+      .organizationalStructure .OSRow2 .OSRight .OSH2:last-of-type::after,
+    .organizationalStructure .OSRow2 .OSLeft .OSH2:last-of-type::after,
+    .NewFullBanner.NewFullBannerV2 .arrowCircular .swiper-button-prev,
+    .NewFullBanner.NewFullBannerV2 .arrowCircular .swiper-button-next,
+    .homeBanner2V2 .swiper2Style .swiper-button-prev,
+    .homeBanner2V2 .swiper2Style .swiper-button-next,
+    .changeStyleMenu.customMenu .searchSubMenu .flexMenu .SearchButton2 i,
+    .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb:hover .font28::after,
+    .startServ img,
+    .badges .swiperArr .swiper-button-prev,
+    .readMore3::after, .newBtnNoBorder::after,
+    .importantLinksV2 .IMPLINKS li a img,
+    .badges .swiperArr .swiper-button-next,
+    .bannerResearch .arrowCircular .swiper-button-prev,
+    .bannerResearch .arrowCircular .swiper-button-next,
+    .PublicationInvitations .PIimg::after,
+    .bgBreadcrumb .breadcrumbCum a::after,
+    .presidentSgn::before,
+    .presidentSgn::after,
+    .newBoxArrow .newBtnNoBorder::after,
+    .bgBreadcrumb .breadcrumbCum a::after {
+      transform: scaleX(-1);
+    }
+    .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb:hover .font28 {
+      transform: translateX(15px);
+    }
+
+    .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .swiper-slide:nth-of-type(2) .boxThumb {
+      border-right: 1px solid #ffffff73
+    }
+
+    .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .swiper-slide-next + .swiper-slide-visible + .swiper-slide-visible + .swiper-slide-visible .boxThumb, .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .swiper-slide:last-of-type .boxThumb {
+      border-left: 1px solid #ffffff73;
+      border-right: unset;
+    }
+    .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .swiper-slide-next + .swiper-slide-visible + .swiper-slide-visible + .swiper-slide-visible {
+      margin-left: 35px;
+      margin-right: 0;
+    }
+    .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb {
+      justify-content: end;
+      padding: 30px 0px 30px 30px;
+    }
+    .rectorsSpeech .scaleX,
+    .inventionBG .textInv .nameWithImg img {
+      transform: unset;
+    }
+    .aboutPageLine .titleAPL {
+      transform: translate(2px, -20px);
+    }
+    .mainBtnGreen::after, .btnMainGold::after, .btnMainGold2::after, .btnMain::after, .readMore2::after, .readMore::after {
+      transform: translatey(-54%) scaleX(-1);
+    }
+    .bannerHome .wrapperSlideHm .slideActions .readMore {
+      margin-left: 30px;
+    }
+    .swiperMainControl,
+    .swip5Items .swiperMainControl,
+    .swiperEvents .swiperMainControl {
+      direction: rtl;
+    }
+
+
+ 
+    @media (max-width: 500px) {
+      .resume-slider .item .img-box {
+          right: 10%;
+      }
+    }
+    // end EN Knowing it is opposed
+  }
+  *,
+  *:focus,
+  *:active,
+  button:focus {
+    outline: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  p {
+    font-size: 1.6rem;
+    color: #444444;
+    line-height: 30px;
+   font-family: "GretaTextArabicARLT-light";
+  }
+  h4 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  // label{
+  //   font-family: Roboto;
+  //   font-size: 18px;
+  //   font-weight: $w-bold;
+  //    color: $black-color;
+  //    line-height: 28px;
+  // }
+  .mb-20 {
+    margin-bottom: 20px !important;
+  }
+  .mb-30 {
+    margin-bottom: 30px !important;
+  }
+  .mb-40 {
+    margin-bottom: 40px !important;
+  }
+  .mb-70 {
+    margin-bottom: 70px !important;
+  }
+  .mt-40 {
+    margin-top: 40px !important;
+  }
+  .mt-30 {
+    margin-top: 30px !important;
+  }
+  .ml-30 {
+    margin-left: 30px !important;
+  }
+  .mt-70 {
+    margin-top: 70px !important;
+  }
+  .mt-50 {
+    margin-top: 50px !important;
+  }
+  .mt-60 {
+    margin-top: 60px !important;
+  }
+  .pl-15{
+    padding-#{$start-direction}: 15px !important;
+  }
+  .pl-30{
+    padding-#{$start-direction}: 30px !important;
+  }
+  .strong {
+    font-weight: bold;
+  }
+  ul.blue-dots {
+    list-style: none;
+    line-height: 32px;
+    li::before {
+      content: "";
+      // background-color: $primary-color;
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-#{$end-direction}: 10px;
+    }
+  }
+  ol {
+    list-style: decimal;
+    line-height: 32px;
+    li {
+      padding-#{$start-direction}: 10px;
+    }
+  }
+  .text-left {
+    text-align: #{$end-direction} !important;
+  }
+  .text-right {
+    text-align: #{$start-direction} !important;
+  }
+  .float-left {
+    float: #{$end-direction} !important;
+  }
+  .float-right {
+    float: #{$start-direction} !important;
+  }
+  

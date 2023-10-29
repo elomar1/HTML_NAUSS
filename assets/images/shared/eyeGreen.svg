@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="eyeGreen" transform="translate(-468.394 -3.02)">
+    <rect id="base" width="55" height="55" transform="translate(468.394 3.02)" fill="none"/>
+    <g id="eye" transform="translate(470.956 11.967)">
+      <path id="Path_124619" data-name="Path 124619" d="M26.644,17.532A9.112,9.112,0,1,1,17.532,8.42,9.1,9.1,0,0,1,26.644,17.532Z" transform="translate(7.374 1.425)" fill="none" stroke="#7f1f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.4"/>
+      <path id="Path_124620" data-name="Path 124620" d="M27.12,41.615c8.985,0,17.359-4.763,23.187-13.006a11.134,11.134,0,0,0,0-11.884C44.479,8.483,36.105,3.72,27.12,3.72S9.762,8.483,3.933,16.726a11.134,11.134,0,0,0,0,11.884C9.762,36.852,18.136,41.615,27.12,41.615Z" transform="translate(-2.215 -3.72)" fill="none" stroke="#7f1f3f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

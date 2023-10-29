@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="ServDetailsFile3" transform="translate(2 2)">
+    <rect id="base" width="40" height="40" rx="20" transform="translate(-2 -2)" fill="#005f61" opacity="0.15"/>
+    <g id="documents-outline" transform="translate(-56.213 -26.915)">
+      <path id="Path_124993" data-name="Path 124993" d="M78.469,135.241v9.142a2.307,2.307,0,0,1-2.285,2.341h-9.9A2.308,2.308,0,0,1,64,144.384V130.341A2.354,2.354,0,0,1,66.341,128h5.007a1.306,1.306,0,0,1,.93.392l5.806,5.9A1.351,1.351,0,0,1,78.469,135.241Z" transform="translate(0 -90.893)" fill="none" stroke="#005f61" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_124994" data-name="Path 124994" d="M200,128v5.745a1.507,1.507,0,0,0,1.489,1.489h5.745" transform="translate(-128.766 -90.893)" fill="none" stroke="#005f61" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_124995" data-name="Path 124995" d="M176,37.107V34.341A2.354,2.354,0,0,1,178.341,32h5a1.321,1.321,0,0,1,.937.392l5.806,5.9a1.335,1.335,0,0,1,.385.938v9.149a2.307,2.307,0,0,1-2.285,2.341h-3.248" transform="translate(-106.042)" fill="none" stroke="#005f61" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_124996" data-name="Path 124996" d="M312,32v5.745a1.508,1.508,0,0,0,1.489,1.489h5.745" transform="translate(-234.808)" fill="none" stroke="#005f61" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="109" height="109" viewBox="0 0 109 109">
+  <defs>
+    <filter id="Ellipse_11210" x="0" y="0" width="109" height="109" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="PlayIcon" transform="translate(-1448.5 -2593.5)">
+    <g transform="matrix(1, 0, 0, 1, 1448.5, 2593.5)" filter="url(#Ellipse_11210)">
+      <circle id="Ellipse_11210-2" data-name="Ellipse 11210" cx="32" cy="32" r="32" transform="translate(22.5 19.5)" fill="#b77f88"/>
+    </g>
+    <g id="Polygon_37" data-name="Polygon 37" transform="translate(1513.362 2634.5) rotate(90)" fill="none">
+      <path d="M9.644,1.415a1,1,0,0,1,1.711,0l8.727,14.43a1,1,0,0,1-.856,1.517H1.773a1,1,0,0,1-.856-1.517Z" stroke="none"/>
+      <path d="M 10.50000095367432 3.8648681640625 L 3.546798706054688 15.36242771148682 L 17.45320510864258 15.36242771148682 L 10.50000095367432 3.8648681640625 M 10.49999904632568 0.9324283599853516 C 10.83057689666748 0.9324283599853516 11.16115379333496 1.093267440795898 11.35568904876709 1.414947509765625 L 20.08229827880859 15.84493827819824 C 20.48533821105957 16.51139831542969 20.00545883178711 17.36242866516113 19.22659873962402 17.36242866516113 L 1.773399353027344 17.36242866516113 C 0.9945487976074219 17.36242866516113 0.5146598815917969 16.51139831542969 0.9177093505859375 15.84493827819824 L 9.644309043884277 1.414947509765625 C 9.838844299316406 1.093267440795898 10.16942119598389 0.9324283599853516 10.49999904632568 0.9324283599853516 Z" stroke="none" fill="#fff"/>
+    </g>
+  </g>
+</svg>

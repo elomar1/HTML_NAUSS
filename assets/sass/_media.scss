@@ -1,0 +1,5285 @@
+@media (min-width: 1200px) {
+  .slider5Item.quickLinksRev  .container{
+    max-width: 1400px;
+  }
+  .container {
+    // max-width: 1400px;
+    // border: 1px solid red;
+  }
+  .customMenu .navbar-light .navbar-nav .nav-link {
+    padding-#{$start-direction}: 25px;
+    font-size: 16px;
+  }
+  .actionPrgDetails a {
+    min-width: 400px;
+    .font40 {
+      font-size: 3.5rem;
+    }
+  }
+  .impAchievement .impAchiWrap .ImpAchiBox .font40 {
+    font-size: 5rem;
+  }
+  .aboutUsHistory {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      #{$end-direction}: 0;
+      width: 100%;
+      height: 210px;
+      background: rgb(242, 242, 242);
+      background: -moz-radial-gradient(
+        circle,
+        rgba(242, 242, 242, 0.5) 68%,
+        rgba(242, 242, 242, 0.2) 96%
+      );
+      background: -webkit-radial-gradient(
+        circle,
+        rgba(242, 242, 242, 0.5) 68%,
+        rgba(242, 242, 242, 0.2) 96%
+      );
+      background: radial-gradient(
+        circle,
+        rgba(242, 242, 242, 0.5) 68%,
+        rgba(242, 242, 242, 0.2) 96%
+      );
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f2f2",endColorstr="#f2f2f2",GradientType=1);
+    }
+  }
+}
+
+@media (min-width: 1700px) {
+  .container {
+    max-width: 1600px;
+    // border: 1px solid green;
+  }
+  .actionPrgDetails a {
+    min-width: 550px;
+  }
+  .impAchievement .impAchiWrap .ImpAchiBox .font40 {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 1700px) {
+  .navbar-brand::before {
+    width: 350px !important;
+  }
+  .customMenu .navbar-light .navbar-nav .nav-link {
+    font-size: 19px !important;
+  }
+  body .subLinksMenu {
+    width: 75%;
+  }
+
+  .contactUsPage .CUDetails .cuActions {
+    width: 100%;
+}
+.generalConditions .IBAN {
+    width: 100% !important; 
+    }
+.servicesDirectory .container {
+    padding: 0px 0%;
+}
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb .font28 {
+    font-size: 22px;
+  }
+
+  .cust-container {
+    padding: 0 9%;
+  }
+  .his-word .hisWordSwiper .item .img-box {
+    flex: 0 0 550px;
+    width: 550px;
+    height: 680px;
+    margin-#{$end-direction}: 100px;
+}
+.his-word .swiperMainControl {
+  position: absolute;
+  #{$end-direction}: 10%;
+  top: 95%;
+}
+.contactUsPage .CUDetails > .cuActions, .contactUsPage .CUDetails > .CUShare, .contactUsPage .CUDetails > div.font25, .contactUsPage .CUDetails > .p2Font {
+  padding-#{$start-direction}: 55px;
+}
+.contactUsPage .CUDetails .cuActions {
+  width: 100%;
+}
+  .supporting-university-progress .img-box {
+    height: 550px;
+  }
+  .priorityPrt .priorityBox .icon img {
+    max-height: 45px;
+}
+  .priorityPrt .priorityBox .txt .font25 {
+    font-size: 19px;
+  }
+  .priorityPrt .priorityBox .txt .p20 {
+    font-size: 16px;
+  }
+  .actionMap a .AcMptxt .p18{
+    font-size: 15px;
+}
+.actionMap a .AcMptxt .font50{
+  font-size: 60px;
+}
+  .container {
+    // border: 1px solid red;
+  }
+  .whiteBoxOffer {
+    padding: 30px 48px;
+  }
+  .whiteBoxOffer:hover img {
+    transform: scaleX(1.2) scaleY(1.1);
+  }
+  .PublicationInvitations .PIimg img {
+    max-width: 90%;
+    transform: translate(-10px, -10px);
+  }
+  .strategy2 .strPattrt2 .font35 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .strategy2 .strPattrt2 p {
+    font-size: 16px;
+  }
+  .contactUsPage .CUDetails .cuActions {
+    width: 80%;
+  }
+  .innerData {
+    .cuActions {
+      a {
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .Conventions .convention-card {
+    height: auto;
+  }
+  .mapSection .map-here .map-cards-list .map-card .img-box,
+  .Conventions .convention-card:hover .img-box,
+  .Conventions .convention-card .img-box {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .changeStyleMenu.customMenu .dropdown-menuV2#subLinks3 .col:nth-of-type(4) .uiNewSub li:nth-of-type(2){
+    margin-top: 25px;
+  }
+  .changeStyleMenu.customMenu .navbar-expand-lg .navbar-nav {
+    padding-#{$start-direction}: 0;
+  }
+  .accordionCustom, .NewStyleAccordion {
+    padding: 0 15px
+  }
+  .changeStyleMenu.customMenu .navbar-nav .dropdown-menu.megamenu {
+    display: none;
+  }
+
+
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: #{$end-direction};
+  }
+  .customMenu .megamenu-li {
+    &:hover {
+      .megamenu {
+        display: block;
+      }
+    }
+    max-width: 1600px;
+  }
+}
+@media (max-width:1650px) {
+  .changeStyleMenu.customMenu .megamenu-li.hoveredA {
+    background-position: 35% 87%;
+  }
+  .changeStyleMenu.customMenu .navbar {
+    min-height: 100px;
+    /* overflow: hidden; */
+  }
+
+  .customMenu .navbar-brand {
+    max-width: 220px;
+    padding-#{$start-direction}: 20px;
+  }
+
+  .changeStyleMenu.customMenu .navbar-expand-lg .navbar-nav {
+    /* align-items: center; */
+    height: 72px !important;
+  }
+
+  .subLinksMenu .dropdown-menuV2 .uiNewSub li:first-of-type a {
+    line-height: normal;
+    font-size: 14px !important;
+  }
+
+  .customMenu .navbar-light .navbar-nav .nav-link {
+    margin-bottom: 0;
+    font-size: 18px !important;
+  }
+
+  .changeStyleMenu.customMenu .forDirection .topMenu {
+    min-height: 60px;
+  }
+
+
+  .changeStyleMenu .searchSubMenu::after {
+    border-#{$start-direction}: 74px solid #fff;
+    #{$start-direction}: -73px;
+    border-bottom-width: 121px;
+  }
+
+  .changeStyleMenu.customMenu .forDirection .topMenu::after {
+    #{$start-direction}: -62px;
+  }
+
+
+  .changeStyleMenu.customMenu .forDirection {
+    overflow: hidden;
+  }
+
+  .changeStyleMenu.customMenu .langMenu>.nav-link::after {
+    border-bottom-width: 145px;
+    border-#{$end-direction}: 97px;
+    /* solid #C6AA76; */
+    #{$start-direction}: -87px;
+
+  }
+
+  .forMenu {
+    height: 100px
+  }
+
+
+  .changeStyleMenu.customMenu .langMenu>.nav-link {
+    height: calc(100% + 55px);
+    top: -38px;
+  }
+
+  .customMenu .navbar-brand::after {
+    #{$end-direction}: -10px;
+    top: -17px;
+    font-size: 12px;
+  }
+
+  .quickLinksRev .slid5Warp .font24 {
+    font-size: 18px;
+  }
+
+  .NewFullBannerV2 .newsSlideWarp .NSTxt .font35 {
+    font-size: 3rem;
+  }
+
+  .studiesSec .studyBox2 .txtSt .font20Bold {
+    font-size: 1.7rem;
+    line-height: inherit;
+  }
+
+  .studiesSec .studyBox1 .stTxt .font24 {
+    font-size: 1.8rem;
+  }
+
+  .studiesSec .studyBox2 .txtSt .font20Bold {
+    font-size: 1.4rem;
+  }
+
+  .date span {
+    font-size: 14px;
+  }
+
+  .studiesSec .studyBox1 .stTxt img {
+    width: 20px;
+  }
+
+  .newsSection .newsBox .txtN .font24 {
+    -webkit-line-clamp: 3;
+    color: #5E81A4;
+    line-height: 22px;
+    height: calc(22px * 3);
+    font-size: 1.6rem;
+  }
+
+  .eventsSec .eventWapper .font20Bold {
+    font-size: 1.8rem;
+  }
+
+  .studiesSec .studyBox1 {
+    padding: 20px 23px;
+  }
+
+  .ourNum .SwiperThum .swiper-wrapper .swiper-slide {
+    min-width: 240px;
+  }
+
+  .ourNum .thumbWrap h2 {
+    font-size: 7rem;
+  }
+
+  .ourNum .thumbWrap p {
+    font-size: 1.7rem;
+    line-height: inherit;
+  }
+
+  .ourNum .SwiperGallery .font30 {
+    font-size: 2.5rem;
+  }
+
+  .studiesSec .studyBox1 {
+    height: 430px;
+  }
+
+  .studiesSec .studyBox2 .imgSt {
+    height: 200px;
+    width: 30%;
+  }
+
+  .studiesSec .studyBox2 .txtSt {
+    width: calc(100% - 32%);
+  }
+
+  .BGWhite .studyBox2:first-of-type::after {
+    width: calc(100% - 32%);
+  }
+
+  .subLinksMenu .dropdown-menuV2 li a {
+    font-size: 14px;
+  }
+
+  .subLinksMenu .dropdown-menuV2 li:not(:first-of-type) {
+    padding-#{$start-direction}: 0px;
+  }
+
+  .subLinksMenu .dropdown-menuV2 .uiNewSub li:first-of-type a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1601px) {
+  .customMenu .navbar-light .navbar-nav .nav-link {
+    font-size: 18px !important;
+  }
+  .customMenu .navbar-light .navbar-nav .nav-link {
+    padding-#{$start-direction}: 10px;
+  }
+  .partsSec.partsSecBoxWidth {
+    width: 60%;
+  }
+  .alumniAssociationNew1 .btnAlumni .forAlimn, .alumniAssociationNew1 .btnAlumni .joinTo span, .alumniAssociationNew1 .btnAlumni .downloadFile span {
+    font-size: 20px;
+}
+.NewFullBannerV2 .newsSlideWarp .NSTxt {
+  padding-bottom: 42px;
+}
+
+.suiteBarDeltaHeight+.forMenu+.bgBreadcrumb {
+  margin-top: -60px;
+}
+
+.readMore3 span {
+  font-size: 1.6rem;
+}
+.newBoxArrow.darNa4r .moreAction a {
+  font-size: 1.6rem;
+}
+.alumniAssociationNew1 .btnAlumni .downloadFile {
+  min-width: 440px;
+  height: 75px;
+  min-height: 75px;
+} 
+  .alumniAssociationNew1 .btnAlumni .joinTo {
+    margin-#{$end-direction}: 20px;
+    min-width: 440px;
+    height: 75px;
+  }
+  .alumniAssociationNew1 .btnAlumni .joinTo img {
+    max-width: 30px;
+  }
+  .newBoxArrow:hover {
+    height: calc(100% + 135px);
+  }
+  .universityPresidentsV2 .container {
+    padding: 0 5%;
+}
+  /* start 1600 */
+  .cust-container {
+    padding: 0 9%;
+  }
+  .his-word .hisWordSwiper .item .img-box {
+    flex: 0 0 590px;
+}
+ body .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb .font28 {
+    font-size: 19px;
+  }
+  .readMore3:after {
+    bottom: 5px;
+    background-size: 12px;
+  }
+  .btnMainGold2, .btnMainGold, .readMore2, .btn.event-reg {
+    font-size: 16px;
+  }
+  .newInnerBannerV {
+    height: 620px;
+}
+  .ConbHead {
+    padding: 40px 0 35px;
+}
+body .ameer-nayf .textCenter .font40 {
+    font-size: 3rem;
+
+  }
+ body .ameer-nayf .margLi li.p18 p {
+    font-size: 1.5rem;
+}
+.ameer-nayf .aimUl li:after {
+    top: 5px !important;
+}
+.ameer-nayf .aimUl li {
+    margin-bottom: 12px;
+}
+
+  .homeBanner2V2 .swiper2Style .container {
+    max-width: 1421px;
+  } 
+}
+@media (max-width: 1501px) {
+  body .customMenu .navbar-light .navbar-nav .nav-link {
+    font-size: 18px !important;
+    padding-#{$start-direction}: 5px;
+  }
+  .newInnerBannerV .textInnerBannerv {
+    bottom: 40px;
+    width: 70%;
+}
+.newInnerBannerV .textInnerBannerv .font40 {
+  margin-bottom: 20px;
+}
+.newInnerBannerV .textInnerBannerv .p18 {
+  line-height: normal;
+}
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb {
+    padding: 30px 15px 30px 0;
+  }
+  body .swiper2Style .swiper-twoHome2V2 .boxThumb .font28 {
+    font-size: 16px;
+}
+.homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb:hover .font28::after {
+  top: 9px;
+  background-size: 17px;
+}
+
+.bannerHome.bannerTrainingParent .cyberSecurityBanner .bannerSeurtiySC.bannerTraining {
+  padding-top: 110px;
+}
+  section.bgBreadcrumb {
+    zoom: .8;
+  }
+  .newInnerBannerV {
+    height: 555px;
+}
+.newTitleLine {
+  font-size: 2.3rem;
+}
+.newLayoutContent .decimalUL li {
+  font-size: 1.4rem;
+}
+.generalConditions .IBAN .bank {
+  padding-#{$start-direction}: 15px;
+}
+.newTitleLine::after {
+  #{$start-direction}: -90px;
+    top: 17px;
+    width: 70px;
+}
+.importantLinksV2 .IMPLINKS li a {
+  font-size: 14px;
+}
+  .font50 {
+    font-size: 3.5rem;
+  }
+  .font40 {
+    font-size: 3.2rem;
+  }
+  .font30 {
+    font-size: 2.6rem;
+  }
+  
+  .font35 {
+    font-size: 3.1rem;
+  }
+  .font28 {
+    font-size: 2.4rem;
+  }
+  .font26 {
+    font-size: 2.2rem;
+  }
+  .font25 {
+    font-size: 2.1rem;
+  }
+  .p18 {
+    font-size: 1.6rem;
+  }
+  .p20 {
+    font-size: 1.7rem;
+  }
+  .p22B {
+    font-size: 2rem;
+    color: $mainGold;
+    font-family: "GretaTextArabicARLT-Bold";
+  }
+  .newLayoutContent .decimalUL li {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .aboutPageLine .flexTextCenterHeight .p20 {
+    font-size: 1.5rem;
+  }
+  .decimalLi li::marker,
+  .decimalLi li {
+    font-size: 1.4rem;
+  }
+  .aboutPageLine .imgAPL img {
+    padding: 40px 26px;
+    padding-#{$end-direction}: 0;
+  }
+  body .videoSec .videoTxt {
+    height: 385px;
+  }
+  .aboutPageLine {
+    padding-#{$start-direction}: 45px;
+  }
+  .wapperVideoSec video.controlsNW {
+    width: 86%;
+    margin: 0 auto;
+    margin-#{$start-direction}: 7%;
+}
+  .actionMap a .AcMptxt .font50 {
+    font-size: 40px;
+  }
+  .actionMap a .AcMptxt .p18 {
+    font-size: 16px;
+  } 
+ body .fullHeightVH .wrapperSlideHm {
+    height: calc(80vh - 100px) !important;
+}
+  .scrollStickyDonts {
+    #{$start-direction}: 5px;
+  }
+  .bgBreadcrumb .breadcrumbCum a {
+    font-size: 14px;
+  }
+  .bgBreadcrumb .font40 {
+    font-size: 35px;
+  }
+
+  .aboutPageLineV2 .titleAPL {
+    transform: translateY(8px) translateX(-30px);
+    width: 90%;
+  }
+  .aboutPageLineV2 .flexTextCenterHeight  {
+    margin-#{$start-direction}: 15px;
+  }
+  .aboutPageLineV2 .flexTextCenterHeight .p20 {
+    font-size: 18px;
+    line-height: 2.2;
+  }
+  .newLayoutContent .boxV2Training {
+    min-height: 150px;
+  }
+  .registerProgV2 {
+    padding: 25px;
+    margin-top: 20px;
+  }
+
+  .bannerDetailsBG .WarpTxtProg .p16 {
+    font-size: 15px;
+  }
+  .bannerDetailsBG .WarpTxtProg .hint14 {
+    font-size: 13px;
+  }
+  .programDetailsNewV2 .progBoxDetails .titlePrgDetails {
+    margin-bottom: 35px;
+    font-size: 30px;
+  }
+  .fullHeightVH.innerPageBanner .wrapperSlideHm .container:not(.posAbo) {
+    padding-bottom: 30px;
+  }
+  .fullHeightVH.bannerHome:not(.bannerHome[style="height: 800px;"])
+    .wrapperSlideHm
+    .txtSldes
+    p.p20 {
+    font-size: 18px;
+  }
+  .fullHeightVH.innerPageBanner .wrapperSlideHm .container:not(.posAbo) {
+    padding-#{$start-direction}: 15px;
+  }
+  .relativeClass {
+    width: 94%;
+  }
+  .homeBanner2V2 .swiper2Style .container {
+    max-width: 1225px;
+  }
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb .font28 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 1399px) {
+  .navbar-brand::before {
+    width: 270px !important;
+  }
+  .crimeCenterWapper .empLink {
+    padding: 20px 15px;
+    font-size: 1.8rem;
+}
+  .KSalman .presidentSalman {
+    margin-right: 2%;
+}
+.KSalman .presidentSgn {
+  position: relative;
+  margin-top: 100px;
+}
+ body .colorBoxSecd .boxV2Training .font30 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .partsSec.partsSecBoxWidth {
+    width: 70%;
+  }
+  body .newLayoutContent .boxV2Training .p18 {
+   font-size: 14px;
+}
+  .changeStyleMenu.customMenu .navbar-expand-lg .navbar-nav {
+    /* align-items: center; */
+    height: 55px !important;
+}
+  .alumniAssociationNew1 .btnAlumni {
+    transform: scale(.8);
+  }
+  .newInnerBannerV.NoImgExist .textInnerBannerv .p18 {
+    font-size: 16px;
+  }
+
+  .innerDataBG .col-md-12 .font40,
+  .contactUsPage .CUDetails .font40,
+  .inventionBG .text-center .font40,
+  .newTitleLine {
+    font-size: 2.7rem;
+  }
+
+  .innerData .font25 {
+    font-size: 18px;
+  }
+
+  .navbar-brand::before {
+    width: 290px;
+    height: calc(100% + 12px);
+  }
+
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 {
+    direction: rtl;
+    padding: 0 20px;
+  }
+
+  .suiteBarDeltaHeight+.forMenu+.bgBreadcrumb {
+    margin-top: -50px;
+  }
+
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb .font28 {
+    font-size: 2rem;
+  }
+
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb:hover .font28::after {
+    top: 10px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .homeBanner2V2 .swiper2Style .container {
+    max-width: 1115px;
+    width: 85%;
+  }
+
+  .bgBreadcrumb {
+    padding-top: 35px;
+  }
+
+  .bgBreadcrumb .breadcrumbCum a {
+    font-size: 14px;
+  }
+
+  .bgBreadcrumb .font40 {
+    font-size: 30px;
+  }
+
+  .customMenu .langMenu .dropdown-menu {
+    zoom: .8;
+  }
+
+  .changeStyleMenu.customMenu .langMenu>.nav-link {
+    top: -49px;
+  }
+
+  .customMenu .navbar-brand {
+    max-width: 210px;
+    padding-#{$start-direction}: 10px;
+  }
+
+  .changeStyleMenu.customMenu .navbar {
+    min-height: 80px;
+  }
+
+  .changeStyleMenu.customMenu .forDirection .topMenu {
+    min-height: 50px;
+  }
+
+  .forMenu {
+    height: 83px;
+  }
+
+  .customMenu .navbar-brand::after {
+    #{$end-direction}: -15px;
+    top: -5px;
+    font-size: 10px;
+  }
+
+  .changeStyleMenu.customMenu .megamenu-li:hover,
+  .changeStyleMenu.customMenu .megamenu-li.hoveredA {
+    background-position: 35% 80%;
+  }
+
+  .NewFullBannerV2 .newsSlideWarp .NSTxt .font35 {
+    font-size: 2.7rem;
+  }
+
+  .studiesSec .studyBox1 {
+    height: 370px;
+  }
+
+  .studiesSec .studyBox2 .imgSt {
+    height: 170px;
+    /* width: 200px; */
+  }
+
+  .studiesSec .studyBox2 .txtSt {
+    /* width: calc(100% - 200px); */
+    padding: 15px;
+  }
+
+  .studiesSec .studyBox2 .txtSt .font20Bold {
+    font-size: 1.5rem;
+    line-height: inherit;
+  }
+
+  .studiesSec .studyBox2 .txtSt .date img {
+    width: 20px;
+  }
+
+  .studiesSec .studyBox2 .txtSt .date span,
+  .studiesSec .studyBox2 .txtSt .readMore3 span {
+    font-size: 14px;
+  }
+
+  .heading .font40 {
+    font-size: 3rem;
+  }
+
+  .heading .font20 {
+    font-size: 1.8rem;
+    line-height: inherit;
+  }
+  .bgGray2.TrDeBoxFullWidth.colorBoxSecd.paddingSection .font30 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+
+  .newLayoutContent .boxV2Training {
+    min-height: 120px;
+  }
+
+  .paddingSection {
+    padding: 50px 0 40px;
+  }
+
+  .bgGray2.TrDeBoxFullWidth.colorBoxSecd.paddingSection .col-md-4 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .bgGray2.TrDeBoxFullWidth.colorBoxSecd.paddingSection .font30 {
+    font-size: 2rem;
+  }
+
+  .boxIlab .font30 a,
+  .boxIlab .font30 {
+    font-size: 20px;
+  }
+
+  .boxIlab {
+    min-height: 190px;
+    height: auto;
+  }
+
+  .SDTwoTabs .tabsStyleMain.nav li button {
+    font-size: 20px;
+  }
+
+  .MembBox h2 {
+    font-size: 2.3rem;
+    margin: 30px 0;
+  }
+
+
+  .MembBox:hover .p18 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .MembBox {
+    height: 370px;
+  }
+
+  .strategyRevamp .strPattrtCR .text-center .font25 {
+    font-size: 2.2rem;
+  }
+
+  .strategyRevamp .strPattrtCR .p18 {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .strategyRevamp .strPattrtCR .newFont18:nth-of-type(2) {
+    margin-top: 15px;
+  }
+
+  .strategyRevamp .strPattrtCR .newFont18 {
+    margin-bottom: 10px;
+  }
+
+  .newUlCR li {
+    font-size: 1.6rem;
+    line-height: 1.3;
+    margin-bottom: 5px;
+  }
+
+  .strategy3 .strPattrt3 .STRBox .font35,
+  .strategy1 .strPattrt1 .font35 {
+    font-size: 2.1rem;
+  }
+
+  .strategy3 .strPattrt3 .STRBox p,
+  .strategy1 .strPattrt1 p {
+    font-size: 1.6rem;
+    line-height: 22px;
+    height: calc(22px * 3);
+  }
+
+  .strategy1 .strPattrt1 .font35 {
+    line-height: 1.4;
+  }
+
+
+
+  .strategy1 {
+    padding: 45px 0;
+  }
+
+  .strategyRevamp {
+    padding: 45px 0;
+  }
+
+  .ameerNayf-nabza .content-box p {
+    font-size: 1.8rem;
+  }
+
+  .his-word .hisWordSwiper .item .content-box p {
+    font-size: 1.6rem;
+  }
+
+  .his-word .hisWordSwiper .item .content-box {
+    margin-top: 185px
+  }
+
+  .his-word .title {
+    top: 16%;
+  }
+
+  .his-word .title h3 {
+    font-size: 2.5rem;
+  }
+
+  .strategy2 .strPattrt2 p {
+    font-size: 15px;
+    /* line-height: normal; */
+  }
+
+  .bannerTraining:not(.bannerSeurtiySC) .sliderBoxTextThum .font40 {
+    font-size: 2.1rem;
+  }
+  .newLayoutContent .TrDeBox {
+    padding: 0 6%;
+  }
+  .generalConditions .IBAN .account .font20 {
+    font-size: 16px;
+  }
+  .generalConditions .IBAN .account .num {
+    font-size: 18px;
+  }
+  .whiteBoxOffer {
+    min-height: 370px;
+  }
+  .universityPresidentsV2 .UPbox {
+    padding-bottom: 30px;
+}
+  .supporting-university-progress .img-box {
+    height: 400px;
+}
+  .his-word .hisWordSwiper .item .img-box {
+    flex: 0 0 450px;
+  }
+  .his-word .swiperMainControl {
+    top: 85%;
+  }
+ body .heading .font40,
+ body  .newTitleLine {
+    font-size: 2.8rem;
+  }
+  .newTitleLine.marLeftHead {
+    transform: translateX(-120px);
+  }
+  .newTitleLine::after {
+    #{$start-direction}: -95px;
+    top: 12px;
+    width: 70px;
+  }
+  .tabsStyle1 .nav-item .nav-link {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    margin-#{$start-direction}: 10px;
+
+  }
+   /* start 1400 */
+   
+   .downloadStraFile .downloadFile span strong {
+    font-size: 16px;
+   }
+   .downloadStraFile .downloadFile {
+    min-width: 320px;
+  }
+   .importantLinksV2 .IMPLINKS li a img{
+    width: 12px;
+   }
+   .cust-container {
+    padding: 0 3%;
+  }
+  .changeStyleMenu.customMenu .langMenu>.nav-link::after {
+    #{$start-direction}: -83px;
+
+  }
+  
+   .studiesSec .studyBox1 .stTxt .font24,
+   body .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb .font28 {
+    font-size: 17px;
+  }
+  .readMore3:after {
+    bottom: 3px;
+    background-size: 12px;
+  }
+  .btnMainGold2, .btnMainGold, .readMore2, .btn.event-reg {
+    font-size: 14px;
+  }
+  .newStyleTab.nav li button {
+    font-size: 18px;
+  }
+  .studiesSec .studyBox2 .txtSt .font20Bold,
+  .readMore3 span {
+    font-size: 1.4rem;
+  }
+  .ourNum .SwiperThum .swiper-wrapper .swiper-slide {
+    min-width: 200px;
+    height: 160px;
+  }
+  .ourNum .thumbWrap h2 {
+    font-size: 6rem;
+  }
+  .badges .main-content-box h3,
+  .supporting-university-progress .content-box h3 {
+    font-size: 2.5rem;
+  }
+  .supporting-university-progress .content-box p {
+    font-size: 1.6rem;
+  }
+  .manasib-2 ul {
+    padding: 40px 60px;
+  }
+  .badges .myBadgesSwiper .item .content-boxx p {
+    font-size: 1.8rem;
+  }
+  .contactUsPage .CUDetails > .cuActions, .contactUsPage .CUDetails > .CUShare, .contactUsPage .CUDetails > div.font25, .contactUsPage .CUDetails > .p2Font {
+    padding-#{$start-direction}: 0;
+}
+  /* end 1400 */
+  .actionMap a .AcMptxt .p18 {
+    font-size: 15px;
+  }
+  .mapAlu .pinsAlum span {
+    width: 10px;
+  }
+  .council-card {
+    min-height: 400px;
+  }
+  .strategy3 .strPattrt3 .STRBox .font35 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 1301px) {
+  body .customMenu .navbar-light .navbar-nav .nav-link {
+    font-size: 16px !important;
+  }
+  .newTitleLine {
+    font-size: 2.2rem;
+  }
+  .font50 {
+    font-size: 3.2rem;
+  }
+  .font40 {
+    font-size: 3rem;
+  }
+  .font30 {
+    font-size: 2.4rem;
+  }
+  
+  .font35 {
+    font-size: 2.9rem;
+  }
+  .progBoxDetails .font40 {
+    font-size: 2.2rem;
+  }
+  .font28 {
+    font-size: 2.2rem;
+  }
+  .font26 {
+    font-size: 2rem;
+  }
+  .font25 {
+    font-size: 1.9rem;
+  }
+  .p18 {
+    font-size: 1.4rem;
+  }
+  .p20 {
+    font-size: 1.5rem;
+  }
+  .newLayoutContent .decimalUL li {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  .p22B {
+    font-size: 2rem;
+    color: $mainGold;
+    font-family: "GretaTextArabicARLT-Bold";
+  }
+  .aboutPageLine .flexTextCenterHeight .p20 {
+    font-size: 1.5rem;
+  }
+  .decimalLi li::marker,
+  .decimalLi li {
+    font-size: 1.4rem;
+  }
+  .newInnerBannerV {
+    height: 470px;
+}
+  .TrDeBox > .row .col-md-2 {
+    width: 20%;
+  }
+  .aboutPageLineV2 .flexTextCenterHeight .p20 {
+    font-size: 17px;
+    line-height: 2;
+  }
+  .newLayoutContent .decimalUL li,
+  .newLayoutContent .boxV2Training .p18 {
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  .newLayoutContent .boxV2Training .font30 {
+    font-size: 25px;
+  }
+  .newLayoutContent .trainingTitle {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+    .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb {
+    padding: 30px 5px 30px 0;
+  }
+}
+@media (max-width: 1201px) {
+  body .customMenu .navbar-light .navbar-nav .nav-link {
+    padding-#{$start-direction}: 10px !important;
+}
+  .subLinksMenu .dropdown-menuV2 .uiNewSub li:first-of-type a {
+    font-size: 14px;
+    margin-bottom: 0;
+    width: 90%;
+  }
+  .TrDeBoxFullWidth  .col-md-2 {
+    width: 20%;
+  }
+  .subLinksMenu .dropdown-menuV2 {
+    padding: 15px 15px;
+  }
+
+  .subLinksMenu {
+    min-width: 800px;
+  }
+
+  .subLinksMenu .row>* {
+    width: 25%;
+  }
+
+  .customMenu .navbar-light .navbar-nav .nav-link {
+    font-size: 14px !important;
+  }
+
+  .customMenu .navbar-brand {
+    max-width: 150px;
+  }
+
+  .changeStyleMenu.customMenu .forDirection .topMenu>a,
+  .changeStyleMenu.customMenu .forDirection .topMenu>a span {
+    font-size: 12px;
+  }
+
+  .changeStyleMenu.customMenu .forDirection .topMenu .incFonts img,
+  .changeStyleMenu.customMenu .forDirection .topMenu>a img {
+    max-width: 15px;
+  }
+
+  .customMenu .langMenu>a span {
+    font-size: 14px;
+  }
+
+  .customMenu .navbar-light .navbar-nav .langMenu .nav-link {
+    background-position: 55px 56px;
+    background-size: 11px;
+    padding-top: 13px;
+  }
+
+  .changeStyleMenu.customMenu .langMenu {
+    width: 90px;
+    height: auto;
+  }
+
+  .changeStyleMenu.customMenu .langMenu>a span+img {
+    padding-#{$end-direction}: 10px;
+    width: 25px;
+  }
+
+
+  .changeStyleMenu .searchSubMenu .openSeachMenu {
+    width: 30px;
+    padding-#{$end-direction}: 10px;
+  }
+
+  .changeStyleMenu.customMenu .navbar {
+    min-height: 70px;
+  }
+
+  .customMenu .navbar-brand {
+    height: 70px;
+  }
+
+  .customMenu .navbar-brand img {
+    height: 100%;
+  }
+
+  .customMenu .navbar-brand::after {
+    #{$end-direction}: -15px;
+    top: -5px;
+    font-size: 8px;
+  }
+
+  .forMenu {
+    height: 70px;
+  }
+
+  .changeStyleMenu .searchSubMenu .searchInputMenu .flexMenu input {
+    margin-#{$end-direction}: 15px;
+    max-width: 160px;
+    font-size: 12px;
+  }
+
+  .changeStyleMenu .searchSubMenu .searchInputMenu .flexMenu input::placeholder {
+    font-size: 12px;
+  }
+
+  .ourNum .thumbWrap p {
+    font-size: 1.4rem;
+    line-height: inherit;
+    display: block;
+  }
+
+  .ourNum .thumbWrap h2 {
+    font-size: 4rem;
+  }
+
+  .ourNum .SwiperThum .swiper-wrapper .swiper-slide {
+    min-width: 180px;
+    height: 175px;
+  }
+
+  .ourNum .SwiperGallery .swiper-slide {
+    height: 350px;
+  }
+
+  .subLinksMenu .dropdown-menuV2 .uiNewSub li:first-of-type a {
+    font-size: 16px;
+  }
+
+  .subLinksMenu .dropdown-menuV2 li:not(:first-of-type) a {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+
+  .subLinksMenu .row>* {
+    padding: 0 5px;
+  }
+  .rightImgDir .row:nth-of-type(even) .col-lg-7 .content-box {
+    padding-#{$start-direction}: 60px;
+  }
+
+  .priorityPrt {
+    margin-bottom: 0;
+  }
+
+  .impAchievement {
+    padding: 45px 0;
+  }
+
+  .inventionBG .text-center .font40 {
+    font-size: 2.5rem;
+  }
+
+  .inventionBG .textInv {
+    padding-#{$start-direction}: 30px;
+  }
+
+  .inventionBG .textInv img {
+    max-width: 30px;
+  }
+
+  .inventionBG .textInv .font30 {
+    padding: 0 30px;
+    margin-top: 15px;
+    line-height: 1.2;
+  }
+
+  .swiperWamda .textInv .p20 {
+    padding: 0 30px;
+    line-height: 1.5;
+  }
+
+  .strategy3 {
+    margin-bottom: 60px;
+  }
+
+  .PresidentUniversity .imgPres {
+    height: auto;
+  }
+
+  .council-card .content-box h4 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+
+  .council-card .content-box {
+    padding: 22px 12px 12px;
+  }
+
+  .supporting-university-progress .content-box p {
+    font-size: 1.4rem;
+  }
+
+  .partsSec {
+    padding: 0;
+  }
+
+  .boxP2Borer .font25 {
+    font-size: 1.6rem;
+  }
+
+  .partsSec .boxP2Borer {
+    min-height: 160px;
+  }
+
+  .supporting-university-progress {
+    padding-bottom: 30px;
+  }
+
+  .impAchievement .heading .font40 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+
+  .heading .font20 {
+    font-size: 1.6rem;
+  }
+
+  .impAchievement .impAchiWrap .ImpAchiBox .font40 {
+    font-size: 4rem;
+    line-height: 1.3;
+  }
+
+  .impAchievement .impAchiWrap .ImpAchiBox .p22B {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .councilPater1 .font40 {
+    font-size: 2.2rem;
+  }
+
+  .titleCum strong {
+    font-size: 3.5rem;
+    top: 4px;
+  }
+
+  .titleCum strong::after {
+    top: -10px;
+  }
+
+  .CPBox .flag {
+    height: 100px;
+  }
+
+  .CPBox .nameOfFlag {
+    padding: 10px 7px 15px;
+  }
+
+  .CPBox .nameOfFlag .p20 {
+    font-size: 1.4rem;
+    line-height: 18px;
+    height: calc(18px * 3);
+  }
+
+  .councilPater2 .font40 {
+    font-size: 2.2rem;
+    margin-bottom: 45px;
+  }
+
+  .councilPater2 {
+    padding: 35px 0;
+  }
+
+  .his-word .hisWordSwiper .item .img-box {
+    margin-#{$end-direction}: 50px;
+  }
+
+  .bannerTraining:not(.bannerSeurtiySC) .swiperTrainingThumb .swiper-wrapper .swiper-slide {
+    width: 40% !important;
+  }
+  .servicesDirectory .container {
+    padding: 0px 5%;
+}
+.actionMap a > img {
+  width: 35px;
+}
+.actionMap a .AcMptxt {
+  margin: 0;
+  padding-#{$start-direction}: 10px;
+}
+  .programDetailsNewV2 .progBoxDetails:not(:last-of-type) {
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+  }
+  .bannerDetailsBG .WarpTxtProg .p16 {
+    font-size: 14px;
+  }
+  .bannerDetailsBG .WarpTxtProg .hint14 {
+    font-size: 12px;
+  } 
+  .programDetailsNewV2 .progBoxDetails .titlePrgDetails {
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+  .programDetailsNewV2 .progBoxDetails .imgWifthTxtPD .p18,
+  .programDetailsNewV2 .progBoxDetails .ulPList li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .programDetailsNewV2 .linkQuickProgV2 li a {
+    font-size: 17px;
+  }
+  .programDetailsNewV2 .progBoxDetails .imgWifthTxtPD .p18 {
+    padding: 35px 0 15px;
+  }
+  .quickLinksRev .slid5Warp {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .sildeTabs .nav-pills .nav-link {
+    min-width: 220px;
+    font-size: 17px;
+  }
+  .tab-content .table > :not(caption) > * > * {
+    padding: 12px;
+    font-size: 14px;
+  }
+  .container {
+    max-width: 1200px;
+    // border: 1px solid green;
+  }
+  .topMenu {
+    a {
+      span {
+        font-size: 12px;
+      }
+      font-size: 12px;
+    }
+  }
+  .customMenu {
+    .navbar-light {
+      .navbar-nav {
+        .nav-link {
+          padding-#{$start-direction}: 18px;
+          font-size: 14px;
+        }
+      }
+    }
+    .navbar-nav {
+      .dropdown-menu.megamenu {
+        padding: 25px 0 20px 0;
+      }
+    }
+    .megamenu-li {
+      .dropdown-item {
+        font-size: 14px;
+      }
+    }
+  }
+  .innerBanner.programDetails {
+    .wrapperSlideHm {
+      .progBannerFlex {
+        .actionPrgDetails {
+          a {
+            &:first-of-type {
+              margin-#{$end-direction}: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .actionPrgDetails {
+    a {
+      padding: 15px 25px;
+      align-items: center;
+      .font40 {
+        font-size: 3rem;
+      }
+    }
+  }
+  .PDetails {
+    width: 500px;
+  }
+  .planEdu {
+    padding: 40px 10px;
+  }
+  .subsBox {
+    margin-bottom: -32px;
+  }
+  .compSection {
+    .textTwoCol {
+      height: 470px;
+      padding: 60px 40px;
+    }
+  }
+  .impAchievement {
+    .impAchiWrap {
+      .ImpAchiBox {
+        .font40 {
+          font-size: 6rem;
+        }
+        .p22B {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  .resume-slider {
+    .owl-dots {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -ms-flex-flow: wrap;
+      flex-flow: wrap;
+      li {
+        margin: 0 10px !important;
+      }
+    }
+    .owl-item {
+      .item {
+        .content-box {
+          padding-#{$start-direction}: 60px;
+          padding-#{$end-direction}: 15px;
+          padding-top: 50px;
+          padding-bottom: 15px;
+          &::before {
+            background-size: 50px;
+          }
+          h3 {
+            font-size: 20px;
+            line-height: 30px;
+            height: calc(30px * 3);
+            margin-bottom: 10px;
+          }
+          p {
+            font-size: 16px;
+            line-height: 23px;
+          }
+          .additional-data {
+            .title {
+              font-size: 16px;
+            }
+            .value {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .aboutPageLine .container {
+    max-width: 95%;
+  }
+  .aboutPageLine .row:nth-child(odd) .flexTextCenterHeight,
+  .aboutPageLine .row:nth-child(odd) .PublicationInvitations .PITxt,
+  .PublicationInvitations .aboutPageLine .row:nth-child(odd) .PITxt {
+    margin-#{$start-direction}: 0;
+  }
+  .aboutPageLine .imgAPL img {
+    padding: 41px 8px 0 8px;
+  }
+  .bannerSeurtiySC .swiperTrainingThumb .swiper-wrapper {
+    zoom: 0.7;
+  }
+  .bannerTraining .sliderBoxText {
+    padding: 10px;
+  }
+  .bannerTraining .sliderBoxText .font50 {
+    font-size: 35px;
+  }
+  .bannerTraining .sliderBoxText .p20 {
+    font-size: 1.5rem;
+  }
+  .btnMainGold,
+  .btnMain,
+  .readMore2,
+  .readMore {
+    font-size: 1.4rem;
+  }
+  .PublicationInvitations .container {
+    width: 100%;
+  }
+  .linksCom {
+    .col-md-6 {
+      width: 100%;
+    }
+    .col-md-3 {
+      width: 50%;
+    }
+  }
+  .strategy3 {
+    height: auto;
+    .col-md-4.col-lg-3 {
+      width: 33%;
+    }
+    .forPulling {
+      display: none;
+    }
+  }
+  .strategy2 .strPattrt2 .font35 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .strategy2 .strPattrt2 p {
+    font-size: 14px;
+  }
+  .innovationLab .innovationLab .newsSlideWarp .NSTxt .font35 {
+    padding: 8px 0 10px;
+    font-size: 2.5rem;
+  }
+  .searchingDB {
+    flex-wrap: wrap;
+    .formGroup {
+      margin-bottom: 20px;
+    }
+  }
+  .innerDataBG {
+    .col-md-3 {
+      width: 33.3333333%;
+    }
+  }
+  .strategy2 {
+    .strPattrt2 {
+      padding: 35px 25px;
+      height: 290px;
+      img {
+        margin-bottom: 10px;
+        max-height: 60px;
+      }
+      p {
+      }
+    }
+  }
+  .servicesDirectory,
+  .publicationsCenter {
+    .col-md-3 {
+      width: 33.33333%;
+    }
+  }
+  .Memberships {
+    .col-md-4 {
+      width: 50%;
+      .MembBox {
+        margin: 0 0 40px 0;
+      }
+    }
+  }
+  .registerMemb {
+    width: 100%;
+  }
+  .aimSection02 {
+    .trainSec2 {
+      .col-md-3 {
+        width: 50%;
+      }
+    }
+  }
+.bannerDetailsBG .BDBoxWapper {
+  flex-wrap: wrap;
+}
+.bannerDetailsBG .BDBox:not(:last-of-type) {
+  margin-bottom: 30px;
+  }
+  /* end 1201px */
+}
+
+@media (max-width: 1025px) {
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 {
+    width: 90%;
+  }
+  .homeBanner2V2 .swiper2Style .swiper-button-next {
+    #{$start-direction}: 15px;
+  }
+  .homeBanner2V2 .swiper2Style .swiper-button-prev {
+    #{$end-direction}: 15px;
+  }
+  .progTxtBg {
+    .col-md-9 {
+      width: 60%;
+    }
+    .col-md-3 {
+      width: 40%;
+    }
+  }
+  .videoSec {
+    .textCenter {
+      .font40 {
+        font-size: 3.8rem;
+      }
+    }
+  }
+  .centerServices .videoSec .textCenter .date {
+    margin: 6px 0 10px;
+  }
+  .generalConditions {
+    .col-md-6 {
+      width: 100%;
+    }
+  }
+  .searchingDB {
+    align-items: flex-start;
+  }
+  .servCenterBG {
+    .col-md-8,
+    .col-md-4 {
+      width: 100%;
+      .whiteBoxOffer {
+        margin: 0 auto;
+        margin-top: 20px;
+      }
+    }
+  }
+  // end 1025
+}
+@media (max-width: 992px) {
+  .KSalman .col-md-7 ,
+  .KSalman .col-md-5 ,
+  .programDetailsNewV2 .col-md-3 ,
+  .programDetailsNewV2 .col-md-9 ,
+  .generalConditionsV3 .col-md-3 ,
+  .generalConditionsV3 .col-md-9 {
+    width: 100%;
+  }
+  .customMenu .langMenu .dropdown-menu li.spliter span {
+    font-size: 14px;
+  }
+  .changeStyleMenu.customMenu .langMenu>.nav-link span {
+    color: #fff;
+  }
+ body .EVCard .downloadFile .logoBorder {
+  margin: 0;
+  }
+ body .whiteBoxOffer {
+    width: 100%;
+}
+.programDetailsNewV2 {
+  padding: 20px 0 40px 0;
+}
+.imgSalman img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.programDetailsNewV2 .isSticky {
+  margin-bottom: 50px;
+  position: unset;
+}
+.programDetailsNewV2 .row {
+  flex-direction: column-reverse;
+}
+  body .EVCard .downloadFile .logoBorder img {
+    width: 25px;
+    }
+  .bannerTraining .sliderBoxText .font50 {
+    font-size: 26px;
+  }
+  .changeStyleMenu.customMenu .langMenu>.nav-link img {
+    filter: brightness(0) invert(1);
+  }
+  .SDTwoTabs.FAQParent .tab-content .accordionCustom {
+    display: block;
+    padding: 0 15px;
+  }
+  .personDetails .font26 {
+    font-size: 1.8rem;
+  }
+  .SDTwoTabs .gold+.markGold .font18, .SDTwoTabs .gold+.markGold p {
+    font-size: 14px !important;
+  }
+  body .SDTwoTabs.FAQParent .tab-content .accordion-item {
+    width: 100%;
+  }
+  .EVCard .flex .downloadFile {
+    width: 100%;
+  }
+  .TrDeBoxFullWidth  .col-md-2 {
+    width: 30%;
+  }
+  body .heading .font40,
+  body  .newTitleLine {
+     font-size: 2.2rem;
+   }
+   .partsSec.partsSecBoxWidth {
+    width: 90%;
+  }
+  .newInnerBannerV .textInnerBannerv {
+    width: 100%;
+  }
+  .generalConditions .IBAN .account .font20 {
+    width: 120px;
+  }
+  .ulMob {
+    display: none;
+  }
+  .cardUsa .headinnWithDate .font40 {
+    font-size: 20px;
+  }
+  .boxIlab img {
+    width: 60px;
+  }
+  .SDTwoTabs.SDTwoTabsLab .tab-pane#home .boxIlab {
+    height: 155px;
+    min-height: 160px;
+  }
+  .SDTwoTabs.SDTwoTabsLab .tab-pane#profile .boxIlab {
+    height: 300px;
+    min-height: 300px;
+  }
+  .listItem2 .font25 strong, .EVCard .font25 strong {
+    font-size: 18px;
+  }
+  .tabsStyleMain.nav {
+    min-width: 90%;
+  }
+  .tabsStyleMain.nav li {
+    width: 50%;
+    margin: 0;
+  }
+  .changeStyleMenu.customMenu .navbar-expand-lg .navbar-nav {
+    height: auto !important;
+  }
+ .tabsStyleMain.nav li {
+  background: #f6f6f6;
+  }
+  .tabsStyleMain.nav li input {
+    font-size: 1.4rem;
+  }
+  .alumniAssociationNew1 .btnAlumni .joinTo {
+    margin-#{$end-direction}: 0;
+     margin-top: 20px;
+         justify-content: center;
+  }
+  .alumniAssociationNew1 .col-md-4 {
+    width: 50%;
+}
+
+  .actionMap {
+    flex-wrap: wrap;
+    justify-content: center;
+  } 
+  .actionMap a {
+    width: 25%;
+  }
+  .newInnerBannerV.NoImgExist .textInnerBannerv .p18 {
+    font-size: 12px !important;
+}
+
+.priorityPrt .priorityBox .txt .p20 {
+  font-size: 14px;
+}
+
+.priorityPrt .priorityBox .txt .font25 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.priorityPrt .priorityBox .icon {
+  margin-bottom: 15px;
+}
+
+.priorityPrt .priorityBox {
+  padding: 30px 15px;
+}
+
+.impAchievement .heading .font40 {
+  font-size: 2.2rem;
+}
+
+.impAchievement .impAchiWrap .ImpAchiBox .font40 {
+  font-size: 4rem;
+}
+
+.impAchievement .impAchiWrap .ImpAchiBox .p22B {
+  font-size: 1.6rem;
+}
+
+.impAchievement .impAchiWrap .ImpAchiBox {
+  width: 33%;
+}
+
+.impAchievement .impAchiWrap .ImpAchiBox .imgBoxAch {
+  height: 40px;
+}
+
+.impAchievement .impAchiWrap .ImpAchiBox .imgBoxAch img {
+  height: 100%;
+}
+
+.rightImgDir .row:nth-of-type(even) .col-lg-7 .content-box {
+  padding: 0 60px;
+}
+
+.centersListSec .grayBox {
+  height: 100%;
+}
+
+.NewFullBannerV2 .newsSlideWarp .NSTxt {
+  width: 85%;
+}
+
+.NewFullBannerV2 .newsSlideWarp .NSTxt .font30 {
+  font-size: 2rem
+}
+
+.inventionBG .textInv .font30 {
+  font-size: 2rem;
+}
+
+.contactUs .CUTxt .p1Font {
+  font-size: 1.8rem;
+}
+
+.newTitleLine::after {
+  #{$start-direction}: -55px;
+  width: 40px;
+}
+
+.twoBoxTB .boxTB .p20 {
+  padding: 0 25px;
+}
+
+.twoBoxTB .boxTB .p20 a.readMore3 {
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+  margin-top: 10px;
+}
+
+.newLayoutContent .TrDeBox {
+  padding: 0 5%;
+}
+
+.TrDeBox.presidentSgn .newTitleLine {
+  font-size: 2rem;
+}
+
+.presidentSgn .flexLeft .subTitle {
+  font-size: 1.6rem;
+}
+
+section.strategyRevamp .col-md-4 {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+}
+
+.strategyRevamp .strPattrtCR .text-center .font25 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.strategyRevamp .strPattrtCR .text-center img {
+  margin-bottom: 20px;
+}
+
+section.PresidentUniversity .col-md-6 {
+  width: 100%;
+}
+
+.PresidentUniversity .imgPres {
+  text-align: center;
+}
+
+.PresidentUniversity .imgPres img {
+  padding: 0;
+}
+
+.PresidentUniversity .txtPres {
+  margin-top: 20px;
+}
+
+.PresidentUniversity .txtPres .font25 {
+  font-size: 1.8rem;
+  margin: 10px 0;
+}
+
+.PresidentUniversity .txtPres .p18 {
+  margin-bottom: 10px;
+}
+
+.PresidentUniversity .txtPres .p20 {
+  font-size: 1.6rem;
+}
+
+.chartPresWraper .chartPres ul li {
+  font-size: 1.2rem;
+  width: 140px;
+}
+
+.rightImgDir .row:nth-of-type(even) .col-lg-7 .content-box {
+  padding: 0 60px;
+}
+
+.TrDeBox .subTitle {
+  font-size: 1.6rem;
+}
+
+
+
+.newLayoutContent .decimalUL.uL2Col li {
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.newLayoutContent .decimalUL.uL2Col li:nth-of-type(even) {
+  margin: 0;
+}
+
+.TrDeBox>.row {
+  margin-top: 35px;
+}
+
+.newLayoutContent .boxV2Training a {
+  font-size: 1.4rem;
+}
+
+.newLayoutContent .boxV2Training {
+  padding: 20px 20px;
+  min-height: 100px;
+}
+
+h4.subTitle {
+  font-size: 1.6rem;
+}
+
+.boxP2Borer .font25 {
+  padding: 10px 0;
+
+}
+
+section.supporting-university-progress .col-md-5 {
+  width: 100%;
+}
+
+.supporting-university-progress .videoTxt {
+  max-height: 250px;
+}
+
+.supporting-university-progress .videoTxt video {
+  width: 100%;
+  height: 100%;
+}
+
+.heading .font40 {
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+}
+
+.mapSection {
+  padding-bottom: 45px;
+}
+
+.st-partners {
+  padding-top: 40px;
+}
+
+.newsSection .newsBox .txtN .font24 {
+  font-size: 1.6rem;
+}
+
+.date span {
+  font-size: 1.4rem;
+  margin-top: 3px;
+}
+
+.newsSection .newsBox .imgB {
+  height: 220px;
+}
+
+.supporting-university-progress {
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+
+.badges .main-content-box h3,
+.supporting-university-progress .content-box h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding-#{$start-direction}: 45px;
+}
+
+.supporting-university-progress .content-box h3::before {
+  width: 35px;
+  #{$start-direction}: 0;
+}
+
+.manasib-2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.newTitleBG,
+.manasib-2 h3,
+.manasib h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.manasib-2 ul {
+  padding: 10px 20px;
+}
+
+.manasib-2 li {
+  width: 100%;
+  margin: 5px 0;
+  font-size: 1.6rem;
+}
+
+.ameerNayf-nabza .img-box {
+  text-align: center;
+}
+
+.ameerNayf-nabza .img-box img {
+  height: 425px;
+}
+
+.ameerNayf-nabza .content-box h5 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.ameerNayf-nabza .content-box p {
+  font-size: 1.6rem;
+}
+
+.newTitleBG,
+.manasib-2 h3,
+.manasib h3 {
+  font-size: 2rem;
+}
+
+.badges .main-content-box p {
+  font-size: 1.6rem;
+}
+
+.badges .myBadgesSwiper .item .content-boxx p {
+  font-size: 1.6rem;
+}
+
+.badges .barBGWhite {
+  padding: 55px 70px;
+}
+
+.badges .swiperArr .swiper-button-next {
+  #{$start-direction}: auto;
+  #{$end-direction}: 25px;
+}
+
+.badges .swiperArr .swiper-button-prev {
+  #{$end-direction}: auto;
+  #{$start-direction}: 25px;
+}
+
+.supporting-university-progress .img-box {
+  text-align: center;
+  max-height: 360px;
+  overflow: hidden;
+}
+
+.his-word .title {
+  position: relative;
+  top: 0;
+  #{$start-direction}: 0;
+  margin-bottom: 30px;
+}
+
+.his-word .title h3 {
+  font-size: 2rem;
+}
+
+.his-word .title h3::before {
+  width: 55px;
+  #{$start-direction}: 0;
+}
+
+.his-word .hisWordSwiper .item .content-box {
+  margin-top: 0;
+}
+
+.his-word .hisWordSwiper .item .content-box h4 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.his-word .hisWordSwiper .item .content-box p::before,
+.his-word .hisWordSwiper .item .content-box p::after {
+  width: 28px;
+  height: 20px;
+  background-size: contain;
+}
+
+.his-word .hisWordSwiper .item .content-box p {
+  padding-top: 27px;
+  padding-bottom: 0px;
+  font-size: 1.5rem;
+}
+
+.his-word .hisWordSwiper .item .content-box h6 {
+  font-size: 1.3rem;
+  padding-#{$end-direction}: 45px;
+}
+
+.his-word .hisWordSwiper .item .img-box {
+  flex: 0 0 320px;
+  height: auto;
+}
+
+.his-word .swiperMainControl {
+  top: 91%;
+}
+
+.contactUsPage .CUDetails .p2Font {
+  font-size: 1.6rem;
+}
+
+.contactUsPage .CUDetails .cuActions a {
+  width: 100%;
+}
+
+.contactUsPage .CUDetails .font25 {
+  font-size: 1.6rem;
+}
+
+.innerDataBG .col-md-12 .font40.marLeftHead,
+.contactUsPage .CUDetails .font40.marLeftHead,
+.inventionBG .text-center .font40.marLeftHead,
+.newTitleLine.marLeftHead {
+  transform: translateX(-75px);
+}
+
+.innerDataBG .col-md-12 .font40::after,
+.contactUsPage .CUDetails .font40::after,
+.inventionBG .text-center .font40::after,
+.newTitleLine::after {
+  #{$start-direction}: -70px;
+  width: 55px;
+}
+
+.suiteBarDeltaHeight+.forMenu+.bgBreadcrumb {
+  margin-top: 0;
+}
+
+.bgBreadcrumb {
+  padding-top: 15px;
+}
+
+.ourNum .SwiperThum .swiper-wrapper .swiper-slide {
+  min-width: 139px;
+}
+
+.ourNum .SwiperGallery .font30 {
+  font-size: 2rem;
+}
+
+/* fix issues in mob 555555555555555 */
+.customMenu.menuBg.menuIsOpen .navbar-collapse {
+  padding-top: 60px;
+  margin-top: 22px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+body .customMenu .navbar-nav .dropdown-menu.megamenu {
+  background: #7f1f3f;
+}
+
+body .customMenu .navbar-nav .dropdown-menu.megamenu a {
+  color: #ffffff;
+}
+
+.changeStyleMenu.customMenu .navbar-expand-lg .navbar-nav {
+  height: auto;
+  margin: 0;
+}
+
+.changeStyleMenu.customMenu .navbar-expand-lg .navbar-nav .nav-item {
+  margin-bottom: 20px;
+}
+
+.customMenu .navbar-light .navbar-nav .nav-link {
+  font-size: 20px !important;
+}
+
+.customMenu .navbar-light .navbar-nav .langMenu .nav-link {
+  padding: 5px 14px !important;
+  justify-content: flex-end;
+}
+
+.ourNum .SwiperThum .swiper-wrapper .swiper-slide {
+  height: auto;
+}
+
+.customMenu .navbar-brand::after {
+  #{$end-direction}: -15px;
+  top: 0px;
+  font-size: 8px;
+}
+
+.customMenu .megamenu-li .dropdown-item {
+  position: relative;
+  color: #C6AA76;
+  border-bottom: 1px solid #ffffff3b;
+  border-radius: 0;
+  padding-bottom: 5px;
+  padding-#{$start-direction}: 10px;
+}
+
+
+
+.ulMob {
+  list-style: none;
+  text-align: #{$start-direction};
+  padding: 0;
+  margin-bottom: 10px;
+  padding-#{$start-direction}: 10px;
+}
+
+.ulMob a {
+  font-family: "GretaTextArabicARLT-Regular";
+  font-size: 16px;
+  color: #fff;
+}
+
+.actionMap a .AcMptxt .font50 {
+  font-size: 35px;
+}
+.actionMap a .AcMptxt .p18 {
+  font-size: 14px;
+}
+.actionMap a > img {
+  width: 30px;
+}
+  .alumniAssociationNew1 .btnAlumni {
+    display: block;
+    padding-bottom: 40px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .changeStyleMenu {
+    position: relative;
+  }
+  .changeStyleMenu::after {
+    position: absolute;
+    content: '';
+    height: 121px;
+    #{$end-direction}: 0;
+    clip-path: polygon(0 0, 99% -2%, 6% 251%, 0 100%);
+    background: #c7af81;
+    top: 0;
+    width: 115px;
+  }
+  .programDetailsNewV2 .progBoxDetails .titlePrgDetails span {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+  .greenBtnBorderV2, .greenBtnV2 {
+    font-size: 20px;
+    min-width: 84%;
+    min-height: 50px;
+  }
+  .registerProgV2 .greenBtnV2 {
+    margin-bottom: 15px;
+  }
+  .programDetailsNewV2 .progBoxDetails .titlePrgDetails {
+    display: flex;
+    align-items: center;
+  }
+  .programDetailsNewV2 .progBoxDetails .titlePrgDetails {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .swiper-slide:first-of-type {
+    display: none !important;
+}
+  body .navbar-brand::before {
+    width: 200px;
+    height: 100%;
+    top: 0;
+  }
+  .font20BG {
+    font-size: 1.7rem;
+  }
+  .font40 {
+    font-size: 3.5rem;
+  }
+  .font20 {
+    font-size: 1.6rem;
+  }
+  .sildeTabs {
+    .nav-pills {
+      .nav-link {
+        font-size: 1.6rem;
+      }
+    }
+  }
+  .font26 {
+    font-size: 2.3rem;
+  }
+  .p16 {
+    font-size: 1.4rem;
+  }
+  .p20 {
+    font-size: 1.6rem;
+  }
+  .topMenu {
+    a {
+      span {
+        &:not(:last-of-type) {
+          margin-#{$end-direction}: 18px;
+          display: inline-block;
+          margin-bottom: 8px;
+        }
+      }
+      &:not(:last-of-type) {
+        margin-#{$end-direction}: 18px;
+        display: inline-block;
+        margin-bottom: 8px;
+      }
+    }
+  }
+  .customMenu {
+    .mobSearchLang {
+      display: block !important;
+      .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        li {
+          a {
+            margin-bottom: 0 !important;
+          }
+        }
+        li.langMenu {
+          .dropdown-menu {
+            position: absolute;
+          }
+        }
+      }
+    }
+    .navbar-nav {
+      padding: 0;
+      text-align: center;
+    }
+    .navbar-collapse {
+      .searchMenu {
+        display: none;
+      }
+      .langMenu {
+        display: none;
+      }
+    }
+    .megamenu-li {
+      position: relative;
+      &:hover {
+        background-position: 50% 108%;
+        background-image: unset;
+      }
+    }
+    .searchMenu {
+      .megamenu {
+        min-height: 70px !important;
+        input {
+          &::placeholder {
+            font-size: 16px;
+          }
+          font-size: 16px;
+        }
+      }
+      .flexCenter {
+        a {
+          margin-#{$start-direction}: 21px;
+        }
+      }
+    }
+    .navbar-light {
+      .navbar-toggler-icon {
+        filter: brightness(0) invert(1);
+      }
+      .navbar-toggler {
+        color: transparent;
+        border-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+    .navbar {
+      > .container {
+        align-items: center;
+      }
+    }
+    .navbar-brand {
+      padding: 10px 0;
+      margin: 0;
+      max-width: 170px;
+    }
+  }
+  .bannerHome {
+    .wrapperSlideHm {
+      .font50 {
+        font-size: 40px;
+        line-height: normal;
+        margin-bottom: 10px;
+        width: 80%;
+      }
+    }
+    .wrapperSlideHm.programDetails {
+      height: 500px;
+      padding-top: 40px;
+    }
+    .innerBanner {
+      &:not(.programDetails) {
+        .p20 {
+          width: 80%;
+          margin-bottom: 15px;
+        }
+        .wrapperSlideHm {
+          position: relative;
+          height: 308px;
+          padding-top: 40px;
+        }
+      }
+    }
+  }
+  .newsSection {
+    .col-md-4 {
+      width: 50%;
+    }
+    .newsBox {
+      margin-bottom: 20px;
+    }
+  }
+  .compSection {
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-4 {
+      width: 50%;
+    }
+  }
+  .studiesSec {
+    .col-md-6 {
+      width: 100%;
+    }
+    .studyBox1 {
+      margin-bottom: 20px;
+    }
+  }
+  .ourNum {
+    .thumbWrap {
+      h2 {
+        font-size: 7rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+    .SwiperThum {
+      .swiper-wrapper {
+        .swiper-slide {
+          min-width: 205px;
+          height: 200px;
+        }
+      }
+    }
+  }
+  .subsBox {
+    max-width: 775px;
+    .inputSub {
+      min-width: 340px;
+    }
+  }
+  .font18 {
+    font-size: 1.4rem;
+  }
+  .NFooter {
+    .contactUs {
+      a {
+        font-size: 1.4rem;
+      }
+    }
+    .importantlinks {
+      a {
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .actionPrgDetails {
+    a {
+      height: 80px;
+      img {
+        margin-#{$end-direction}: 15px;
+        width: 50px;
+      }
+      .font40 {
+        font-size: 2rem;
+      }
+    }
+  }
+  .aimProg {
+    padding: 30px 10px;
+  }
+  .innerBanner {
+    .videoPl {
+      position: absolute;
+      #{$end-direction}: 20%;
+      top: 61%;
+    }
+  }
+  .impAchievement {
+    .impAchiWrap {
+      flex-wrap: wrap;
+      .ImpAchiBox {
+        width: 50%;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    }
+  }
+  .programsList {
+    .tab-content {
+      .col-md-4 {
+        width: 50%;
+      }
+    }
+  }
+  .bannerImg2 {
+    min-height: 360px;
+    .BLTxt {
+      padding: 50px 40px;
+    }
+  }
+  .memberDetails .flexMD {
+    flex-direction: column;
+    align-items: center;
+  }
+  .memberDetails .nameOfMem {
+    padding-#{$start-direction}: 0;
+    padding-top: 30px;
+  }
+  .memberDetails .contextMem .aimUl li {
+    width: 100%;
+    line-height: normal;
+  }
+  .customMenu.menuBg.fixedTop .navbar-brand {
+    min-width: unset;
+  }
+  .universityPresidents {
+    padding: 50px 0;
+  }
+  .universityPresidents .UPbox .font35 {
+    min-width: 100%;
+  }
+  .bannerTraining {
+    height: auto;
+    padding-top: 20px !important;
+    .col-md-5,
+    .col-md-7,
+    .col-md-6 {
+      width: 100%;
+    }
+  }
+  .bannerTraining .sliderBoxText span.p20 {
+    margin-#{$start-direction}: 0;
+  }
+  .bannerTraining .sliderBoxText .font50 {
+    padding: 30px 0 5px;
+  }
+  .bannerSeurtiySC .sliderBoxText .numApso {
+    top: 0;
+  }
+  body .cyberSecurityBanner {
+    .wrapperSlideHm {
+      height: auto;
+      padding: 20px;
+    }
+  }
+  .PLbox {
+    height: 370px;
+    .hiddenTxt {
+      &::after {
+        width: 30px;
+        height: 30px;
+        background-size: 28px;
+      }
+      h3.font16 {
+        margin-bottom: 10px;
+      }
+      p.font16 {
+        margin-bottom: 13px;
+        // height: 116px;
+        -webkit-line-clamp: 5;
+        line-height: 21px;
+        height: calc(21px * 5);
+      }
+      .btnMainGold {
+        font-size: 1rem;
+      }
+    }
+    &:hover {
+      .hiddenTxt {
+        height: 100%;
+      }
+    }
+  }
+
+  .servCenterBG .flexSpaceBetween {
+    display: block;
+    margin-bottom: 20px;
+    padding-#{$start-direction}: 0px;
+  }
+  .servCenterBG .flexSpaceBetween .whiteBoxOffer {
+    margin-bottom: 20px;
+    min-height: auto;
+  }
+  .cyberSecurityBanner .txtSldes .p20 {
+    width: 100%;
+  }
+  .videoSec .col-md-6 {
+    width: 100%;
+  }
+  .videoSec .videoTxt > img {
+    width: 90%;
+    max-height: 300px;
+    margin-#{$start-direction}: 5%;
+  }
+  .videoSec .videoTxt > video {
+    max-height: 300px;
+  }
+  .innovationLab .videoSec .videoTxt,
+  .videoSec .videoTxt {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .innovationLab .videoSec .textCenter {
+    padding-bottom: 35px;
+  }
+  .innovationLab .innovationLab {
+    padding-top: 0;
+  }
+  .innovationLab .videoSec.bgGray,
+  .innovationLab .videoSec.bgGreen {
+    padding: 40px 0 10px 0;
+    margin: 0;
+  }
+  .art2Col {
+    padding: 45px 0 25px 0;
+    .col-md-6 {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+  .mainBtnGreen,
+  .btnMainGold,
+  .btnMainGold2,
+  .btnMain,
+  .readMore2,
+  .readMore {
+    font-size: 1.4rem;
+  }
+  .sendMain,
+  .restMain {
+    min-width: 100px;
+    padding: 8px 5px;
+  }
+  .mainBtnGreen {
+    padding-#{$end-direction}: 40px;
+  }
+  .bgBreadcrumb .socialBannerBC a img {
+    width: 20px;
+  }
+  .scrollDown {
+    width: 20px;
+    height: 30px;
+    border: 2px solid #fff;
+  }
+  .ourPartners.partnershipsBG .col-md-3 {
+    width: 33.3333%;
+  }
+  .sildeTabs .nav-pills {
+    margin-#{$end-direction}: 15px;
+  }
+  .councilPater1,
+  .councilPater2 {
+    .col-md-3 {
+      width: 33.3333%;
+    }
+  }
+  .cardUsa .warpperCarUsa {
+    width: 90%;
+    min-height: 280px;
+  }
+  .eventsSec .eventWapper .fromTo strong {
+    width: 60px;
+    height: 60px;
+    font-size: 3.5rem;
+  }
+  .innerDataBG {
+    .col-md-3 {
+      width: 50%;
+    }
+  }
+  .contactUsPage {
+    .CUDetails {
+      .cuActions {
+        width: 100%;
+      }
+    }
+    .CUform {
+      .formBg {
+        padding: 30px 20px;
+      }
+    }
+  }
+  .customMenu.menuBg.menuIsOpen {
+    height: 100%;
+    z-index: 999;
+    overflow: scroll;
+  }
+  .customMenu .navbar-nav .dropdown-menu.megamenu {
+    position: unset;
+    margin-top: -20px;
+    padding: 6px 0 0 0;
+    background-size: 40%;
+  }
+  .customMenu .megamenu-li .dropdown-item {
+    padding: 4px 10px;
+  }
+  .strategy2 {
+    .col-md-4 {
+      width: 50%;
+      .strPattrt2 {
+        height: 330px;
+        margin-bottom: 20px;
+        padding: 35px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
+  .strategy3 {
+    .col-md-4.col-lg-3 {
+      width: 50%;
+    }
+  }
+  .publicationsCenter {
+    .col-md-3 {
+      width: 50%;
+    }
+  }
+  .publicationsCenter {
+    .col-md-3 {
+      width: 100%;
+    }
+  }
+  .servicesDirectory {
+    .col-md-3 {
+      width: 50%;
+    }
+  }
+  .startServ {
+    height: 70px;
+    font-size: 26px;
+  }
+  .downloadFile {
+    padding-#{$end-direction}: 10px;
+    padding: 12px 12px;
+    .logoBorder {
+      padding-#{$start-direction}: 15px;
+      width: 22%;
+    }
+  }
+  .servicesDetails {
+    padding: 40px 0 10px;
+    .servDetailsStart {
+      padding: 25px 15px;
+      p {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .scientificjournals.bgGrayWithPattern .col-md-4 {
+    width: 50%;
+  }
+  .eventBG {
+    .col-md-4 {
+      width: 50%;
+    }
+    .tab-pane {
+      > .row {
+        .col-md-6 {
+          width: 100%;
+          .searchGroup {
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  .mapSection .map-filter {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mapSection .map-filter .filterClass {
+    margin-bottom: 20px;
+  }
+  .Conventions .convention-card {
+    margin-bottom: 20px;
+  }
+  .Conventions .convention-card .img-box,
+  .mapSection .map-here .map-cards-list .map-card .img-box {
+    text-align: center;
+  }
+  .Conventions .convention-card .img-box img,
+  .mapSection .map-here .map-cards-list .map-card .img-box img {
+    width: auto;
+  }
+  .mapSection .map-here .rev .col-lg-4 {
+    overflow: hidden;
+  }
+  .joinSection {
+    .col-md-6 {
+      width: 100%;
+    }
+    .joinTxt {
+      margin-bottom: 30px;
+    }
+  }
+  .cardVideoHover {
+    margin-bottom: 20px;
+    height: 300px;
+    video {
+    }
+    .playOn {
+      img {
+        width: 60px;
+      }
+      .font24 {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .newsV2SParent .tab-content .container {
+    padding: 0;
+  }
+  .topMenu {
+    display: none;
+  }
+  body .forMenu {
+    display: none !important;
+  }
+  .subLinksMenu {
+    display: none !important;
+  }
+  body .customMenu .navbar-nav .dropdown-menu.megamenu {
+    padding: 20px 10px;
+  }
+  .fullHeightVH.innerPageBanner .wrapperSlideHm .container:not(.posAbo) {
+    padding-#{$start-direction}: 20px;
+  }
+  /* end 992px */
+}
+
+@media (max-width: 767px) {
+  .crimeCenterWapper .col-md-12 .font30 {
+    padding-bottom: 40px;
+    font-size: 2.2rem;
+
+  }
+  .crimeCenterWapper .col-md-3.col-lg-2 {
+    margin-bottom: 10px;
+  }
+  .crimeCenterWapper .col-md-3.col-lg-2 {
+    width: 50%;
+    padding: 0 7px;
+  }
+  .crimeCenterWapper .rowCenterItems {
+    padding: 0 10px;
+  }
+  .crimeCenterWapper .col-md-3.col-lg-2 .empLink {
+    font-size: 14px;
+  }
+  .NewStyleAccordion .btn-link:not(.collapsed)::after, .accordionCustom .accordion-button:not(.collapsed)::after {
+    height: 16px;
+  }
+  .newLayoutContent .boxV2Training {
+    padding: 20px 20px;
+    min-height: 90px;
+  }
+  .bgGray2.TrDeBoxFullWidth.colorBoxSecd.paddingSection .font30 {
+    font-size: 17px;
+    margin: 0;
+  }
+  body  .bgGray2.TrDeBoxFullWidth.colorBoxSecd.paddingSection .col-md-4 {
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .accordion-body p {
+    font-size: 1.4rem;
+  }
+  
+  body .socialBanner {
+    display: none;
+  }
+  .boxIlab .font30 a {
+    font-size: 18px !important;
+  }
+  .mapAlu > img {
+    height: 300px;
+      object-fit: cover;
+      object-position: center center;
+  }
+  .inventionBG .text-center .font40 {
+    margin-bottom: -9px;
+}
+.inventionBG {
+  padding-top: 50px;
+}
+  .alumniAssociationNew1 .col-md-4 {
+    width: 100%;
+}
+
+.SDTwoTabs .tabsStyleMain.nav li button {
+    font-size: 18px !important;
+}
+.bannerDetailsBG .BDBox:not(:last-of-type) {
+  border-#{$end-direction}: unset;
+  margin-#{$end-direction}: 0;
+  padding-#{$end-direction}: 0;
+  margin-bottom: 20px !important;
+}
+.bannerDetailsBG .BDBox > img {
+  margin-#{$end-direction}: 10px;
+  width: 29px;
+}
+.programDetailsNewV2 .progBoxDetails {
+  height: max-content;
+}
+.progBoxDetails .font40 {
+  font-size: 2rem;
+}
+.aimUl li,
+.progBoxDetails .p20 {
+  font-size: 14px;
+}
+.rightImgDir .row:nth-of-type(even) .col-lg-7 .content-box {
+  padding: 0;
+}
+.programDetailsNewV2 .progBoxDetails .titlePrgDetails span {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+}
+.programDetailsNewV2 .progBoxDetails {
+  border-bottom: 1px solid #D6D6D6;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+.impAchievement .impAchiWrap .ImpAchiBox {
+  width: 100%;
+}
+
+.bannerResearch .container {
+  padding: 0;
+}
+
+.bannerResearch .arrowCircular .swiper-button-prev {
+  #{$end-direction}: 5px;
+}
+
+.bannerResearch .arrowCircular .swiper-button-next {
+  #{$start-direction}: 6px;
+}
+
+.NewFullBannerV2 .newsSlideWarp .NSTxt .font30 {
+  font-size: 1.8rem
+}
+
+.contactUs .text-left {
+  margin: 0 auto;
+}
+
+.contactUs .text-left .CUImg {
+  max-width: 30px;
+}
+
+.contactUs .text-left .CUImg img {
+  width: 100%;
+}
+
+.contactUs .CUTxt .font40 {
+  font-size: 2rem;
+  margin-bottom: 7px;
+}
+
+.contactUs .CUTxt .p1Font {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.tabsStyleMain.nav {
+  background-color: transparent;
+}
+
+.SDTwoTabs .tabsStyleMain.nav li button {
+  background-color: #F3F3F3;
+}
+
+.tabsStyleMain.nav li button.active {
+  background-color: #5E81A4;
+}
+
+.boxP2Borer {
+  max-width: 100%;
+}
+
+.inventionBG .text-center .font40::after {
+  #{$start-direction}: -5px;
+  width: 55px;
+  top: 15px;
+}
+
+.inventionBG .text-center .font40 {
+  font-size: 2.2rem;
+  transform: translate(0);
+  padding-#{$start-direction}: 60px;
+}
+
+.inventionBG .textInv .font30 {
+  font-size: 1.6rem;
+}
+
+.swiperWamda .textInv .p20 {
+  font-size: 1.4rem;
+}
+
+.swiperWamda.swiper {
+  padding-top: 40px !important;
+}
+
+.AssemblyTasks {
+  margin: 0;
+  padding: 45px 0 15px 0;
+}
+
+.newLayoutContent .decimalUL.uL2Col li:nth-of-type(even) {
+  margin-#{$start-direction}: 0;
+}
+
+.AssemblyTasks .marLeftHead+p {
+  font-size: 1.4rem;
+}
+
+.AssemblyTasks .marLeftHead+p,
+.Memberships .clearWidth {
+  font-size: 1.6rem;
+}
+
+.innerDataBG .col-md-12 .font40.text-center::after,
+.contactUsPage .CUDetails .font40.text-center::after,
+.inventionBG .text-center .font40.text-center::after,
+.newTitleLine.text-center::after {
+  transform: translate(0px, 15px) scale(0.8);
+}
+
+.presidentSgn::after,
+.presidentSgn::before {
+  width: 25px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.strategyRevamp .strPattrtCR .p18,
+.newUlCR li,
+.strategy3 .strPattrt3 .STRBox p,
+.strategy1 .strPattrt1 p {
+  font-size: 1.4rem;
+}
+
+.strategy3 .strPattrt3 .STRBox .font35,
+.strategy1 .strPattrt1 .font35,
+.strategyRevamp .strPattrtCR .text-center .font25 {
+  font-size: 1.8rem;
+}
+
+.PresidentUniversity .txtPres .p20 {
+  font-size: 1.4rem;
+}
+
+.chartPresWraper .chartPres ul li {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.PresidentUniversity .txtPres .p18 {
+  font-size: 1.4rem;
+}
+
+.newLayoutContent .TrDeBox {
+  padding: 0;
+
+}
+
+.rightImgDir .row:nth-of-type(even) .col-lg-7 .content-box {
+  padding: 0;
+}
+
+h4.subTitle {
+  font-size: 1.4rem;
+}
+
+h4.subTitle .readMore3 {
+  font-size: 1.6rem;
+}
+
+.partsSec .col-md-4 {
+  margin-bottom: 20px;
+}
+
+.councilPater1 .titleCum strong {
+  font-size: 4.3rem;
+  top: 7px;
+}
+
+.councilPater1 .titleCum strong::after {
+  top: -7px;
+  #{$end-direction}: 0;
+}
+
+.CPBox {
+  margin-bottom: 40px;
+}
+
+.mapSection .map-filter .searchGroup {
+  margin-bottom: 10px;
+}
+
+.BtnSearchMap {
+  font-size: 1.4rem !important;
+}
+
+.supporting-university-progress .content-box {
+  padding: 0px;
+}
+
+.supporting-university-progress .content-box h3::before {
+  width: 35px;
+  #{$start-direction}: 0;
+}
+
+.supporting-university-progress .content-box p {
+  font-size: 1.4rem;
+}
+
+.manasib-2 ul {
+  padding: 10px 20px;
+}
+
+.manasib-2 li {
+  font-size: 1.4rem;
+
+}
+
+.universityPresidents .UPbox .fromTo .font20,
+.universityPresidents .UPbox .fromTo .sildeTabs .nav-pills .nav-link,
+.sildeTabs .nav-pills .universityPresidents .UPbox .fromTo .nav-link {
+  font-size: 1.6rem
+}
+
+.universityPresidentsV2 .UPbox .font35 {
+  font-size: 18px;
+  min-height: auto;
+  margin: 0;
+}
+
+.universityPresidentsV2 .UPbox .imgPatter1 {
+  height: 270px;
+  padding-top: 0;
+  margin-bottom: 10px;
+}
+
+.ameerNayf-nabza .content-box p {
+  font-size: 1.4rem;
+}
+
+.manasib .art-box .main-art-card>div {
+  width: 165px;
+}
+
+.manasib .art-box .year {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.manasib .art-box .text {
+  padding: 0 10px;
+  font-size: 1.2rem;
+}
+
+.badges .main-content-box h3 {
+  padding: 0;
+  font-size: 1.8rem;
+}
+
+.badges .main-content-box p {
+  font-size: 1.4rem;
+  line-height: 20px;
+}
+
+.badges .main-content-box {
+  margin-bottom: 40px;
+}
+
+.badges .barBGWhite {
+  padding: 20px 55px;
+}
+
+.badges .myBadgesSwiper .item {
+  flex-direction: column;
+}
+
+.badges .myBadgesSwiper .item .img-boxx {
+  width: 100px;
+  height: 100px;
+  flex: 0 0 100px;
+  margin-bottom: 20px;
+}
+
+.badges .myBadgesSwiper .item .img-boxx img {
+  height: 100%;
+}
+
+.badges .myBadgesSwiper .item .content-boxx {
+  margin: 0
+}
+
+.badges .myBadgesSwiper .item .content-boxx p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.his-word .hisWordSwiper .item {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.his-word .hisWordSwiper .item .img-box {
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.his-word .hisWordSwiper .item .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.his-word .hisWordSwiper .item .content-box {
+  padding-bottom: 50px;
+}
+
+.his-word .swiperMainControl {
+  top: 94%;
+  #{$end-direction}: 0
+}
+
+.NewFullBanner .swiperNewsFullBn .newsSlideWarp {
+  min-height: 370px;
+}
+
+.studiesSec .studyBox2 {
+  display: flex;
+
+}
+
+.studiesSec .studyBox2 .imgSt {
+  flex: 0 0 30%;
+}
+
+.heading .font40 {
+  font-size: 2.4rem;
+}
+
+.heading .font20 {
+  font-size: 1.6rem;
+}
+.alumniAssociationNew1 .btnAlumni .downloadFile {
+  justify-content: center;
+}
+.alumniAssociationNew1 .btnAlumni .downloadFile span {
+  width: auto;
+}
+.alumniAssociationNew1 .btnAlumni .downloadFile .logoBorder {
+  width: auto;
+  margin: 0;
+}
+  .mapAlu .pinsAlum {
+    position: absolute;
+    width: 56%;
+    height: 80%;
+    top: 53%;
+    #{$end-direction}: 53%;
+}
+  .alumniAssociationNew1 .btnAlumni .joinTo,
+  .alumniAssociationNew1 .btnAlumni .downloadFile {
+    min-width: unset;
+  }
+  .alumniAssociationNew1 .btnAlumni .joinTo img,
+  .alumniAssociationNew1 .btnAlumni .downloadFile img {
+    max-width: 24px;
+  }
+  .alumniAssociationNew1 .btnAlumni .forAlimn, .alumniAssociationNew1 .btnAlumni .joinTo span, .alumniAssociationNew1 .btnAlumni .downloadFile span, .alumniAssociationNew1 .btnAlumni .joinTo span, .alumniAssociationNew1 .btnAlumni .downloadFile span {
+    font-size: 14px;
+}
+  .readMore3, .newBtnNoBorder {
+    font-size: 14px;
+  }
+  .readMore3::after, .newBtnNoBorder::after {
+    bottom: 0px;
+    background-size: 12px;
+}
+
+  .bannerHome.bannerHomeV2 {
+    /*margin-top: -54px;*/
+  }
+ body .homeBanner2V2 .swiper2Style .container {
+    width: 100%;
+}
+body .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 {
+  padding: 0;
+}
+  .newsV2SParent {
+    padding-bottom: 25px;
+  }
+  .newsV2SParent .tab-content {
+    margin-bottom: 15px;
+  }
+  .studiesSecRev .studyBox1 .stTxt .font24 {
+    font-size: 16px;
+  }
+
+  .studiesSecRev .studyBox2 {
+    margin-bottom: 10px;
+  }
+  .studiesSecRev .studyBox2 .txtSt .font20Bold {
+    line-height: 1.3;
+  }
+  .studiesSecRev .studyBox1 .stTxt {
+    bottom: -22px;
+  }
+  .studiesSecRev .studyBox1 .stTxt > img {
+    width: 16px;
+  }
+  .swiper2Style .swiper-button-prev::after,
+  .swiper2Style .swiper-button-next::after {
+    font-size: 16px !important;
+    padding-top: 16px;
+  }
+  body .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb .font28 {
+    font-size: 14px !important;
+  }
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb:hover .font28::after {
+    display: none;
+  }
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb:hover .font28 {
+    transform: translateX(-5px);
+  }
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 {
+    direction: rtl;
+    padding: 0;
+  }
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb {
+    padding: 20px 15px 20px 0;
+    height: 80px;
+  }
+
+  .homeBanner2V2
+    .swiper2Style
+    .swiper-twoHome2V2
+    .boxThumb:hover
+    .font28::after {
+    width: 30px;
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    #{$end-direction}: -41px;
+    background-size: 20px;
+  }
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .swiper-slide:first-of-type {
+    display: block;
+    visibility: hidden;
+  }
+  body .eventsSecRev .eventWapper .date {
+    padding: 0 0 10px;
+  }
+  body .eventsSecRev .eventWapper .date img {
+    width: 20px;
+  }
+  .eventsSec {
+    padding-bottom: 0;
+  }
+  body {
+    scroll-padding-top: 85px !important;
+  }
+  html {
+    scroll-padding-top: 85px !important;
+  }
+
+  .font20BG {
+    font-size: 1.5rem;
+  }
+  .font35 {
+    font-size: 2.8rem;
+  }
+  .font40 {
+    font-size: 3rem;
+  }
+  .font20 {
+    font-size: 1.4rem;
+  }
+  .sildeTabs {
+    .nav-pills {
+      .nav-link {
+        font-size: 1.4rem;
+      }
+      .heading {
+        .nav-link {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+      border-#{$end-direction}: 1px solid #ded7cb;
+      margin-bottom: 20px;
+      margin-#{$end-direction}: 0;
+    }
+  }
+  .font26 {
+    font-size: 2rem;
+  }
+  .p16 {
+    font-size: 1.2rem;
+  }
+  .font24 {
+    font-size: 2rem;
+  }
+  .p18 {
+    font-size: 1.5rem;
+  }
+  .p1Font,
+  .p20 {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+  .imgPatter1 img {
+    max-width: 280px;
+    max-height: 280px;
+  }
+  .aimUl li {
+    margin-bottom: 15px;
+  }
+  .memberDetails .contextMem .font40 {
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+  .heading {
+    .font20 {
+      br {
+        display: none;
+      }
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .sildeTabs {
+      .nav-pills {
+        .nav-link {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  .font30 {
+    font-size: 2.8rem;
+  }
+  .loadMore {
+    font-size: 2.8rem;
+  }
+  .artworkRight {
+    background-size: 80px;
+  }
+  .artworkLeft {
+    background-size: 80px;
+  }
+  .topMenu {
+    a {
+      span {
+        &:not(:last-of-type) {
+          margin-#{$end-direction}: 10px;
+        }
+        font-size: 12px;
+      }
+      &:not(:last-of-type) {
+        margin-#{$end-direction}: 10px;
+      }
+      font-size: 12px;
+    }
+    text-align: center;
+  }
+  .scientificjournals.bgGrayWithPattern .col-md-4 {
+    width: 100%;
+  }
+  .innerBanner.programDetails {
+    .wrapperSlideHm {
+      padding-bottom: 20px;
+      .progBannerFlex {
+        .actionPrgDetails {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+
+  .bannerHome {
+    .posAbo {
+      top: -315px;
+    }
+    .wrapperSlideHm {
+      height: 560px;
+      padding-top: 35px;
+      .container {
+        &:not(.posAbo) {
+          padding-#{$start-direction}: 55px;
+        }
+      }
+      .font50 {
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 25px;
+        width: 80%;
+        -webkit-line-clamp: 3;
+      }
+      .slideActions {
+        .readMore {
+          margin-#{$end-direction}: 10px;
+        }
+      }
+    }
+  }
+  .btnMainGold {
+    font-size: 1.4rem;
+    // border: 1px solid #fff;
+  }
+  .btnMain {
+    font-size: 1.4rem;
+    // border: 1px solid #fff;
+  }
+  .readMore2 {
+    font-size: 1.4rem;
+    // border: 1px solid #fff;
+  }
+  .readMore {
+    font-size: 1.4rem;
+    // border: 1px solid #fff;
+  }
+  .font16 {
+    font-size: 1.5rem;
+  }
+  .bgBreadcrumb {
+    .breadcrumbCum {
+      a {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .customMenu {
+    .navbar {
+      min-height: unset;
+    }
+  }
+  .arrowCircular {
+    .swiper-button-prev {
+      &:after {
+        width: 35px;
+        height: 35px;
+        min-width: 35px !important;
+      }
+    }
+    .swiper-rtl {
+      .swiper-button-next {
+        &:after {
+          width: 35px;
+          height: 35px;
+          min-width: 35px !important;
+        }
+      }
+      .swiper-button-prev {
+        &:after {
+          width: 35px;
+          height: 35px;
+          min-width: 35px !important;
+        }
+      }
+    }
+    .swiper-button-next {
+      &:after {
+        width: 35px;
+        height: 35px;
+        min-width: 35px !important;
+      }
+    }
+  }
+  .scrollStickyDonts {
+    #{$start-direction}: 3px;
+    transform: scaleY(0.8) scaleX(0.8);
+  }
+  .progTxtBg {
+    .col-md-9 {
+      width: 100%;
+      .progTxt {
+        .p20 {
+          display: block;
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        .videoProg {
+          display: block;
+          height: 238px;
+        }
+      }
+    }
+    .col-md-3 {
+      width: 100%;
+    }
+    padding: 29px 0 45px;
+  }
+  .newsSection {
+    .col-md-4 {
+      width: 100%;
+    }
+    padding: 30px 0;
+  }
+  .compSection {
+    .col-md-6 {
+      width: 100%;
+    }
+    .col-md-4 {
+      width: 100%;
+    }
+    .capmWapper {
+      height: 320px;
+    }
+    .textTwoCol {
+      height: auto;
+    }
+  }
+  .socialBanner {
+    #{$end-direction}: 10px;
+    top: unset;
+    bottom: 0;
+    a {
+      margin-bottom: 15px;
+      img {
+        margin-bottom: 14px;
+      }
+    }
+  }
+  .videoPl {
+    span {
+      font-size: 15px;
+    }
+    font-size: 15px;
+  }
+  .Speaker {
+    top: 10px;
+    display: none;
+  }
+  .scrollDown {
+    bottom: 10px;
+    #{$end-direction}: 15px;
+  }
+  .subsBox {
+    display: block;
+    width: 90%;
+    margin-bottom: -15px;
+    .inputSub {
+      min-width: 100%;
+    }
+  }
+  .studiesSec {
+    .studyBox2 {
+      display: block;
+      .txtSt {
+        width: 100%;
+      }
+      .imgSt {
+        img {
+          width: 100%;
+          height: 220px;
+        }
+        width: 100%;
+      }
+    }
+    .studyBox1 {
+      height: 340px;
+    }
+  }
+  .ourNum {
+    padding: 30px 0;
+    .SwiperThum {
+      .swiper-wrapper {
+        .swiper-slide {
+          min-width: 170px;
+          height: 140px;
+        }
+      }
+    }
+    .thumbWrap {
+      padding: 0 10px;
+      h2 {
+        font-size: 5rem;
+      }
+      p {
+        font-size: 1.8rem;
+        br {
+          display: none;
+        }
+      }
+    }
+    .SwiperGallery {
+      .swiper-slide {
+        height: 330px;
+        margin-top: 30px;
+      }
+    }
+    .galleryWrap {
+      padding: 45px 50px 45px;
+    }
+  }
+  .eventsSec {
+    padding: 30px 0;
+    .eventWapper {
+      .fromTo {
+        strong {
+          font-size: 4rem;
+        }
+      }
+      .date {
+        padding: 18px 0 15px;
+      }
+    }
+  }
+  .slider5Item {
+    padding: 30px 0;
+  }
+  .NewFullBanner {
+    .newsSlideWarp {
+      .NSTxt {
+        min-height: 370px;
+      }
+      min-height: 370px;
+    }
+    .posAbo {
+      top: -200px;
+    }
+  }
+  .Subscription {
+    margin-top: 20px;
+  }
+  .NFooter {
+    .scrolingUp {
+      #{$end-direction}: 10px;
+    }
+    .socialFooter {
+      .appMedia {
+        a {
+          margin-#{$start-direction}: 0px;
+          display: flex;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .footerNewBg {
+    .policy {
+      a {
+        font-size: 12px;
+        text-align: center;
+      }
+      font-size: 12px;
+      text-align: center;
+    }
+    .font18 {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+  .planEdu {
+    .sildeTabs {
+      display: block !important;
+    }
+  }
+  .innerBanner.programDetails {
+    .wrapperSlideHm {
+      height: auto;
+      .progBannerFlex {
+        display: block;
+      }
+    }
+  }
+  .PDetails {
+    width: 100%;
+  }
+  .actionPrgDetails {
+    a {
+      min-width: 300px;
+      width: 100%;
+      margin-#{$end-direction}: 0 !important;
+    }
+  }
+  .aimProg {
+    .aimUl {
+      li {
+        margin-#{$end-direction}: 0;
+      }
+    }
+  }
+  .bgTwoCol {
+    padding: 30px 20px;
+    .collegeTxt {
+      margin-bottom: 20px;
+    }
+    .row {
+      margin-bottom: 40px;
+    }
+  }
+  .impAchievement {
+    .impAchiWrap {
+      .ImpAchiBox {
+        width: 100%;
+        border-#{$end-direction}: 0px solid #005f611a !important;
+        border-bottom: 1px solid #005f611a;
+      }
+    }
+  }
+  .innerBanner {
+    .videoPl {
+      #{$end-direction}: 3%;
+    }
+  }
+  .programsList {
+    .tab-content {
+      .col-md-4 {
+        width: 100%;
+      }
+    }
+  }
+  .programsList .tabsStyle1 {
+    justify-content: center;
+    padding: 0;
+  }
+  .tabsStyle1 .nav-item .nav-link {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-#{$start-direction}: 15px;
+  }
+  .contentSpeech {
+    > img {
+      width: 30px;
+    }
+    .FlexL {
+      padding: 0 !important;
+      justify-content: center !important;
+      .font30 {
+        margin-top: 0 !important;
+      }
+    }
+  }
+  .contentSlider .sliderWithFansyBox .fancyboxImg::after {
+    width: 39px;
+    height: 35px;
+    background-size: 35px !important;
+  }
+  .contentVideo .video iframe {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+  }
+  .newsSection .newsBox .imgB {
+    height: 200px;
+  }
+  .aboutPageLine .titleAPL {
+    transform: translate(-5px, -19px);
+  }
+  .aboutPageLine .container {
+    max-width: 90%;
+  }
+  .aboutPageLine .flexTextCenterHeight,
+  .aboutPageLine .PublicationInvitations .PITxt,
+  .PublicationInvitations .aboutPageLine .PITxt {
+    margin-#{$start-direction}: 0;
+  }
+  .aboutPageLine .titleAPL::before {
+    width: 20px;
+    height: 20px;
+  }
+  .aboutPageLine .titleAPL::after {
+    width: 10px;
+    height: 10px;
+  }
+  .aboutPageLine .row {
+    margin-bottom: 0;
+  }
+  .videoSec {
+    padding: 30px 0;
+  }
+  .videoSec .textCenter {
+    margin-bottom: 20px;
+  }
+  .videoSec .textCenter .font40 {
+    line-height: 1.2;
+  }
+  p {
+    line-height: 1.5;
+    font-size: 1.6rem;
+  }
+  .brifAbout .videoTxt {
+    height: 225px;
+  }
+  .cyberSecurityBanner {
+  }
+  .videoSec {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .videoSec .textCenter .font40 {
+    font-size: 2.8rem;
+  }
+  .videoSec .videoTxt {
+    height: 220px;
+    position: relative;
+    > img {
+      width: 100%;
+      margin: 0;
+      height: 100%;
+    }
+  }
+  .centerServices .videoSec.bgGray,
+  .centerServices .videoSec {
+    padding: 30px 0;
+    margin-bottom: 0;
+  }
+  .publicationsCenter .PCbox {
+    margin-bottom: 0;
+  }
+  .trainSec {
+    padding: 0;
+    .slider4IText {
+      margin-top: 20px;
+    }
+  }
+  .scientificjournals .col-md-4 {
+    width: 50%;
+  }
+  .homeBanner2 .swiper2Style {
+    display: none;
+  }
+  .NewFullBanner2,
+  .NewFullBanner {
+    .swiperNewsFullBn {
+      .posAbo {
+        top: -395px;
+      }
+      .newsSlideWarp {
+        width: 100%;
+        position: unset;
+        display: flex;
+        align-items: end;
+        min-height: 600px;
+        &::before {
+        }
+        img {
+          // position: unset;
+          // width: 100%;
+          // height: 200px;
+        }
+        .NSTxt {
+          width: 100%;
+          padding: 20px;
+          .font30 {
+            font-size: 2.2rem;
+          }
+        }
+      }
+    }
+  }
+  .contactUs {
+    .text-left {
+      margin-bottom: 24px;
+      text-align: center !important;
+      .CUImg {
+        img {
+          width: 50%;
+        }
+      }
+    }
+    .CUTxt {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .socialBannerBC {
+    text-align: #{$end-direction};
+    margin: 10px 0;
+  }
+  .requiredDocuments .fexGroup {
+    justify-content: center;
+  }
+  .requiredDocuments .fexGroup .Document {
+    width: 47%;
+  }
+  .downloadFile {
+    width: 290px;
+    padding: 7px 13px;
+    min-height: 70px;
+    span {
+      font-size: 14px;
+      strong {
+        margin-bottom: 2px;
+        font-size: 16px;
+      }
+    }
+    .logoBorder {
+      margin-#{$end-direction}: 20px;
+    }
+  }
+  .bannerHome.alumniAssociation .innerBanner:not(.programDetails) .p20 {
+    -webkit-line-clamp: 5;
+  }
+  .historyOfCouncils {
+    overflow: hidden;
+  }
+  .historyOfCouncils .historyOf .historyBox .font30 {
+    margin-bottom: 26px;
+  }
+  .ourPartners.partnershipsBG .col-md-3 {
+    width: 50%;
+  }
+  .councilPater1,
+  .councilPater2 {
+    .col-md-3 {
+      width: 100%;
+    }
+    .titleCum {
+      strong {
+        font-size: 70px;
+        &::after {
+          width: 80px;
+          height: 80px;
+        }
+      }
+    }
+  }
+  .tabsBtnsFAQ {
+    .nav-item {
+      button {
+        min-width: 190px;
+        margin-bottom: 20px !important;
+      }
+    }
+  }
+  .contactUsPage {
+    .CUform {
+      display: block;
+      .formBg {
+        width: 100%;
+      }
+      .location {
+        width: 100%;
+        iframe {
+          height: 400px;
+        }
+      }
+    }
+  }
+  .innerData {
+    .cuActions {
+      a {
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .strategy2 {
+    .col-md-4 {
+      width: 50%;
+      .strPattrt2 {
+        height: 260px;
+        padding: 34px 27px;
+      }
+    }
+  }
+  .strategy3 {
+    .col-md-4.col-lg-3 {
+      width: 50%;
+    }
+  }
+  .Memberships {
+    .col-md-4 {
+      width: 100%;
+      .MembBox {
+        margin: 30px 0 0 0;
+      }
+    }
+  }
+  .registerMemb {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .impAchievement {
+    padding: 30px 0 0 0;
+  }
+  .headWithIcon {
+    img {
+      width: 50px;
+    }
+  }
+
+  .registerMemb {
+    padding: 20px 15px;
+  }
+  .AssemblyTasks {
+    padding: 45px 0 15px 0;
+    .headWithIcon {
+      margin-bottom: 20px;
+    }
+    .markGreen {
+      padding: 0 33px;
+      display: block;
+      li {
+        width: 100%;
+        font-size: 1.6rem;
+        margin-#{$end-direction}: 0;
+      }
+    }
+    .width80 {
+      width: 100%;
+      margin-#{$start-direction}: 0;
+    }
+  }
+
+  .Memberships {
+    .MembBox {
+      height: 370px;
+      &:hover {
+        img {
+          padding: 30px 0;
+        }
+      }
+      img {
+        width: 70px;
+        padding: 65px 0 38px;
+      }
+      .p18 {
+        height: auto;
+        line-height: 1.4;
+      }
+    }
+  }
+
+  .servicesDetails {
+    .col-md-4,
+    .col-md-8 {
+      width: 100%;
+    }
+  }
+  .startServ {
+    height: 50px;
+    font-size: 20px;
+    width: 76%;
+    img {
+      width: 18px;
+    }
+  }
+  .servicesDetails {
+    .description {
+      .twoBoxFlex {
+        display: block;
+        .EVCardInner {
+          width: 100%;
+          margin-bottom: 15px;
+          .font30 {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .EVCard {
+      &:not(.description) {
+        padding-top: 25px;
+      }
+    }
+    .downloadFileWapper {
+      .flex {
+        display: block;
+        a {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  .eventBG {
+    .col-md-4 {
+      width: 100%;
+    }
+  }
+  .ImgBoxNew {
+    height: 230px;
+    margin: 20px 0;
+  }
+  .ImgBoxNew img {
+    height: 100px;
+  }
+  .ImgBoxNew.greenBG1 {
+    margin: 0;
+  }
+  .decimalLi.clearMarg + .readMore2 {
+    margin-bottom: 20px;
+  }
+  .quickLinksRev .slid5Warp .iconWap img {
+    max-width: 60px;
+  }
+  .quickLinksRev .slid5Warp .font24::after {
+    height: 4px;
+  }
+  .NewFullBanner .newsSlideWarp {
+    background: unset !important;
+  }
+  .NewFullBannerV2 .newsSlideWarp .NSTxt {
+    transform: unset;
+  }
+  body .slider5Item .slid5Warp .iconWap {
+    height: 160px;
+  }
+  .newStyleTab.nav li button {
+    font-size: 14px;
+  }
+  .newStyleTab.nav li:first-of-type {
+    margin-#{$end-direction}: 15px;
+  }
+  .homeBanner2V2 .swiper2Style .swiper-button-next {
+    #{$start-direction}: 10px;
+  }
+  .customMenu .navbar > .container {
+    padding: 0 20px;
+  }
+  body .customMenu .navbar-brand {
+    height: 120px;
+    max-width: 235px;
+    padding:0
+  }
+  .NewFullBannerV2 .newsSlideWarp .NSTxt .font30 {
+    font-size: 1.8rem !important;
+}
+.contactUs .text-left .CUImg {
+  max-width: 80px;
+  width: 80px;
+}
+  /* end 767px */
+}
+
+
+@media (max-width: 500px) {
+  .font30 {
+    font-size: 20px;
+  }
+  .newsV2SParent .newStyleTab li:first-of-type{
+    margin-#{$end-direction}: 0;
+  }
+  .memberDetails .flexMD .imgPatter1 {
+    height: auto;
+    margin-top: 30px;
+  }
+  .innerDataBG .col-md-12 .font40.marLeftHead, .contactUsPage .CUDetails .font40.marLeftHead, .inventionBG .text-center .font40.marLeftHead, .newTitleLine.marLeftHead {
+    transform: unset;
+  }
+  .quickLinksRev3 .swiper-slide:first-of-type .slid5Warp .iconWap img {
+    object-position: top center;
+  }
+  .quickLinksRev3 .swiper-slide .slid5Warp .iconWap img {
+    object-position: center;
+  }
+  .innerDataBG .col-md-12 .font40, .contactUsPage .CUDetails .font40, .inventionBG .text-center .font40, .newTitleLine {
+    padding-#{$start-direction}: 45px;
+  }
+  .innerDataBG .col-md-12 .font40::after, .contactUsPage .CUDetails .font40::after,
+  .inventionBG .text-center .font40::after,
+  .newTitleLine::after {
+    #{$start-direction}: 0;
+    width: 35px;
+    top: 10px;
+  }
+.innerDataBG .col-md-12 .font40, .contactUsPage .CUDetails .font40, .inventionBG .text-center .font40 {
+  transform: unset;
+  width: 100%;
+}
+.accordionCustom,
+.NewStyleAccordion {
+  padding: 0 15px;
+}
+.contactUsPage .CUDetails > .font25 {
+  font-size: 1.4rem !important;
+}
+.impAchievement .impAchiWrap .ImpAchiBox {
+  border-bottom: unset;
+}
+.supporting-university-progress.mt-70 {
+  margin-top: 0px !important;
+}
+.mapAlumni {
+  margin-bottom: 20px;
+}
+.p1Font, .p20, .detailsOfEvent .EVCard ul li {
+  font-size: 1.4rem;
+}
+.videoSec .textCenter .font40 {
+  font-size: 2rem;
+}
+.trainSec2 .warp4Text .icon4Txt, .trainSec .warp4Text .icon4Txt {
+  padding: 35px 0 40px;
+  height: 120px;
+}
+  /*
+    .newTitleLine::after {
+    display: none;
+  }
+    .newTitleLine {
+    padding-#{$start-direction}: 45px;
+  }
+  .innerDataBG .col-md-12 .font40::after, .contactUsPage .CUDetails .font40::after, .inventionBG .text-center .font40::after, .newTitleLine::after {
+    #{$start-direction}: 0;
+    width: 35px;
+}
+  */
+
+  .TrDeBox + .subTitle .row .col-md-3 {
+    margin-bottom: 10px;
+  }
+  .actionMap a > img {
+    width: 25px;
+}
+body .TrDeBoxFullWidth  .col-md-2 {
+  width: 50%;
+}
+.studiesSecRev .studyBox1 .stTxt {
+  bottom: 0;
+}
+
+.newBoxArrow .arrowAni span {
+  width: 25px;
+    height: 25px;
+    background-size: 10px !important;
+}
+.newBoxArrow .NBATxt .p16 {
+  font-size: 1.4rem;
+    margin-top: 18px;
+}
+.NewFullBanner2 .swiperNewsFullBn .posAbo, .NewFullBanner .swiperNewsFullBn .posAbo {
+  width: 148px;
+  position: absolute;
+  #{$end-direction}: 0;
+  top: 91% !important;
+  zoom: .8;
+}
+  .mapAlu .pinsAlum {
+    position: absolute;
+    width: 99%;
+    height: 75%;
+    top: 53%;
+    #{$end-direction}: 54%;
+  }
+  .actionMap a {
+    align-items: center;
+}
+.alumniAssociationNew1 .btnAlumni {
+  transform: unset;
+}
+.alumniAssociationNew1 .btnAlumni .downloadFile span {
+  padding-#{$start-direction}: 0;
+}
+.alumniAssociationNew1 .btnAlumni .joinTo span {
+  padding-#{$start-direction}: 15px;
+}
+.alumniAssociationNew1 .btnAlumni .joinTo, .alumniAssociationNew1 .btnAlumni .downloadFile {
+  height: 50px;
+  min-height: 50px;
+}
+.alumniAssociationNew1 .btnAlumni .joinTo img, .alumniAssociationNew1 .btnAlumni .downloadFile img {
+  max-width: 19px;
+}
+  .studiesSec .studyBox1 .stTxt .font24,
+  .font24 {
+    font-size: 16px;
+  }
+ .readMore {
+  padding: 9px 10px 5px 35px;
+  min-width: 90px !important;
+  }
+  .eventsSec .text-center.col-md-12 {
+    margin-top: 14px;
+}
+ .readMore::after {
+  top: 60%;
+  background-size: 11px;
+  }
+  .eventsSec .eventWapper .font20Bold,
+  .studiesSec .studyBox2 .txtSt .font20Bold {
+    font-size: 1.4rem;
+  }
+  .date span {
+    font-size: 12px !important;
+    padding-top: 3px;
+  }
+  .boxServDir .font35 {
+    font-size: 18px;
+  }
+  .generalConditionsV3 {
+    padding-top: 30px;
+}
+.newInnerBannerV.NoImgExist {
+  height: 240px;
+}
+.newLayoutContent .decimalUL.uL2Col,
+ .newLayoutContent .decimalUL.uL3Col {
+  display: block;
+  padding: 0 15px;
+}
+.newLayoutContent .decimalUL.uL2Col li, .newLayoutContent .decimalUL.uL3Col li {
+  width: 100%;
+}
+body .heading .font40, 
+body .newTitleLine {
+  font-size: 2rem !important;
+  padding-bottom: 20px;
+}
+.alumniAssociationNew1 .arshef .imgAR {
+  height: 210px;
+  overflow: hidden;
+}
+.ajax-progress.alumniAssociationNew1 {
+  padding-top: 0;
+}
+.alumniAssociationNew1 .arshef {
+  min-height: auto;
+}
+.actionMap a {
+  width: 33.333%;
+  padding: 13px 13px;
+  height: 105px;
+}
+.actionMap a .AcMptxt .p18 {
+  font-size: 12px;
+}
+.actionMap a .AcMptxt .font50 {
+  font-size: 25px;
+}
+.generalConditions .IBAN {
+  height:auto !important
+}
+
+.font35, .programDetailsNewV2 .progBoxDetails .titlePrgDetails {
+  font-size: 2.2rem;
+}
+.programDetailsNewV2 .progBoxDetails .titlePrgDetails {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.generalConditions .IBAN .bank {
+  border-#{$start-direction}: unset;
+  border-top: 1px solid #E1E4E6;
+  padding-top: 15px;
+  padding-#{$start-direction}: 0 !important;
+}
+.generalConditions {
+  padding: 30px 0 0;
+}
+  body .customMenu .navbar-nav .dropdown-menu.megamenu a {
+    font-size: 15px;
+  }
+  body .eventsSecRev .eventWapper .date img {
+    width: 16px;
+  }
+  body .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 13px;
+  }
+  body .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb .font28 {
+    font-size: 12px !important;
+  }
+  .swiperMainControl .swiper-button-prev::after,
+   .swiperMainControl .swiper-button-next::after {
+    width: 24px;
+    height: 24px;
+  }
+  .swiperMainControl .swiper-pagination {
+    bottom: -13px;
+  }
+  .readMore3:after {
+    bottom: 4px;
+    background-size: 12px;
+}
+.eventsSecRev .swiper-slide.swiper-slide-next .eventWapper::after {
+  
+  border-#{$end-direction}: unset;
+
+}
+  .heading .font20 {
+    font-size: 1.4rem;
+}
+  .studiesSec .studyBox1 .stTxt .font24 {
+    font-size: 16px !important;
+}
+  .h1Gold,
+  .h1Green {
+    font-size: 3rem;
+  }
+  .h2Gold,
+  .h2Green {
+    font-size: 2.5rem;
+  }
+  .h3Gold,
+  .h3Green {
+    font-size: 2rem;
+  }
+  .h4Gold,
+  .h4Green {
+    font-size: 1.7rem;
+  }
+  .h5Gold,
+  .h5Green {
+    font-size: 1.5rem;
+  }
+  .p2Font,
+  .p3Font {
+    line-height: 1.4;
+  }
+  .p2Font {
+    font-size: 1.5rem;
+  }
+  .p3Font {
+    font-size: 1.3rem;
+  }
+  .font22 {
+    font-size: 20px;
+  }
+  .label,
+  select,
+  textarea::placeholder input::placeholder {
+    font-size: 1.4rem;
+  }
+  .sendMain,
+  .restMain {
+    min-width: 85px;
+    padding: 7px;
+    font-size: 16px;
+  }
+  .pagination a {
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+  }
+  .ConbHead .flex > div {
+    width: 100%;
+  }
+  .requiredDocuments .fexGroup .Document {
+    width: 100%;
+    margin: 0px 0 16px 0;
+  }
+  .generalConditions .IBAN {
+    display: block;
+    padding: 20px;
+  }
+  .cyberSecurityBanner .swiperTrainingThumb .swiper-wrapper {
+    zoom: 0.4;
+  }
+  .cyberSecurityBanner .wrapperSlideHm .container {
+    padding-#{$start-direction}: 0px !important;
+  }
+  .bannerTraining:not(.bannerSeurtiySC)
+    .swiperTrainingThumb
+    .swiper-wrapper
+    .swiper-slide {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .bannerTraining .swiperTraining .swiper-wrapper .swiper-slide {
+    min-height: auto;
+  }
+  .bannerTraining:not(.bannerSeurtiySC)
+    .swiperTrainingThumb
+    .swiper-wrapper
+    .swiper-slide {
+    width: 100% !important;
+  }
+  .bannerTraining .sliderBoxTextThum .p20 {
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .resume-slider .item .img-box {
+    #{$start-direction}: 10%;
+    top: 30px;
+    background: #fff;
+  }
+  .scientificjournals .col-md-4 {
+    width: 100%;
+  }
+
+  .linksCom {
+    .linksSec .links {
+      padding: 10px;
+      a {
+        width: 100%;
+        font-size: 14px;
+      }
+    }
+    .col-md-3 {
+      width: 100%;
+      padding-#{$start-direction}: 30px;
+    }
+    .font30 {
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+  }
+  .inventionBG .textInv img {
+    width: 30px;
+  }
+  .inventionBG .textInv {
+    padding-#{$start-direction}: 9px;
+  }
+  .inventionBG .textInv .font30 {
+    line-height: 35px;
+  }
+  .bgBreadcrumb .breadcrumbCum {
+    flex-wrap: wrap;
+  }
+  .bannerTraining .sliderBoxText {
+    width: calc(100% - 40px);
+  }
+  .bannerTraining
+    .swiperControlTraining
+    .swiper-pagination-bullet.swiper-pagination-bullet-active::after {
+    width: 30px;
+  }
+  .bannerTraining .swiperControlTraining {
+    #{$end-direction}: 30px;
+  }
+  .scientificjournals .boxPatter {
+    height: 400px;
+  }
+  .scientificjournals .boxPatter .boxImgMn {
+    height: 270px;
+  }
+  .scientificjournals .boxPatter:not(:hover) .boxTxtMn {
+    height: calc(100% - 270px);
+  }
+  .scientificjournals .boxPatter .boxTxtMn .p16 {
+    height: calc(30px * 5);
+    margin-bottom: 32px;
+  }
+  .PublicationInvitations .PIimg {
+    margin-bottom: 20px;
+  }
+  .progTxtBg .progTxt .videoProg .videoPl {
+    width: 100%;
+    height: auto;
+  }
+  .Subscription .p16 {
+    line-height: normal;
+  }
+  .centerServices .videoSec:not(.bgGray) .videoTxt {
+    margin-top: 23px;
+  }
+  .centerServices .videoSec .textCenter .date span {
+    font-size: 1.8rem;
+  }
+  .bannerHome .wrapperSlideHm .font50 {
+    margin-bottom: 9px;
+    width: 100%;
+  }
+
+  .downloadFile {
+    width: 100%;
+    padding: 7px 13px;
+  }
+  .ConbHead .flex > div {
+    display: block;
+  }
+  .inventionBG {
+    .text-center {
+      > img {
+        width: 50%;
+      }
+    }
+  }
+  .ourPartners.partnershipsBG .col-md-3 {
+    width: 100%;
+  }
+  .customMenu .langMenu .dropdown-menu li:nth-of-type(1) a,
+  .customMenu .langMenu .dropdown-menu li:nth-of-type(2) a {
+    padding: 8px 15px;
+  }
+  .searchGroup {
+    display: block;
+    .select,
+    .inputSearch {
+      margin-bottom: 15px;
+    }
+    .label {
+      padding-#{$start-direction}: 0 !important;
+    }
+  }
+  .InitiativeBox {
+    padding: 20px 15px;
+    .date .warpD span.h5Green,
+    .date .warpD .p16,
+    .date .warpD .h5Gold {
+      padding: 0 0;
+    }
+    p.p20 {
+      font-size: 1.5rem;
+    }
+  }
+  .searchingDB {
+    .formGroup {
+      margin-#{$end-direction}: 0;
+      width: 100%;
+    }
+    .actionSearch {
+      border-#{$start-direction}: 0px solid #cde2e2;
+      border-top: 1px solid #cde2e2;
+      padding-#{$start-direction}: 0;
+      margin-#{$start-direction}: 0;
+      width: 100%;
+      padding-top: 20px;
+    }
+  }
+  .ExDBContainer {
+    .row {
+      .row {
+        margin: 0;
+      }
+    }
+    .DBBox {
+      display: block;
+      text-align: center;
+      .person {
+        margin: 0 auto;
+      }
+      .personDetails {
+        .moreInf {
+          text-align: #{$start-direction};
+          margin-bottom: 5px;
+          span {
+            font-size: 1.5rem;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .date span {
+    font-size: 14px !important;
+    padding-top: 3px;
+  }
+  .newsSection .newsBox .txtN .font24 {
+    font-size: 1.8rem;
+    line-height: 30px;
+    height: calc(30px * 4);
+  }
+  .servCenterBG .SCTxt {
+    padding-top: 0;
+  }
+  .impAchievement {
+    .impAchiWrap {
+      .ImpAchiBox {
+        .p22B {
+          font-size: 1.5rem;
+        }
+        .font40 {
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+  .bannerHome {
+    .innerBanner {
+      &:not(.programDetails) {
+        .wrapperSlideHm {
+          position: relative;
+          height: 340px;
+          padding-top: 40px;
+        }
+        .p20 {
+          width: 98%;
+          margin-bottom: 15px;
+          -webkit-line-clamp: 4;
+        }
+        .detailsOfEvent {
+          .EVCard {
+            ul {
+              li {
+                width: 98%;
+                margin-bottom: 15px;
+                -webkit-line-clamp: 4;
+              }
+            }
+          }
+        }
+      }
+    }
+    .wrapperSlideHm {
+      .container {
+        &:not(.posAbo) {
+          padding-#{$start-direction}: 35px;
+        }
+      }
+    }
+  }
+  .detailsOfEvent {
+    .EVCard {
+      ul {
+        .bannerHome {
+          .innerBanner {
+            &:not(.programDetails) {
+              li {
+                width: 98%;
+                margin-bottom: 15px;
+                -webkit-line-clamp: 4;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .EventDetailsThumb .swiper-slide img {
+    height: 70px;
+    border-radius: 6px;
+    width: 100%;
+  }
+
+  .councilsArabBrif {
+    .font40 {
+      padding-top: 0;
+    }
+    .imgWappr {
+      padding-top: 20px;
+    }
+  }
+
+  .councilPater1,
+  .councilPater2 {
+    .titleCum {
+      strong {
+        font-size: 20px;
+        width: 35px;
+        top: -3px;
+        &::after {
+          width: 35px;
+          height: 35px;
+        }
+      }
+    }
+  }
+  .eventsSec .eventWapper .font20Bold {
+    display: block;
+  }
+  .cardUsa {
+    .warpperCarUsa {
+      display: block;
+      .naussImg {
+        margin-#{$end-direction}: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .detailsOfEvent {
+    padding: 35px 0 45px;
+    .EVCard {
+      ul {
+        padding-#{$start-direction}: 70px;
+        display: block;
+      }
+      .flexed {
+        li {
+          &:not(:last-of-type) {
+            margin-#{$end-direction}: 0;
+          }
+        }
+      }
+    }
+    .markGreen {
+      .eventContact {
+        padding-#{$start-direction}: 10px;
+        margin-#{$start-direction}: 0;
+        margin-top: 10px;
+        display: block;
+      }
+    }
+    .col-md-12 {
+      .flexCenter {
+        display: block;
+        text-align: center;
+        a {
+          width: 80%;
+          margin: 0 auto;
+        }
+        a.mainBtnGreen {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  .art2Col {
+    .boxArt2col {
+      height: auto;
+      flex-direction: column-reverse;
+      height: auto;
+      .BA2CImg {
+        width: 100%;
+        img {
+          width: 100%;
+          height: 200px;
+        }
+      }
+      .BA2CTxt {
+        width: 100%;
+        padding: 25px 15px;
+        .font30 {
+          height: auto;
+        }
+      }
+    }
+  }
+  .tabsBtnsFAQ {
+    padding: 45px 0 10px;
+    .nav-item {
+      button {
+        width: 100%;
+        margin: 0;
+        height: 55px;
+      }
+    }
+    li {
+      width: 80%;
+    }
+  }
+  .innerDataBG {
+    .col-md-3 {
+      width: 100%;
+    }
+  }
+  body {
+    .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  .contactUsPage {
+    .CUDetails {
+      .cuActions {
+        display: block;
+        a {
+          width: 100%;
+          margin-bottom: 15px;
+        }
+      }
+      > .font25 {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .innerDataBG {
+    .innerData {
+      margin-bottom: 25px;
+      .font25 {
+        height: auto;
+      }
+      .cuActions {
+        margin-bottom: 25px;
+        a {
+          margin-bottom: 20px;
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .strategy1 {
+    padding: 35px 0 39px;
+    .font40 {
+      margin-bottom: 30px;
+    }
+    .strPattrt1 {
+      height: auto;
+      margin-bottom: 20px;
+      p {
+        height: auto;
+      }
+    }
+  }
+
+  .strategy2 {
+    padding: 30px 0 10px 0;
+    .col-md-4 {
+      width: 100%;
+      .strPattrt2 {
+        width: 300px;
+        margin: 0 auto;
+      }
+    }
+  }
+  .strategy3 {
+    padding-top: 30px;
+    margin-bottom: 55px;
+    .strPattrt3 {
+      height: auto;
+      p {
+        height: auto !important;
+        padding-bottom: 20px;
+      }
+    }
+    .col-md-4.col-lg-3 {
+      width: 100%;
+    }
+  }
+  .customMenu .searchMenu .megamenu input {
+    width: 80%;
+  }
+  .servicesDirectory {
+    .col-md-3 {
+      width: 100%;
+    }
+  }
+  .boxServDir {
+    height: 300px;
+    padding: 15px;
+    .iconSD {
+      padding: 55px 0 29px;
+    }
+    .SDHidden {
+      .p18 {
+        height: calc(24px * 3);
+      }
+      a {
+        height: 40px;
+        padding: 11px 15px 7px 15px;
+        font-size: 13px;
+      }
+    }
+  }
+
+  .tabsStyleMain.nav {
+    width: 100%;
+    margin: 25px auto 25px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 0;
+    }
+  }
+  .councilsArabBrif.aboutPartnerships {
+    padding: 40px 0;
+    .content-box {
+      padding-#{$end-direction}: 0;
+      p.p20 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .mapSection {
+    .map-filter {
+      .filterClass {
+        padding: 8px 12px 6px 12px;
+      }
+    }
+    .map-here {
+      .MapXD {
+        height: 350px;
+      }
+      .map-cards-list {
+        .map-card {
+          height: 135px;
+          .img-box {
+            height: 60px;
+          }
+        }
+      }
+    }
+  }
+  .joinSection {
+    .flexCenter {
+      flex-direction: column;
+      .boxP2Borer:first-of-type {
+        margin-#{$end-direction}: 0;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .whiteBoxOffer {
+    min-height: auto;
+  }
+  .aimSection02 .trainSec2 .col-md-3 {
+    width: 100%;
+  }
+  .trainSec2 .warp4Text {
+    padding: 0 20px 35px 20px;
+  }
+  .trainSec2 .warp4Text .p16 {
+    display: block;
+  }
+  .programDetailsNewV2 .progBoxDetails .titlePrgDetails {
+    font-size: 2.2rem !important;
+  }
+  .memberDetails .contextMem .font40 {
+    font-size: 20px;
+  }
+  .memberDetails .contextMem .p20 {
+    font-size: 1.4rem;
+  }
+ .downloadFile .downloadFile .logoBorder {
+  padding: 0;
+  justify-content: #{$end-direction};
+  }
+  .downloadFile .downloadFile .logoBorder img {
+    width: 23px;
+    }
+    .newLayoutContent .p18 {
+      line-height: 1.7;
+    }
+    .NewStyleAccordion .btn-link:not(.collapsed)::after, .accordionCustom .accordion-button:not(.collapsed)::after {
+      height: 16px !important;
+    }
+    .servCenterBG .flexSpaceBetween .whiteBoxOffer {
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .whiteBoxOffer img {
+      width: 80%;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+}
+@media (max-width: 330px) {
+    body .customMenu .navbar-brand {
+      max-width: 190px;
+      padding: 0;
+  }
+}
+
+
+@media(min-width:1600px) and (max-width:1750px) {
+  .homeBanner2V2 .swiper2Style .container {
+    max-width: 1440px;
+}
+}
+
+@media(min-width:1400px) {
+  .strategy1.bgGray.artworkRight .container{
+    padding: 0 9%;
+  }
+}

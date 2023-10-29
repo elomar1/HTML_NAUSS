@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110">
+  <g id="Memberships_Icon" data-name="Memberships Icon" transform="translate(-1433.888 -2781.888)">
+    <circle id="bg" cx="55" cy="55" r="55" transform="translate(1433.888 2781.888)" fill="#c6aa76" opacity="0.15"/>
+    <g id="people" transform="translate(1455.247 2803.247)">
+      <path id="Path_124955" data-name="Path 124955" d="M24.357,19.445a2.047,2.047,0,0,0-.642,0,8.74,8.74,0,1,1,.642,0Z" transform="translate(29.729 -2)" fill="none" stroke="#c6aa76" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Path_124956" data-name="Path 124956" d="M17.041,26.2c4.632.778,9.737-.034,13.321-2.434,4.767-3.178,4.767-8.385,0-11.563-3.618-2.4-8.79-3.212-13.422-2.4" transform="translate(33.562 15.856)" fill="none" stroke="#c6aa76" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Path_124957" data-name="Path 124957" d="M11.9,19.445a2.047,2.047,0,0,1,.642,0,8.74,8.74,0,1,0-.642,0Z" transform="translate(1.515 -2)" fill="none" stroke="#c6aa76" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Path_124958" data-name="Path 124958" d="M18.9,26.2c-4.632.778-9.737-.034-13.321-2.434-4.767-3.178-4.767-8.385,0-11.563C9.2,9.8,14.368,8.993,19,9.8" transform="translate(-2.002 15.856)" fill="none" stroke="#c6aa76" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Path_124959" data-name="Path 124959" d="M18.357,26.915a2.047,2.047,0,0,0-.642,0,8.74,8.74,0,1,1,.642,0Z" transform="translate(15.444 15.785)" fill="none" stroke="#c6aa76" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Path_124960" data-name="Path 124960" d="M11.608,19.673c-4.767,3.178-4.767,8.385,0,11.563,5.41,3.618,14.267,3.618,19.677,0,4.767-3.178,4.767-8.385,0-11.563C25.909,16.089,17.017,16.089,11.608,19.673Z" transform="translate(12.354 33.678)" fill="none" stroke="#c6aa76" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+  </g>
+</svg>

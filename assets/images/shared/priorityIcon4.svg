@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49.027" height="60.315" viewBox="0 0 49.027 60.315">
+  <g id="priorityIcon4" transform="translate(1 1)">
+    <path id="Path_124616" data-name="Path 124616" d="M53.241,4.775,30.668,1.013a.941.941,0,0,0-.308,0L7.786,4.775A.941.941,0,0,0,7,5.7V33.919c0,7.242,4.044,13.929,11.683,19.343a48.828,48.828,0,0,0,11.533,6,.927.927,0,0,0,.594,0,48.827,48.827,0,0,0,11.533-6c7.639-5.414,11.683-12.1,11.683-19.343V5.7A.941.941,0,0,0,53.241,4.775Z" transform="translate(-7 -1)" fill="none" stroke="#7f1f3f" stroke-width="2"/>
+    <g id="Group_60428" data-name="Group 60428" transform="translate(7.128 10.819)">
+      <path id="Path_124954" data-name="Path 124954" d="M11080.489,3099.082l-2.585,1.224-4.557-1.836s-1.361-2.244-2.449-1.768a20.282,20.282,0,0,0-3.264,2.38l.34,2.856,2.924,2.516,2.449-.272,2.856,4.081v5.577l1.7,1.9" transform="translate(-11050.504 -3089.101)" fill="none" stroke="#7f1f3f" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_124955" data-name="Path 124955" d="M11060.124,3090.943l3.265,2.312-.477,1.292h-2.312v2.993l-4.488,3.4v1.224l-1.225,1.292-1.359-.748-.272-1.768h-2.38" transform="translate(-11048.367 -3088.375)" fill="none" stroke="#7f1f3f" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_124956" data-name="Path 124956" d="M11059.88,3119.819l.952-1.768,2.856-1.428v-1.972l1.224-.884,2.109-3.061v-1.088l-3.333-.612-.884-2.653h-4.285l-.68-1.768-1.905.476-2.176,2.04.477,1.224,1.7,3.6,2.585,1.156-.272,1.972-1.359,1.564.408,2.584" transform="translate(-11048.734 -3090.115)" fill="none" stroke="#7f1f3f" stroke-linejoin="round" stroke-width="2"/>
+      <g id="Ellipse_11735" data-name="Ellipse 11735" fill="none" stroke="#7f1f3f" stroke-linejoin="round" stroke-width="2">
+        <circle cx="16.577" cy="16.577" r="16.577" stroke="none"/>
+        <circle cx="16.577" cy="16.577" r="15.577" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

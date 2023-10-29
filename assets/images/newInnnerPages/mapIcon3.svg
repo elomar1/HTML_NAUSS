@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.938" height="43.938" viewBox="0 0 43.938 43.938">
+  <g id="mapIcon3" transform="translate(1 1)">
+    <circle id="Layer-1" cx="20.969" cy="20.969" r="20.969" fill="none" stroke="#b77f88" stroke-width="2"/>
+    <path id="Layer-2" d="M50,2V42.532" transform="translate(-29.069 -1.413)" fill="none" stroke="#b77f88" stroke-width="2" fill-rule="evenodd"/>
+    <path id="Layer-3" d="M43.828,50H2" transform="translate(-1.983 -29.147)" fill="none" stroke="#b77f88" stroke-width="2" fill-rule="evenodd"/>
+    <path id="Layer-4" d="M50,2S60.52,9.841,60.52,22.3,50,42.593,50,42.593" transform="translate(-29.068 -1.413)" fill="none" stroke="#b77f88" stroke-width="2" fill-rule="evenodd"/>
+    <path id="Layer-5" d="M36.52,2S26,9.841,26,22.3s10.52,20.3,10.52,20.3" transform="translate(-15.526 -1.413)" fill="none" stroke="#b77f88" stroke-width="2" fill-rule="evenodd"/>
+    <path id="Layer-6" d="M16.4,72.8a31.236,31.236,0,0,1,29.28.078" transform="translate(-10.109 -37.507)" fill="none" stroke="#b77f88" stroke-width="2" fill-rule="evenodd"/>
+    <path id="Layer-7" d="M16.4,16.482a30.213,30.213,0,0,0,14.566,3.774A30.221,30.221,0,0,0,45.68,16.4" transform="translate(-10.109 -10.187)" fill="none" stroke="#b77f88" stroke-width="2" fill-rule="evenodd"/>
+  </g>
+</svg>
