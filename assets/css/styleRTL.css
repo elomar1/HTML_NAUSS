@@ -197,6 +197,10 @@ html[dir="rtl"] body {
   font-family: "nauss-regular";
 }
 
+html[dir="ltr"] body {
+  /* edit on exists element */
+}
+
 html[dir="ltr"] body .inputSearch input,
 html[dir="ltr"] body select {
   background-position: calc(100% - 10px) 50% !important;
@@ -236,10 +240,18 @@ html[dir="ltr"] body .PublicationInvitations .PIimg::after,
 html[dir="ltr"] body .bgBreadcrumb .breadcrumbCum a::after,
 html[dir="ltr"] body .presidentSgn::before,
 html[dir="ltr"] body .presidentSgn::after,
+html[dir="ltr"] body .NFooter .importantlinks li a:hover::after,
+html[dir="ltr"] body .his-word .hisWordSwiper .item .content-box p::before,
+html[dir="ltr"] body .his-word .hisWordSwiper .item .content-box p::after,
 html[dir="ltr"] body .newBoxArrow .newBtnNoBorder::after,
 html[dir="ltr"] body .bgBreadcrumb .breadcrumbCum a::after {
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
+}
+
+html[dir="ltr"] body .innerDataBG .col-md-12 .font40, html[dir="ltr"] body .contactUsPage .CUDetails .font40, html[dir="ltr"] body .inventionBG .text-center .font40 {
+  -webkit-transform: translateX(145px);
+          transform: translateX(145px);
 }
 
 html[dir="ltr"] body .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb:hover .font28 {
@@ -346,9 +358,39 @@ html[dir="ltr"] body .innerDataBG .col-md-12 .font40.marLeftHead, html[dir="ltr"
           transform: translateX(145px);
 }
 
+html[dir="ltr"] body .his-word .swiperMainControl {
+  right: 20%;
+  left: unset;
+}
+
+html[dir="ltr"] body .his-word .hisWordSwiper .swiper-slide-active .item .content-box,
+html[dir="ltr"] body .his-word .hisWordSwiper .item .content-box {
+  -webkit-transform: unset;
+          transform: unset;
+}
+
+html[dir="ltr"] body .his-word .hisWordSwiper .item .content-box p::before {
+  height: 28px;
+}
+
+html[dir="ltr"] body .newBoxArrow .newBtnNoBorder::after {
+  right: 0;
+}
+
+html[dir="ltr"] body .supporting-university-progress.rightImgDir + br + .whoAreWeClass .boxP2Borer:first-of-type {
+  margin-right: 30px;
+}
+
+html[dir="ltr"] body .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb .font28 {
+  font-size: 1.9rem;
+}
+
 @media (max-width: 500px) {
   html[dir="ltr"] body .resume-slider .item .img-box {
     right: 10%;
+  }
+  html[dir="ltr"] body .supporting-university-progress.rightImgDir + br + .whoAreWeClass .boxP2Borer:first-of-type {
+    margin-right: 0px;
   }
 }
 

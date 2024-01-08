@@ -21,59 +21,98 @@
          }
 
 */
-
-.manasib.eventSec .art-box::before {
-    height: 95%;
-    top: 12px;
+.detailsOfEvent .markGreen .eventContact a img{
+  filter: invert(94%) sepia(22%) saturate(567%) hue-rotate(301deg) brightness(89%) contrast(82%);
 }
-.cpClass .col-lg-4,
-.cpClass .col-lg-6{
-margin-bottom: 30px;
+.searchGroup .select .label {
+  padding-left: 5px;
+  padding-right: 5px;
 }
-.manasib.eventSec .art-box .main-art-card:nth-of-type(even) {
-  -webkit-transform: translateY(25px);
-  transform: translateY(25px);
+.swiperWamda .textInv .p20,
+.inventionBG .textInv .font30 {
+  line-height: 1.2;
 }
-.manasib.eventSec .art-box .main-art-card:nth-of-type(even)  > div{
-  transform: translateY(20px);
+.sectionServises .col-lg-5 img {
+  height: 97%;
+  object-fit: cover;
 }
-
-.heading+.heading svg .readMore3:visited {
-  color: #7F1F3F;
+.sectionServises .rectangle {
+  flex:1;
+  padding:15px;
+  border:1px solid #ddd;
+  margin-bottom:20px;
+  text-align:right;
+  border-radius:20px 20px 20px 20px;
+  background-color:#f5f4f4;
+  }
+   
+  .sectionServises .img {
+  max-width:100%;
+  height:100%;
+  }
+.homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb:hover .font28::after {
+  top: 8px;
 }
-
-.whoAreWeClass {
-  padding-top: 0 !important;
+.impLinksSvg {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  width: 80%;
+  flex-wrap: wrap;
 }
-
-.whoAreWeClass .boxP2Borer:first-of-type {
-  margin-left: 30px;
+.impLinksSvg div {
+  padding: 45px 30px;
+    background: #e9f2f2;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #c7c5c5;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
 }
-
-.acchivmentClass .boxV2Training {
+.impLinksSvg div .readMore3 {
+  text-align: center;
   padding: 0;
 }
-
-.heading+.heading svg .readMore3 {
-  font-size: 1.4rem;
+.impLinksSvg div .readMore3::after {
+  display: none;
+}
+.st-partners .stPartnersSlider .partBox .p14 {
+  font-size: 1.2rem;
+  line-height: 1.2;
 }
 
+.supporting-university-progress.fixHeightImg .img-box {
+  height: 345px;
+}
+
+.scientificjournals.annonPage .newBoxArrow.darNa4r .hiddenTxt .multine-ellipsis2 {
+  -webkit-line-clamp: 12;
+}
+.scientificjournals.annonPage .newBoxArrow.darNa4r:hover {
+  height: calc(100% + 300px);
+}
+.supporting-university-progress.fixHeightImg .img-box img {
+  width: 100%;
+}
+.supporting-university-progress.fixHeightImg .row:not(:first-of-type) {
+  margin-top: 70px;
+}
 .topMenuMob .dropdown .dropdown-menu .forFont {
   display: none;
 }
-
 .traficCenter {
   padding-bottom: 0;
 }
-
 .supporting-university-progress .col-lg-6 .content-box p {
   font-family: "GretaTextArabicARLT-Regular";
 }
-
-.researchPerSec.priorityPrt {
+.researchPerSec.priorityPrt  {
   height: auto;
 }
-
 .changeStyleMenu {
   transition: top 0.3s;
 }
@@ -85,11 +124,23 @@ margin-bottom: 30px;
 .Forensiclaboratory .container>.p18:first-of-type {
   margin: 0;
 }
-
+.newBoxArrow.darNa4r .moreAction a {
+  font-size: 1.4rem;
+}
+html[dir="ltr"] body .newBoxArrow .newBtnNoBorder::after {
+  right: -15px;
+  top: 8px;
+}
+.newBoxArrow.darNa4r .moreAction .righttAc, .newBoxArrow.darNa4r .moreAction .leftAc {
+  width: 80%;
+}
 .subsBox .inputSub>div {
   display: flex;
 }
-
+.ourNum .thumbWrap p {
+  -webkit-line-clamp: 3;
+  line-height: 1.2;
+}
 .Forensiclaboratory .TrDeBoxFullWidth .col-md-4 {
   margin-bottom: 30px;
 }
@@ -125,11 +176,7 @@ margin-bottom: 30px;
   display: block;
 }
 
-/*
-.swiper2Style .swiper-slide-thumb-active .boxThumb{
-  background: linear-gradient(180deg, rgba(127, 31, 63, 0) 0%, rgba(127, 31, 63, 0.176908) 35%, #7f1f3f 100%);
-}
-*/
+
 .under-const {
   display: flex;
   flex-direction: column;
@@ -171,7 +218,7 @@ margin-bottom: 30px;
 }
 
 .under-const .content-box a.back-home img {
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .universityPresidents .UPbox .fromTo>div {
@@ -180,7 +227,7 @@ margin-bottom: 30px;
 }
 
 .universityPresidents .UPbox .fromTo .dividing {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .manasib .art-box .text {
@@ -294,7 +341,11 @@ margin-bottom: 30px;
   flex: unset;
   width: 25%;
 }
-
+.changeStyleMenu.customMenu .dropdown-menuV2.disFlexEl#subLinks1 .col:last-of-type li:nth-of-type(2)  a,
+.changeStyleMenu.customMenu .dropdown-menuV2.disFlexEl#subLinks3 .col:nth-of-type(3) li:nth-of-type(2)  a,
+.changeStyleMenu.customMenu .dropdown-menuV2.disFlexEl#subLinks4 .col:nth-of-type(2) li:nth-of-type(2)  a {
+  margin-top: 20px;
+} 
 .studiesSec.studiesSecRev.BGWhite {
   background-color: #F6F6F6;
 }
@@ -361,28 +412,13 @@ margin-bottom: 30px;
 .subLinksMenu .dropdown-menuV2 .uiNewSub li:first-of-type a {
   font-size: 16px;
   border-bottom: 2px solid #C6AA76;
-
   padding-bottom: 14px;
   margin-bottom: -5px;
-  padding-right: 0;
-  margin-right: 10px;
+  padding-left: 0;
+  margin-left: 10px;
   width: 80%;
+  line-height: 1.4;
   font-family: "GretaTextArabicARLT-Bold";
-  line-height: normal;
-}
-
-@media(min-width:992px) {
-  .bannerResearch .boxResearch .imgBox img {
-    height: 500px;
-    object-fit: cover;
-    object-position: center;
-  }
-  .changeStyleMenu.customMenu .dropdown-menuV2#subLinks3 .col:nth-of-type(1) .uiNewSub li:nth-of-type(2) {
-    margin-top: 25px;
-  }
-  #subLinks6 .col:nth-of-type(4) li:first-of-type {
-    height: 60px
-  }
 }
 
 .subLinksMenu .dropdown-menuV2 .uiNewSub li:first-of-type a::before {
@@ -390,7 +426,7 @@ margin-bottom: 30px;
 }
 
 .subLinksMenu .dropdown-menuV2 li:not(:first-of-type) {
-  padding-right: 0;
+  padding-left: 0;
 }
 
 .subLinksMenu .dropdown-menuV2 li:not(:first-of-type) a {
@@ -403,10 +439,10 @@ margin-bottom: 30px;
   content: "";
   width: 438px;
   height: calc(100% + 30px);
-  background: linear-gradient(to right, rgba(0, 95, 97, 0) 0%, #005f61 100%);
+  background: linear-gradient(to left, rgba(0, 95, 97, 0) 0%, #005f61 100%);
   opacity: 0.7;
   z-index: 1;
-  right: -7px;
+  left: -7px;
   top: -15px;
 }
 
@@ -488,7 +524,24 @@ margin-bottom: 30px;
 }
 
 @media(max-width:992px) {
-
+  .superCouncilMargin ~ .startHeading .starting-p span {
+    font-size: 2rem !important;
+    padding: 0 10px;
+}
+.TrDeBox .subTitle.color2 + .acchivmentClass {
+  margin: 0;
+}
+.TrDeBox .subTitle.color2 + .acchivmentClass .col-md-3 {
+  margin-bottom: 10px;
+}
+  .newLayoutContent .newLayoutContent > .container > .TrDeBox.presidentSgn {
+    margin-top: 30px;
+  }
+  .newLayoutContent .supporting-university-progress.rightImgDir ~ .TrDeBox,
+  .newLayoutContent .newLayoutContent > .container > .TrDeBox.presidentSgn,
+  .newLayoutContent > .container > .TrDeBox .p18 + .newLayoutContent {
+    padding: 0 15px;
+  }
   body .fullHeightVH .posAbo,
   .bannerHome.innerPageBanner.fullHeightVH .wrapperSlideHm>.container:not(.posAbo) {
     display: flex;
@@ -504,21 +557,93 @@ margin-bottom: 30px;
   max-width: 1340px;
   min-width: 1050px;
 }
-
+.changeStyleMenu.customMenu .dropdown-menuV2#subLinks3 .col:nth-of-type(4) .uiNewSub li:nth-of-type(2) {
+  margin-top: 0;
+}
 .suiteBarDeltaHeight {
   position: relative;
 }
-
+.superCouncilMargin {
+   text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.organizationalStructure .OSRow1 h2,
+body .SupremeCouncil .OSRow1 h2 {
+  padding-right: 30px
+}
+.organizationalStructure .OSRow1 h2 {
+  padding-bottom: 25px;
+}
+body .SupremeCouncil .OSRow1 h2 br {
+  display: none;
+}
+.organizationalStructure .OSH2 {
+  text-align: center;
+}
+.organizationalStructure .OSRow1 h2 .OScircle {
+  transform: translate(13px, 0);
+}
+.organizationalStructure .OSH2,
+body .SupremeCouncil .OSRow2 .OSLeft .OSH2, body .SupremeCouncil .OSRow2 .OSRight .OSH2,
+body .SupremeCouncil .ColCenter .OSH2,
+body .SupremeCouncil .OSRow1 h2 {
+  line-height: 1.3;
+}
+body .SupremeCouncil .OSRow2 .OSLeft .OSH2, body .SupremeCouncil .OSRow2 .OSRight .OSH2 {
+  font-size: 20px;
+}
 .bannerHome .wrapperSlideHm .aboImg {
   border-radius: 0;
 }
-
+.threeLineLingLine, .strategy1 .strPattrt1 p, .strategy2 .strPattrt2 p, .strategy3 .strPattrt3 .STRBox p {
+  line-height: 20px;
+  height: calc(20px * 4);
+}
 .contactUsPage.contryPage .CUform .location {
   width: 100%;
   min-height: 600px;
 }
+.CPBox .nameOfFlag .p20,
+.CPBox .nameOfFlag .p20 a {
+  line-height: 20px;
+  text-align: center;
+}
+@media(max-width:1600px) {
+  html[dir="ltr"] body .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb .font28 {
+    font-size: 1.6rem;
+  }
+  html[dir="ltr"] body .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb:hover .font28 {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  .scrollDown {
+    right: 5px;
+  }
+  .MembBox:hover .p18 {
+    font-size: 1.6rem;
+  }
+  .tabsStyle1 .nav-item .nav-link {
+    padding: 10px 10px 7px 10px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+}
+.supporting-university-progress + .strategy3.bgGray2.priorityPrt.researchPerSec {
+  margin-bottom: 20px;
+}
+.TrDeBox .FixIssueOfHTML .partsSec.labBox2 ,
+.TrDeBox .FixIssueOfHTML {
+  padding-bottom: 0;
+}
 
-
+.TrDeBox .FixIssueOfHTML .partsSec.labBox2 .strategy1.artworkRight{
+  padding: 45px 0 0;
+}
+.whoAreWeClass .boxP2Borer {
+  min-height: 300px;
+}
 /* start move to en */
 
 .wapperVideoSec {
@@ -624,11 +749,11 @@ body .fullHeightVH .posAbo {
 }
 
 .changeStyleMenu.customMenu .langMenu>.nav-link::after {
-  border-right: 97px solid #c6aa76 !important;
+  border-left: 90px solid #c6aa76 !important;
 }
 
 .changeStyleMenu.customMenu .forDirection .topMenu::after {
-  border-right: 63px solid #c6aa76;
+  border-left: 63px solid #c6aa76;
 }
 
 .changeStyleMenu.customMenu .forDirection .topMenu {
@@ -645,7 +770,7 @@ body .fullHeightVH .posAbo {
   height: 50px;
   /* background: red; */
   position: absolute;
-  left: 0;
+  right: 0;
   content: "";
   z-index: 99;
 }
@@ -714,7 +839,7 @@ body .fullHeightVH .posAbo {
 .scrollStickyDonts a span {
   font-size: 12px;
   position: absolute;
-  right: -300px;
+  left: -300px;
   top: -10px;
   font-family: "GretaTextArabicARLT-Regular";
   background: #013C3D;
@@ -722,15 +847,15 @@ body .fullHeightVH .posAbo {
   color: #C6AA76;
   border-radius: 7px;
   width: max-content;
-  transition: right .25s, visibility 0.25s ease 0.18s;
+  transition: left .25s, visibility 0.25s ease 0.18s;
   visibility: hidden;
 }
 
 .scrollStickyDonts a:hover span {
   visibility: visible;
-  right: -8px;
+  left: -8px;
   z-index: -555555555;
-  padding-right: 27px;
+  padding-left: 27px;
 }
 
 
@@ -801,11 +926,12 @@ body .fullHeightVH .posAbo {
 }
 
 .NewFullBanner.NewFullBannerV2 .arrowCircular .swiper-button-next {
-  right: 30px;
+  left: 30px;
 }
 
 .NewFullBanner.NewFullBannerV2 .arrowCircular .swiper-button-prev {
-  left: 30px;
+  right: 30px;
+  left: unset;
 }
 
 .generalConditions .IBAN {
@@ -816,8 +942,8 @@ body .fullHeightVH .posAbo {
 }
 
 .AssemblyTasks {
-  padding-right: 15%;
-  margin-left: 15%;
+  padding-left: 15%;
+  margin-right: 15%;
 }
 
 @media(min-width:1600px) {
@@ -842,7 +968,7 @@ body .fullHeightVH .posAbo {
   }
 
   .contactUsV2 .CUImg img {
-    margin-left: 60px;
+    margin-right: 60px;
   }
 }
 
@@ -858,7 +984,7 @@ body .fullHeightVH .posAbo {
 }
 
 .headWithIcon .font40 {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .mapSection .map-filter+h2 {
@@ -885,14 +1011,18 @@ body .fullHeightVH .posAbo {
 .impAchievement.graduatesNum .impAchiWrap .ImpAchiBox .font40 {
   font-size: 5.3rem;
 }
-
-@media (min-width: 1400px) {
-  .supporting-university-progress.ulodcclass .row {
-    margin-top: 0px;
+.strategy3 .strPattrt3 .STRBox {
+  min-height: 260px
 }
-  .supporting-university-progress.ulodcclass .img-box img {
-    object-fit: contain;
+@media (min-width: 1400px) {
+  .strategy1 .strPattrt1 .font35,
+  .colorBoxSecd .boxV2Training .font30,
+  .strategy3 .strPattrt3 .STRBox .font35, .strategy3 .strPattrt3 .STRBox .programDetailsNewV2 .progBoxDetails .titlePrgDetails,
+   .programDetailsNewV2 .progBoxDetails .strategy3 .strPattrt3 .STRBox .titlePrgDetails {
+    font-size: 2.2rem;
+
   }
+
   .impAchievement.graduatesNum .impAchiWrap .ImpAchiBox .font40 {
     font-size: 7rem;
   }
@@ -901,7 +1031,6 @@ body .fullHeightVH .posAbo {
 
 
 @media (max-width: 1350px) {
-
   .strategySearch .strPattrt2 {
     padding: 43px 35px;
   }
@@ -937,34 +1066,22 @@ body .fullHeightVH .posAbo {
   #ctl00_PlaceHolderMain_g_5cd2427f_8fe4_445c_8be6_dab12a115cd2 .NewFullBannerV2 .swiperNewsFullBn .swiper-slide:first-of-type .newsSlideWarp img {
     object-fit: cover;
     object-position: 20% 20%;
-  }
-
-  .whoAreWeClass .boxP2Borer:first-of-type {
-    margin-left: 0;
-    margin-bottom: 20px;
-  }
-
-  .topMenu a span,
-  .topMenu a {
-    font-size: 12px !important;
+}
+  .topMenu a span, .topMenu a {
+    font-size: 12px;
     color: #fff;
   }
-
-  body .topMenuMob .font20 {
+  .topMenuMob .font20 {
     margin-left: 0px;
     margin-right: 10px;
   }
-
   .topMenuMob .mailQes a {
     transform: translateY(2px);
   }
-
-  .topMenuMob .dropdown .dropdown-menu,
   .topMenuMob::after,
   .topMenuMob {
     background: #c7af81 !important;
   }
-
   .impAchievement.graduatesNum .impAchiWrap .ImpAchiBox .font40 {
     font-size: 4rem;
   }
@@ -980,17 +1097,23 @@ body .fullHeightVH .posAbo {
 
 .customMenu .navbar-brand::after {
   position: absolute;
-  content: "نسخة تجريبية";
+  content: "Beta version";
   background: #013C3D;
   border-radius: 0 0 6px 6px;
   font-size: 12px;
   font-family: "GretaTextArabicARLT-Regular";
   padding: 5px 8px;
   color: #C6AA76;
-  left: 0px;
+  right: 0px;
   top: -14px;
   display: inline-flex;
   z-index: 2;
+}
+.st-partners .stPartnersSlider .partBox .logoPart img {
+  max-width: 90%;
+}
+.st-partners .stPartnersSlider .partBox .logoPart {
+  text-align: center;
 }
 
 @media (max-width:600px) {
@@ -1032,7 +1155,7 @@ body .fullHeightVH .posAbo {
   .customMenu .navbar-brand {
     padding: 0;
     max-width: 371px;
-    padding-right: 40px;
+    padding-left: 40px;
   }
 }
 
@@ -1062,7 +1185,7 @@ body .fullHeightVH .posAbo {
 .inputSearch .clearTxt {
   position: absolute;
   z-index: 1;
-  left: 10px;
+  right: 10px;
   top: 50%;
   transform: translatey(-50%);
   background: #ffffff;
@@ -1126,7 +1249,7 @@ body .fullHeightVH .posAbo {
 
 .SDTwoTabs .DBBox .personDetails .moreInf .gold img {
   width: 30px;
-  margin-left: 5px;
+  margin-right: 5px;
   object-fit: scale-down;
 }
 
@@ -1141,8 +1264,8 @@ body .fullHeightVH .posAbo {
 }
 
 .progTxtBg .videoProg .listItem1 {
-  text-align: right;
-  padding-left: 20px;
+  text-align: left;
+  padding-right: 20px;
   padding-top: 100px;
 }
 
@@ -1180,7 +1303,7 @@ body .fullHeightVH .posAbo {
 }
 
 .SDTwoTabs .mergTFlex .moreInf:first-of-type {
-  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .SDTwoTabs .gold+.markGold .font18,
@@ -1196,14 +1319,6 @@ body .fullHeightVH .posAbo {
 }
 
 @media(max-width:1200px) {
-  .customMenu .navbar-light .navbar-nav .langMenu .nav-link {
-    background-position: 64px 59px;
-    background-size: 10px;
-    padding-top: 13px;
-}
-.customMenu .langMenu>a span {
-  margin-inline-end: 4px;
-}
   .SDTwoTabs .ExDBContainer .col-md-4 {
     width: 50%;
   }
@@ -1226,7 +1341,52 @@ body .fullHeightVH .posAbo {
 }
 
 @media(max-width:767px) {
-
+  .his-word .hisWordSwiper .item {
+    display: block;
+  }
+  .programsList .tabsStyle1 {
+    justify-content: right;
+  }
+  html[dir="ltr"] body .tab-content .newBoxArrow .newBtnNoBorder::after {
+    right: 2px;
+    top: 5px;
+  }
+  .actionMap a .AcMptxt .p18 {
+    line-height: 1.1;
+    font-size: 11px;
+  }
+  .paddingSection  .FAQParent {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+  .actionMap a .AcMptxt {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .programDetailsNewV2 .progBoxDetails .titlePrgDetails span {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+  }
+  .accordionCustom, .NewStyleAccordion {
+    padding: 0 15px !important;
+  }
+  .memberDetails .contextMem .aimUl li {
+    transform: translateX(20px);
+  }
+  .programDetailsNewV2 .progBoxDetails .resultEducationV2 .swiperMainControl {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .bannerDetailsBG .WarpTxtProg .p16.greenText {
+    display: block;
+}
+  .programsList .tabsStyle1 {
+    margin-bottom: 15px;
+  }
+  .tabsStyle1 .nav-item .nav-link {
+    font-size: 1.2rem;
+  }
   .innerDataBG .col-md-12 .font40,
   .contactUsPage .CUDetails .font40,
   .inventionBG .text-center .font40,
@@ -1243,13 +1403,13 @@ body .fullHeightVH .posAbo {
   }
 
   .progList {
-    margin-right: 0;
+    margin-left: 0;
     margin-top: 420px;
   }
 
   .progTxtBg .videoProg .listItem1 {
-    text-align: right;
-    padding-left: 20px;
+    text-align: left;
+    padding-right: 20px;
     padding-top: 30px;
   }
 
@@ -1361,11 +1521,11 @@ body .tabsStyleMain.nav li input.active {
 
 .centersListSec .centerBox .CListTxt .font25 {
   position: relative;
-  padding-right: 20px;
+  padding-left: 20px;
 
   height: calc(30px * 2);
   margin-bottom: 40px;
-  margin-right: -20px;
+  margin-left: -20px;
 }
 
 .centersListSec .centerBox .CListTxt .p16,
@@ -1383,7 +1543,7 @@ body .tabsStyleMain.nav li input.active {
 .centersListSec .centerBox .CListTxt .font25::after {
   position: absolute;
   content: "";
-  right: 0;
+  left: 0;
   top: 8px;
   width: 8px;
   height: 10px;
@@ -1429,29 +1589,38 @@ body .tabsStyleMain.nav li input.active {
   display: none;
 }
 
-
-
+.newBoxArrow.darNa4r .hiddenTxt .multine-ellipsis2 {
+  -webkit-line-clamp: 3;
+}
 
 @media (max-width:1400px) {
-  .customMenu .navbar-brand::after {
-    top: 0;
+  .scientificjournals.annonPage .newBoxArrow.darNa4r .hiddenTxt .multine-ellipsis2 {
+    -webkit-line-clamp: 12;
+    font-size: 14px;
+}
+  .CPBox .nameOfFlag {
+    padding: 12px 10px 10px;
+}
+  .ourNum .thumbWrap p {
+    -webkit-line-clamp: 4;
+    font-size: 1.4rem;
   }
-
+  .MembBox:hover .p18 {
+    font-size: 1.4rem;
+  }
   .traficCenter .img-box {
     height: 400px;
   }
-
   .rightImgDir .row:not(:first-of-type) {
     margin-top: 70px;
   }
-
   .bannerHome .cyberSecurityBanner {
     margin-top: -152px;
   }
 
   .customMenu .langMenu>a span {
     font-size: 12px;
-    margin: 0 10px 0 5px;
+    margin: 0 5px 0 10px;
   }
 
   .universityPresidentsV2 .UPbox {
@@ -1468,6 +1637,17 @@ body .tabsStyleMain.nav li input.active {
 }
 
 @media (max-width:1200px) {
+  .CPBox .nameOfFlag .p20, .CPBox .nameOfFlag .p20 a {
+    line-height: 15px;
+    font-size: 14px;
+}
+.CPBox .nameOfFlag {
+  padding: 12px 30px 10px;
+}
+.councilPater2.artworkLeft .CPBox .flag img{
+  max-width: 100px;
+  object-fit: scale-down;
+}
   .universityPresidentsV2 .UPbox {
     margin-bottom: 50px !important;
   }
@@ -1489,6 +1669,22 @@ body .tabsStyleMain.nav li input.active {
 }
 
 @media (max-width:992px) {
+  .SDTwoTabs.SDTwoTabsLab .tab-pane#profile .boxIlab {
+    height: auto;
+    min-height: 300px;
+}
+.SDTwoTabs.SDTwoTabsLab {
+  padding-bottom: 40px;
+}
+html[dir="ltr"] body .innerDataBG .col-md-12 .font40.marLeftHead, html[dir="ltr"] body .contactUsPage .CUDetails .font40.marLeftHead, html[dir="ltr"] body .inventionBG .text-center .font40.marLeftHead, html[dir="ltr"] body .newTitleLine.marLeftHead,
+  html[dir="ltr"] body .innerDataBG .col-md-12 .font40, html[dir="ltr"] body .contactUsPage .CUDetails .font40, html[dir="ltr"] body .inventionBG .text-center .font40 {
+    transform: translateX(0) !important;
+    overflow: hidden;
+}
+  .topMenuMob::after,
+  .changeStyleMenu::after {
+    transform: scaleX(-1);
+  }
   body .studiesSecRev .studyBox1>img {
     object-fit: cover;
   }
@@ -1511,14 +1707,11 @@ body .tabsStyleMain.nav li input.active {
     width: 100%;
   }
 }
-.whoAreWeClass + .researchPerSec.priorityPrt,
-.supporting-university-progress + .researchPerSec.priorityPrt{
-  margin-bottom: 30px;
-}
+
 @media (max-width:600px) {
-  .ourNum .SwiperThum .swiper-wrapper .swiper-slide {
-    min-width: 150px;
-  }
+  .downloadStraFile .downloadFile {
+    min-width: 92%;
+}
   .compSection div.capmWapper {
     height: auto;
   }
@@ -1579,21 +1772,14 @@ body .tabsStyleMain.nav li input.active {
   }
 
   .centersListSec .centerBox .CListTxt .btnMainGold2 {
-    transform: scale(.8) translateX(10px);
+    transform: scale(.8) translateX(-10px);
   }
-  .universityPresidentsV2 .UPbox {
-    margin-bottom: 10px !important;
-    height: auto;
-  }
+
   .universityPresidentsV2 .UPbox .imgPatter1 {
-    width: 100%;
-
-    padding: 0;
-
+    padding-top: 35px;
+    padding-left: 25px;
   }
-  .NFooter .txtLogo img {
-    width: 81%;
-  }
+
   .universityPresidentsV2 .UPbox .font35 {
     margin: 30px 0 20px;
   }
@@ -1621,7 +1807,7 @@ body .tabsStyleMain.nav li input.active {
   position: absolute;
   content: '';
   width: 100%;
-  left: 0;
+  right: 0;
   top: 0;
   height: 100%;
   border-radius: 12px;
@@ -1707,12 +1893,12 @@ body .tabsStyleMain.nav li input.active {
 }
 
 .dataFullWidth .col-md-4 .readMore2 {
-  padding: 25px 25px 17px 40px;
-  padding-left: 60px;
+  padding: 25px 40px 17px 25px;
+  padding-right: 60px;
 }
 
 .dataFullWidth .col-md-4 .readMore2::after {
-  left: 23px;
+  right: 23px;
 }
 
 .detailsOfEvent .col-md-4 .EVCard {
@@ -1746,9 +1932,7 @@ body .tabsStyleMain.nav li input.active {
   width: 90%;
 }
 
-.organizationalStructure .OSRow1 h2 {
-  font-size: 23px
-}
+
 
 @media (min-width: 1100px) {
   .forLoopCenterServices.centerServices .videoSec {
@@ -1761,7 +1945,7 @@ body .tabsStyleMain.nav li input.active {
   }
 
   .forLoopCenterServices .videoSec:nth-of-type(even) .col-md-6:last-of-type {
-    justify-content: right;
+    justify-content: left;
   }
 
   .bannerHome:not(.bannerHome[style="height: 800px;"]) .wrapperSlideHm .txtSldes p.p20 {
@@ -1967,12 +2151,35 @@ section.bannerTraining:not(.bannerSeurtiySC) span.p20.relative {
 }
 
 @media (max-width:767px) {
-  .FAQParent {
-    padding-top: 0;
-    padding-bottom: 0;
+  .his-word {
+    margin-bottom: 0;
   }
-  .accordionCustom, .NewStyleAccordion {
-    padding: 0 0 !important;
+  .TrDeBox.colorBoxSecd.centerSec .row .col-md-2 {
+    width: 44%;
+}
+.TrDeBox.colorBoxSecd.centerSec .row {
+  margin-bottom: 0;
+}
+  .universityPresidentsV2 .UPbox .font35 {
+    min-height: auto;
+    height: auto;
+}
+.universityPresidentsV2 .UPbox {
+  height: auto;
+}
+.universityPresidentsV2 .col-lg-4 {
+  padding-bottom: 0;
+}
+  .KSalman .presidentSalman {
+    margin-right: 2%;
+    margin-left: unset;
+}
+.KSalman .presidentSgn {
+  position: relative;
+  margin-top: 30px;
+}
+  .TrDeBox.presidentSgn.presidentSalman {
+
   }
   .EventDetailsThumb .swiper-slide img {
     height: 70px;
@@ -2021,7 +2228,7 @@ section.bannerTraining:not(.bannerSeurtiySC) span.p20.relative {
 }
 
 .accordionFound .accordion-button .font40 {
-  text-align: right;
+  text-align: left;
   width: 99%;
 }
 
@@ -2036,7 +2243,7 @@ section.bannerTraining:not(.bannerSeurtiySC) span.p20.relative {
 }
 
 .accordionFound .accordion-button .flexAcc .date span {
-  margin-right: 15px;
+  margin-left: 15px;
   line-height: normal;
 }
 
@@ -2048,11 +2255,11 @@ section.bannerTraining:not(.bannerSeurtiySC) span.p20.relative {
 .accordionFound .accordion-button::after {
   width: 18px;
   height: 18px;
-  margin-left: auto;
+  margin-right: auto;
   background-image: url(../images/shared/plusAcc.svg);
   position: absolute;
   content: "";
-  left: 26px;
+  right: 26px;
   top: 35px;
   background-size: 17px;
 }
@@ -2135,7 +2342,7 @@ section.bannerTraining:not(.bannerSeurtiySC) span.p20.relative {
 
 .accordionFound .accordion-body .listIteAcc li p,
 .accordionFound .accordion-body .listIteAcc .h5Gold {
-  direction: ltr;
+  direction: rtl;
 }
 
 .accordionFound .accordion-body .actionsAcc {
@@ -2144,8 +2351,8 @@ section.bannerTraining:not(.bannerSeurtiySC) span.p20.relative {
 
 .accordionFound .accordion-body .actionsAcc a {
   padding: 10px 15px 5px 15px;
-  padding-left: 40px;
-  margin-left: 22px;
+  padding-right: 40px;
+  margin-right: 22px;
 }
 
 .accordionFound .accordion-body .actionsAcc a:visited {
@@ -2211,7 +2418,7 @@ td.ms-advsrchText-v1 {
   font-size: 18px;
   font-family: "GretaTextArabicARLT-Regular";
   color: #231F20;
-  text-align: right;
+  text-align: left;
   margin-bottom: 6px;
 }
 
@@ -2292,8 +2499,8 @@ td.ms-advsrchText-v2 input {
 
 .histogram_bar_active {
   background-color: #bda7753b;
-  border-right: 1px solid #c6aa76;
   border-left: 1px solid #c6aa76;
+  border-right: 1px solid #c6aa76;
   border-top: 2px solid #c6aa76;
 }
 
@@ -2500,7 +2707,7 @@ div#Container>a.ms-ref-refinername>div.ms-displayInlineBlock {
 
 .forDirectionTopMen {
   display: flex;
-  justify-content: left;
+  justify-content: right;
 }
 
 .topMenuMob {
@@ -2514,17 +2721,6 @@ div#Container>a.ms-ref-refinername>div.ms-displayInlineBlock {
   /* clip-path: polygon(0 0, 102% -39%, 88% 99%,0 100%); */
 }
 
-@media(max-width:375px) {
-  .topMenuMob {
-    width: 80%;
-
-  }
-
-  .topMenuMob .dropdown .dropdown-menu {
-    min-width: 14rem;
-  }
-}
-
 .topMenuMob .forFlex .dropdown .btn img,
 .topMenu a span img,
 .topMenu a img {
@@ -2536,7 +2732,7 @@ div#Container>a.ms-ref-refinername>div.ms-displayInlineBlock {
   content: '';
   width: 100%;
   height: 100%;
-  right: -38px;
+  left: -38px;
   clip-path: polygon(0 0, 101% -6%, 6% 99%, 0 100%);
   background: #7f1f3f;
   top: 0;
@@ -2546,7 +2742,7 @@ div#Container>a.ms-ref-refinername>div.ms-displayInlineBlock {
 
 .topMenuMob .forFlex {
   display: flex;
-  justify-content: left;
+  justify-content: right;
   align-items: center;
 }
 
@@ -2556,17 +2752,23 @@ div#Container>a.ms-ref-refinername>div.ms-displayInlineBlock {
 
 .topMenuMob .mailQes a {
   margin: 0 !important;
-  display: inline-block;
+  display: flex;
+  align-items: flex-start;
   font-size: unset;
 }
-
+.topMenuMob .mailQes a span {
+  margin-top: -6px;
+  line-height: 1.1;
+}
 .topMenuMob .mailQes a:first-of-type {
-  margin-left: 12px !important;
+  margin-right: 12px !important;
 }
 
 .topMenuMob .font20 {
-  margin-left: 4px;
-  margin-right: 20px;
+  margin-right: 4px;
+  margin-left: 7px;
+  line-height: 1.1;
+  font-size: 13px;
 }
 
 .topMenuMob .dropdown {
@@ -2588,8 +2790,8 @@ div#Container>a.ms-ref-refinername>div.ms-displayInlineBlock {
   padding: 8px 16px;
   box-shadow: 0 5px 15px #00000026;
   border-color: transparent;
-  text-align: right;
-  background: #7f1f3f;
+  text-align: left;
+  background: #c7af81;
 }
 
 .topMenuMob .dropdown .dropdown-menu .forFont {
@@ -2604,15 +2806,16 @@ div#Container>a.ms-ref-refinername>div.ms-displayInlineBlock {
 
 .topMenuMob .dropdown .dropdown-menu>li>a {
   padding-bottom: 10px;
-  display: inline-block;
+  display: flex;
 }
 
 .topMenuMob .dropdown .dropdown-menu>li>a span {
-  font-size: 14px !important;
+  font-size: 12px !important;
+  line-height: 1.1;
 }
 
 .topMenuMob .dropdown .dropdown-menu .forFont a:first-of-type {
-  margin-left: 20px !important;
+  margin-right: 20px !important;
 }
 
 .resume-slider .actions {
@@ -2646,7 +2849,12 @@ div#Container>a.ms-ref-refinername>div.ms-displayInlineBlock {
 }
 
 @media (max-width: 600px) {
-
+  
+  .topMenu a span img, .topMenu a img {
+    margin-right: 3px;
+    width: 20px;
+    max-width: 18px;
+}
   .bgGrayWithPattern::after {
     background-size: 170px;
   }
@@ -2661,7 +2869,7 @@ div#Container>a.ms-ref-refinername>div.ms-displayInlineBlock {
   }
 
   .detailsOfEvent .EVCard ul ul {
-    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .font25 {
@@ -2716,7 +2924,7 @@ body,
 
 .ConbHead .flex>div:last-of-type .p20:nth-of-type(3),
 .ConbHead .flex>div:last-of-type .p20:nth-of-type(2) {
-  padding-left: 5px;
+  padding-right: 5px;
   font-size: 16px;
   line-height: normal;
 }
@@ -2746,7 +2954,7 @@ body,
 
 .plusMin.minHid::after {
   display: block;
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
 }
 
 .alert.alert-warning {
@@ -2840,8 +3048,8 @@ body,
   border-radius: 6px !important;
   border: unset !important;
   color: #fff;
-  padding-left: 60px;
-  text-align: right;
+  padding-right: 60px;
+  text-align: left;
   font-size: 2.4rem;
   text-decoration: unset;
   position: relative;
@@ -2850,8 +3058,8 @@ body,
 .NewStyleAccordion .btn-link::after {
   background-image: url(../images/shared/plusavc.svg);
   background-position: center center;
-  left: 24px;
-  margin-left: 0;
+  right: 24px;
+  margin-right: 0;
   position: absolute;
   content: '';
   width: 20px;
@@ -2877,14 +3085,14 @@ body,
   border-radius: 2px;
   width: 30px;
   height: 30px;
-  background: #e8eff694 url(../images/shared/arrow-square-left-mainColor.svg);
+  background: #e8eff694 50% url(../images/shared/arrow-square-left-mainColor.svg);
   background-size: 23px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .fancybox-nav.fancybox-prev span {
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
 }
 
 .accordionCustom,
@@ -2905,7 +3113,7 @@ body,
 .accordionCustom .accordion-button:not(.collapsed)::after {
   background-image: url(../images/shared/plusavc.svg);
   filter: brightness(0) invert(1);
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
   height: 20px;
 }
 
@@ -2974,11 +3182,11 @@ body,
 
 .CUform .flexRadio tr {
   background: transparent !important;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .CUform .flexRadio tr label {
-  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .CUform textarea {
@@ -3035,7 +3243,7 @@ ul.breadcrumbCum a.breadCrumbRoot {
 }
 
 .fancybox-lock .fancybox-overlay {
-  background: #121e2a94;
+  background: #121e2a94 94 top 50%;
 }
 
 .fancybox-title-float-wrap .child {
@@ -3049,9 +3257,7 @@ ul.breadcrumbCum a.breadCrumbRoot {
 .fancybox-type-iframe .fancybox-inner {
   /* height: 500px !important; */
 }
-#ctl00_ctl60_g_d914deb1_7199_4b6d_8ec8_ca957a3af85f .ajax-progress.alumniAssociationNew1 {
-  padding-top: 0;
-}
+
 .bgBreadcrumb .breadcrumbCum a.active::after {
   display: none;
 }
@@ -3154,7 +3360,7 @@ body .boxServDir .SDHidden a.btnMain:hover {
   }
 
   .accordionFound .accordion-button .flexAcc .date span {
-    margin-right: 8px;
+    margin-left: 8px;
     font-size: 12px !important;
   }
 
@@ -3200,8 +3406,8 @@ body .boxServDir .SDHidden a.btnMain:hover {
   }
 
   .filterClass {
-    font-size: 1.5rem;
-    padding: 10px 8px 6px;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
   }
 
   .publicationsCenter .readMore2 {
@@ -3230,7 +3436,7 @@ body .boxServDir .SDHidden a.btnMain:hover {
 .videoPl2 strong img {
   width: 15px;
   margin-top: 3px;
-  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .videoPl2 strong::after {
@@ -3256,8 +3462,30 @@ body .boxServDir .SDHidden a.btnMain:hover {
 .customMenu .megamenu-li .dropdown-item {
   font-family: "GretaTextArabicARLT-Regular" !important;
 }
-
+/* saso */
+.ms-rteTable-5, .ms-rteTable-5 > tbody > tr > td, .ms-rteTable-5 > tbody > tr > th {
+  vertical-align: middle;
+}
+.servBox2 .servLink img {
+  width: 40px;
+}
+/* end saso */
 @media(min-width: 992px) {
+  .bannerResearch .boxResearch .imgBox img {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .newInnerBannerV {
+    margin-top: -5px;
+  }
+  .subLinksMenu {
+    float: right;
+  }
+  .changeStyleMenu.customMenu .forDirection {
+    width: 100%;
+    clear: both;
+  }
   .innerPageBanner .wrapperSlideHm {
     position: relative;
     height: 680px;
@@ -3265,7 +3493,7 @@ body .boxServDir .SDHidden a.btnMain:hover {
   }
 
   .changeStyleMenu.customMenu .forDirection .topMenu::after {
-    right: -62px;
+    left: -62px;
   }
 
   .innerPageBanner .posAbo {
@@ -3300,7 +3528,11 @@ body .boxServDir .SDHidden a.btnMain:hover {
 
 @media (max-width: 1650px) {
   .navbar-brand::before {
-    height: calc(100% + 15px);
+    height: calc(100% + 1px);
+    top: 0;
+  }
+  .customMenu .navbar-brand::after {
+    top: 0;
   }
 }
 
@@ -3333,9 +3565,9 @@ body .boxServDir .SDHidden a.btnMain:hover {
 }
 
 .aboutPageLine .titleAPL span {
-  float: right;
-  direction: rtl;
-  margin-left: 15px;
+  float: left;
+  direction: ltr;
+  margin-right: 15px;
 }
 
 .langMenu ul div .dropdown-item {
@@ -3348,7 +3580,7 @@ body .boxServDir .SDHidden a.btnMain:hover {
 }
 
 .customMenu.fixedTop .navbar {
-  box-shadow: 1px 3px 4px 0 #adadad33;
+  box-shadow: -1px 3px 4px 0 #adadad33;
 }
 
 .memberDetails .nameOfMem .p18 {
@@ -3371,12 +3603,12 @@ body .boxServDir .SDHidden a.btnMain:hover {
   font-family: "GretaTextArabicARLT-Regular";
   border-radius: 8px;
   border: 2px solid #C6AA76;
-  margin-left: 16px;
+  margin-right: 16px;
   white-space: nowrap;
   display: inline-block;
   margin-bottom: 10px;
   position: relative;
-  padding-left: 20px;
+  padding-right: 20px;
   min-width: 100px;
 }
 
@@ -3387,8 +3619,8 @@ body .boxServDir .SDHidden a.btnMain:hover {
 .dropdown.ev-drop .dropdown-menu {
   font-size: 1.8rem;
   color: #005F61;
-  right: 0px !important;
-  left: auto !important;
+  left: 0px !important;
+  right: auto !important;
   border: 2px solid #C6AA76;
   border-radius: 8px;
   text-align: start;
@@ -3402,11 +3634,11 @@ body .boxServDir .SDHidden a.btnMain:hover {
   height: 10px;
   position: absolute;
   top: 13px;
-  left: 7px;
+  right: 7px;
 }
 
 .tabsStyleMain.nav li input {
-  margin-right: 0
+  margin-left: 0
 }
 
 .filterClass {
@@ -3430,7 +3662,7 @@ body .boxServDir .SDHidden a.btnMain:hover {
 }
 
 .st-partners .stPartnersSlider .partBox .logoPart {
-  /* width: 200px; */
+  width: 200px;
   height: 88px;
 }
 
@@ -3476,11 +3708,11 @@ section.main-council-sec .p20 {
 }
 
 .slider5Item .swiper-slide {
-  border-left: 1px solid #005f6126;
+  border-right: 1px solid #005f6126;
 }
 
 .slider5Item .swiper-slide.swiper-slide-duplicate-active {
-  border-left: none
+  border-right: none
 }
 
 .da5lia .videoSec {
@@ -3562,7 +3794,9 @@ section.main-council-sec .p20 {
   width: 25%;
 }
 
-
+.contentSlider.newscls .arrowCircular {
+  display: none;
+}
 
 .swiper2Style .container {
   max-width: 1000px;
@@ -3676,7 +3910,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   width: 100%;
   height: 100%;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: 1;
 }
 
@@ -3793,7 +4027,7 @@ li.nav-item.searchMenu .dropdown-menu img {
 .videoSec .col-md-6:last-of-type {
   display: flex;
   align-items: center;
-  justify-content: right;
+  justify-content: left;
 }
 
 .videoSec .ctmColor {
@@ -3805,7 +4039,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   height: 100%;
   position: fixed;
   z-index: 9999999;
-  background: #121e2a94;
+  background: #121e2a94 94 top 50%;
   inset: 0;
   overflow: hidden;
 }
@@ -3830,7 +4064,7 @@ li.nav-item.searchMenu .dropdown-menu img {
 }
 
 .customMenu .langMenu>a span+img {
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* start organizational Structure */
@@ -3885,7 +4119,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   position: absolute;
   content: '';
   top: -44px;
-  left: 50%;
+  right: 50%;
   width: 2px;
   height: calc(100% - 25px);
   background: #6aa1a4;
@@ -3906,7 +4140,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   content: '';
   background: #6aa1a4;
   top: 43px;
-  left: -90px;
+  right: -90px;
   width: 100%;
   height: 2px;
   z-index: -1;
@@ -3937,15 +4171,15 @@ li.nav-item.searchMenu .dropdown-menu img {
   width: 543px;
   height: 2px;
   display: block;
-  background: #6aa1a4a1;
+  background: #6aa1a4a1 1 top 50%;
   position: absolute;
-  left: 135px;
+  right: 135px;
   top: 0;
 }
 
 .organizationalStructureV2 .ColCenter .OSCLeft {
-  left: unset;
-  right: 134px;
+  right: unset;
+  left: 134px;
   top: 60px;
 }
 
@@ -3972,7 +4206,7 @@ li.nav-item.searchMenu .dropdown-menu img {
 .forLoopCenterServices .videoSec:nth-of-type(even) {
   background-image: url(../images/home/ArtworkMenu.svg);
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom left;
   background-color: #F2F2F2;
 }
 
@@ -4021,10 +4255,10 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .progTxtBg .progTxt .videoProg {
-    text-align: left;
+    text-align: right;
     position: absolute;
     bottom: 32px;
-    left: 0;
+    right: 0;
   }
 
   .programDetails .wrapperSlideHm .progBannerFlex .txtSldes .font50 {
@@ -4069,8 +4303,9 @@ li.nav-item.searchMenu .dropdown-menu img {
 }
 
 @media (min-width:1100px) and (max-width:1400px) {
+
   .sildeTabs .nav-pills {
-    margin-left: 30px;
+    margin-right: 30px;
   }
 
   .bannerHome[style="height: 800px;"],
@@ -4162,7 +4397,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   min-width: 35px;
   margin: 0px !important;
   border: 1px #d6e1e5 solid !important;
-  margin-left: -6px !important;
+  margin-right: -6px !important;
   text-align: center;
 }
 
@@ -4179,15 +4414,15 @@ li.nav-item.searchMenu .dropdown-menu img {
 
 .innerpages .ms-srch-Paging #PagingImageLink a .ms-promlink-button-image {
   top: 3px;
-  right: 2px;
+  left: 2px;
 }
 
 .innerpages .ms-srch-Paging #PagingImageLink a#PageLinkPrev {
-  border-radius: 0 4px 4px 0;
+  border-radius: 4px 0 0 4px;
 }
 
 .innerpages .ms-srch-Paging #PagingImageLink a#PageLinkNext {
-  border-radius: 4px 0 0 4px;
+  border-radius: 0 4px 4px 0;
 }
 
 .innerpages .ms-srch-Paging #PagingSelf a {
@@ -4256,8 +4491,37 @@ li.nav-item.searchMenu .dropdown-menu img {
 }
 
 @media(max-width:767px) {
+  .noData {
+    width: 90%;
+  }
+  .Memberships {
+    padding: 35px 0 35px;
+  }
+  .Memberships .MembBox:hover img {
+    padding: 10px 0;
+  }
+  .partsSec.labBox2.whoAreWeClass {
+    padding: 0 15px
+  }
+  .whoAreWeClass .boxP2Borer:first-of-type {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb {
+    padding: 20px 5px 20px 10px !important;
+    height: 80px;
+  }
+  .alumniAssociationNew1 .btnAlumni .joinTo {
+    padding: 18px 25px;
+  }
+  .supporting-university-progress.fixHeightImg .row:not(:first-of-type) {
+    margin-top: 20px;
+}
+  .strategy1.artworkRight p.p18 +  .partsSec.labBox2  .row .col-md-5:first-of-type .boxP2Borer {
+    transform: translateY(-30px);
+  }
   .progList {
-    margin-right: 0;
+    margin-left: 0;
     margin-top: 425px;
   }
 
@@ -4312,12 +4576,23 @@ li.nav-item.searchMenu .dropdown-menu img {
 
 
 @media(min-width:1200px) and (max-width:1400px) {
+  .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb:hover .font28::after {
+    top: 4px;
+    right: -30px;
+  }
+  html[dir="ltr"] body .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb {
+    padding: 30px 0px 29px 20px;
+  }
+  html[dir="ltr"] body .homeBanner2V2 .swiper2Style .swiper-twoHome2V2 .boxThumb .font28 {
+    font-size: 1.3rem;
+  }
   .customMenu .navbar-light .navbar-nav .nav-link {
     font-size: 16px !important;
   }
 }
 
 @media(min-width:1400px) and (max-width:1700px) {
+
   .customMenu .navbar-light .navbar-nav .nav-link {
     font-size: 20px !important;
   }
@@ -4345,7 +4620,7 @@ li.nav-item.searchMenu .dropdown-menu img {
 @media(max-width:992px) {
   .customMenu .megamenu-li .dropdown-item:hover {
     background-color: unset !important;
-    padding-right: 0px !important;
+    padding-left: 0px !important;
   }
 
   body .customMenu .navbar-nav .dropdown-menu.megamenu a {
@@ -4394,7 +4669,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .accordionFound .accordion-body .actionsAcc a {
-    margin-left: 0;
+    margin-right: 0;
     height: 40px;
     margin-bottom: 10px;
   }
@@ -4454,7 +4729,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .councilsArabBrif .col-md-6 {
-    padding-left: 0;
+    padding-right: 0;
   }
 
   .bannerTraining .sliderBoxTextThum .p20 {
@@ -4483,7 +4758,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .videoSec .videoTxt>img {
-    margin-right: 0;
+    margin-left: 0;
   }
 
   .customMenu .navbar-light .navbar-toggler:hover,
@@ -4507,13 +4782,17 @@ li.nav-item.searchMenu .dropdown-menu img {
 }
 
 @media(max-width:500px) {
+  .readMore {
+    padding: 9px 35px 5px 10px;
+    min-width: 90px !important;
+}
   .twoBoxTB .boxTB .newTitleLine {
-    margin-right: 0;
+    margin-left: 0;
   }
 
   .AssemblyTasks {
-    padding-right: 0;
-    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
   }
 
   .newTitleLine.marLeftHead {
@@ -4576,7 +4855,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .socialBanner a {
-    margin-right: 15px;
+    margin-left: 15px;
     margin-bottom: 0;
   }
 
@@ -4660,7 +4939,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .ExDBContainer .DBBox .personDetails p.p18 {
-    text-align: right;
+    text-align: left;
     font-size: 14px;
   }
 
@@ -4674,7 +4953,7 @@ li.nav-item.searchMenu .dropdown-menu img {
 
   .topMenu a:not(:last-of-type),
   .topMenu a span {
-    font-size: 12px !important;
+    font-size: 13px !important;
   }
 
   .bannerHome[style="height: 800px;"] {
@@ -4682,7 +4961,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .bannerHome[style="height: 800px;"] .wrapperSlideHm .container:not(.posAbo) {
-    padding-right: 45px;
+    padding-left: 45px;
   }
 
   .homeBanner2 .swiper2Style {
@@ -4742,7 +5021,7 @@ li.nav-item.searchMenu .dropdown-menu img {
 
 
 .ListOfFunded .accordionFound .accordion-button:not(.collapsed)::after {
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
 }
 
 .dataFullWidth {
@@ -4760,7 +5039,7 @@ li.nav-item.searchMenu .dropdown-menu img {
     width: auto;
     max-width: 200px;
     min-width: 100px;
-    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
 
   .memberDetails .contextMem .aimUl li {
@@ -4770,6 +5049,10 @@ li.nav-item.searchMenu .dropdown-menu img {
 }
 
 @media(min-width: 992px) and (max-width: 1400px) {
+  .universityPresidentsV2 .col-md-6.col-lg-4 {
+    -webkit-transform: unset;
+    transform: unset;
+  }
   .scrollStickyDonts a {
     margin-bottom: 25px;
   }
@@ -4814,7 +5097,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .bannerHome .wrapperSlideHm .container:not(.posAbo) {
-    padding-right: 0;
+    padding-left: 0;
   }
 
   .searchingDB .actionSearch .sendMain,
@@ -4854,7 +5137,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .NFooter .socialFooter .socialBanner a {
-    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .NFooter .socialFooter {
@@ -4877,7 +5160,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .NFooter .socialFooter .socialBanner a {
-    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .NFooter .hr {
@@ -4922,11 +5205,11 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .customMenu .navbar-light .navbar-toggler:not(.collapsed) .hamburger .line:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
+    transform: translateY(7px) rotate(-45deg);
   }
 
   .customMenu .navbar-light .navbar-toggler:not(.collapsed) .hamburger .line:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
+    transform: translateY(-7px) rotate(45deg);
   }
 
   .bannerHome[style="height: 800px;"] .wrapperSlideHm .container:not(.posAbo) {
@@ -4967,7 +5250,7 @@ li.nav-item.searchMenu .dropdown-menu img {
     width: 100%;
     background: rgb(0, 95, 97);
     z-index: 9;
-    left: 0px;
+    right: 0px;
     height: auto;
     transition: .25s;
   }
@@ -5024,13 +5307,13 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .customMenu .navbar-collapse .langMenu {
-    right: 15px;
+    left: 15px;
     width: 85px;
   }
 
   .customMenu .navbar-collapse .langMenu .nav-link {
     margin: 0;
-    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .customMenu .langMenu>a span {
@@ -5038,7 +5321,7 @@ li.nav-item.searchMenu .dropdown-menu img {
   }
 
   .customMenu .navbar-collapse .searchMenu {
-    left: 14px;
+    right: 14px;
     width: calc(100% - 28px);
   }
 
@@ -5079,7 +5362,7 @@ li.nav-item.searchMenu .dropdown-menu img {
 }
 
 .clsSubscripe .alert {
-  margin-right: 13px;
+  margin-left: 13px;
   color: #002d2e;
   font-size: 20px;
   margin-bottom: 45px;
@@ -5114,7 +5397,7 @@ m.mousa
 }
 
 .NFooter .importantlinks li {
-  float: right;
+  float: left;
 }
 
 .InitiativeBox:hover .font40 {
@@ -5122,7 +5405,7 @@ m.mousa
 }
 
 .AssemblyTasks .markGreen li {
-  padding-left: 50px
+  padding-right: 50px
 }
 
 .AssemblyTasks ul.markGreen {
@@ -5135,7 +5418,7 @@ m.mousa
 }
 
 .MembBox:hover .p18 {
-  line-height: 28px;
+  line-height: 1.3;
   padding-top: 0;
 }
 
@@ -5179,11 +5462,11 @@ m.mousa
 }
 
 .NashrSlider .swiperMainControl .swiper-button-next {
-  left: -10px;
+  right: -10px;
 }
 
 .NashrSlider .swiperMainControl .swiper-button-prev {
-  right: -10px;
+  left: -10px;
 }
 
 
@@ -5232,7 +5515,7 @@ m.mousa
 
 @media (min-width: 1200px) {
   .aimSection02#sc3 .trainSec2.row .col-md-3:nth-of-type(5) {
-    margin-right: 25%;
+    margin-left: 25%;
   }
 
   .innerData .cuActions a span {
@@ -5289,7 +5572,7 @@ m.mousa
 }
 
 .under-const .content-box a.back-home img {
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 
@@ -5309,7 +5592,7 @@ m.mousa
 
 .bannerTraining:not(.bannerSeurtiySC) .sliderBoxTextThum .numApso {
   font-size: 155px;
-  left: -12px !important;
+  right: -12px !important;
 }
 
 .bannerTraining:not(.bannerSeurtiySC) .sliderBoxTextThum .font40 {
@@ -5417,7 +5700,7 @@ section.bannerTraining::after {
   }
 
   .ameer-nayf .rectorsSpeech .contentSpeech .FlexL {
-    padding-left: 0;
+    padding-right: 0;
   }
 
   .ameer-nayf .rectorsSpeech .contentSpeech .FlexL .font30 {
@@ -5430,13 +5713,13 @@ section.bannerTraining::after {
   }
 
   .searchGroup .select .label {
-    padding-left: 5px;
-    padding-right: 15px;
+    padding-right: 5px;
+    padding-left: 15px;
   }
 
   .filterClass {
     font-size: 1.6rem;
-    margin-left: 8px;
+    margin-right: 8px;
   }
 
   textarea:not([type="submit"]),
@@ -5465,7 +5748,7 @@ section.bannerTraining::after {
 .videoSec .videoTxt strong img {
   width: 24px;
   display: inline-block;
-  transform: translate(3px, 2px);
+  transform: translate(-3px, 2px);
 }
 
 .bgBreadcrumb .breadcrumbCum a>img {
@@ -5496,7 +5779,7 @@ section.bannerTraining::after {
   }
 
   .bannerHome[style="height: 800px;"] .wrapperSlideHm .container:not(.posAbo) {
-    padding-right: 120px;
+    padding-left: 120px;
     height: 97%;
     display: flex;
     align-items: end;
@@ -5512,80 +5795,17 @@ section.bannerTraining::after {
 
   .resume-slider .actions .owl-dots,
   .resume-slider .actions {
-    justify-content: left;
+    justify-content: right;
   }
 }
-.searchGroup .select .label {
-  padding-left: 5px;
-  padding-right: 15px;
-}
+
 @media (max-width:767px) {
-  .TrDeBox.colorBoxSecd.centerSec {
-    overflow: hidden;
-  }
-  .ms-rtestate-field .row .col-md-12 .heading + .heading {
-    display: flex;
-    flex-direction: column;
-  }
-  .TrDeBox.colorBoxSecd.centerSec .row .col-md-2{
-    width: 44%;
-  }
-    .TrDeBox.colorBoxSecd.centerSec .row {
-      margin-bottom: 0;
-    }
-  .newscls .imgADS {
-    padding-bottom: 0;
-  }
-  .newscls .imgADS .resultEdu .swiper-wrapper  {
-    padding-bottom: 50px;
-  }
-  .newscls .imgADS .resultEdu .arrowCircular.tobiArrow {
-    display: flex;
-    position: relative;
-    width: 25%;
-    top: -23px;
-  }
-  .newscls .imgADS .resultEdu .arrowCircular.tobiArrow  .swiper-button-next::after,
-  .newscls .imgADS .resultEdu .arrowCircular.tobiArrow  .swiper-button-prev::after {
-    width: 30px;
-    height: 30px;
-    min-width: 30px !important;
-    background-size: 12px;
-  }
-  .presidentSgn {
-    position: relative;
-    margin-top: 95px;
-}
-.presidentSgn::after {
-  left: 0;
-}
-.supporting-university-progress.rightImgDir br {
-  display: none;
-}
-.supporting-university-progress.rightImgDir .row:first-of-type {
-  margin-top: 0;
-}
-.strategy3.bgGray.artworkRight + .strategyRevamp.newStratgysection  {
-  padding: 0;
-}
-.downloadStraFile .downloadFile {
-  margin-bottom: 5px;
-}
-.downloadFile .logoBorder {
-  margin-left: 0;
-  justify-content: center;
-}
+
   .advantSec .aimUl li,
   .aimProg .aimUl li {
     width: 100%;
   }
 
-.container.cust-container + .partsSec.partsSecBoxWidth .boxV2Training .font22 {
-  font-size: 18px;
-}
-.container.cust-container + .partsSec.partsSecBoxWidth  ~ br {
-  display: none;
-}
   .resume-slider .owl-nav {
     width: 100%;
   }
@@ -5616,13 +5836,31 @@ section.bannerTraining::after {
     font-size: 13px;
   }
 }
-
+@media (min-width:1200px) and (max-width:1700px) {
+  .searchGroup .select .label {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.nav.tabsStyleMain#myTab + #myTabContent .col-md-6.col-lg-4 {
+  padding-right: 0;
+    padding-left: 0;
+}
+.nav.tabsStyleMain#myTab + #myTabContent .searchGroup input {
+  width: 145px;
+  height: 36px;
+}
+  .universityPresidentsV2 .UPbox .font35 {
+    align-items: start;
+    height: 106px;
+  }
+}
 
 
 /* start new style for mobile */
 
 @media (max-width: 600px) {
-
+  
   .NewFullBanner2 .swiperNewsFullBn .posAbo,
   .NewFullBanner .swiperNewsFullBn .posAbo {
     top: -259px;
@@ -5648,7 +5886,12 @@ section.bannerTraining::after {
   .programsList {
     padding: 0 0;
   }
-
+  .ajax-progress #sc2.programsList {
+    margin-top: 45px;
+  }
+  .ajax-progress #sc2.programsList .searchGroup {
+    margin-bottom: 0;
+  }
   .searchingDB {
     margin-top: 20px;
     padding: 20px;
@@ -5703,7 +5946,7 @@ section.bannerTraining::after {
 
   .customOL li {
     margin-bottom: 10px;
-    padding-right: 0;
+    padding-left: 0;
   }
 
   .customOL {
@@ -5744,7 +5987,7 @@ section.bannerTraining::after {
   }
 
   .aimProg .aimUl li {
-    margin-left: 0;
+    margin-right: 0;
     padding: 10px 22px;
   }
 
@@ -5754,7 +5997,7 @@ section.bannerTraining::after {
 
   .aimProg .aimUl li::after {
     top: 23px;
-    right: 0;
+    left: 0;
   }
 
   .progTxtBg .progTxt .videoProg>img.bannerVideo {
@@ -5762,7 +6005,7 @@ section.bannerTraining::after {
   }
 
   .programDetails .wrapperSlideHm .container {
-    padding-right: 7px !important;
+    padding-left: 7px !important;
   }
 
   .impAchievement .impAchiWrap .ImpAchiBox {
@@ -5802,7 +6045,7 @@ section.bannerTraining::after {
   }
 
   .universityPresidentsV2 .UPbox .font35 {
-    font-size: 22px;
+    font-size: 20px;
     min-height: auto;
   }
 
@@ -5921,13 +6164,13 @@ section.bannerTraining::after {
   }
 
   .bgBreadcrumb .socialBannerBC a {
-    margin-right: 0;
+    margin-left: 0;
     margin-top: 5px;
   }
 
   .socialBannerBC {
     position: absolute;
-    left: 15px;
+    right: 15px;
     top: 0;
     display: flex;
     flex-direction: column;
@@ -6117,13 +6360,8 @@ section.bannerTraining::after {
   background: unset;
 }
 
-.supporting-university-progress .img-box img {
-  width: 100%;
-}
 
-.rightImgDir .row {
-  margin-top: 70px;
-}
+
 
 
 /* suiteBarDelta */
@@ -6138,7 +6376,7 @@ section.bannerTraining::after {
 }
 
 .subLinksMenu .dropdown-menuV2 .col:not(:last-of-type) .uiNewSub {
-  border-left: 1px solid #DEDEDE;
+  border-right: 1px solid #DEDEDE;
   height: 100%
 }
 
@@ -6249,9 +6487,9 @@ section.bannerTraining::after {
     .council-card .stretched-link {
       position: absolute;
       top: 0;
-      right: 0;
-      bottom: 0;
       left: 0;
+      bottom: 0;
+      right: 0;
       z-index: 1;
       content: "";
     }
@@ -6270,7 +6508,7 @@ section.bannerTraining::after {
       border: 1px solid #E3E7EC;
       border-top: 0;
       width: 100.6%;
-      margin-left: -1px;
+      margin-right: -1px;
     }
 
     .council-card {
@@ -6350,9 +6588,9 @@ section.bannerTraining::after {
   .council-card .stretched-link {
     position: absolute;
     top: 0;
-    right: 0;
-    bottom: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     z-index: 1;
     content: "";
   }
@@ -6371,7 +6609,7 @@ section.bannerTraining::after {
     border: 1px solid #E3E7EC;
     border-top: 0;
     width: 100.6%;
-    margin-left: -1px;
+    margin-right: -1px;
   }
 
   .council-card {
@@ -6489,3 +6727,4 @@ section.bannerTraining::after {
   }
 
 } */
+
